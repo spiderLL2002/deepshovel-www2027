@@ -1,0 +1,9 @@
+{
+  "label_origin": "AI-assisted candidates and initial labels, followed by human expert review",
+  "semantic_test_agreement": {
+    "cases": 264,
+    "initial_agreements": 237,
+    "initial_disagreements": 27,
+    "initial_agreement": 0.8977272727272727
+  }
+}

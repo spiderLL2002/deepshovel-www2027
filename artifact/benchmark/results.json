@@ -1,0 +1,229 @@
+{
+  "retrieval": {
+    "questions": 430,
+    "original_judgments": 12541,
+    "supplemental_graded_judgments": 143,
+    "fully_graded_questions": 119,
+    "methods": {
+      "bm25": {
+        "top3_complete": {
+          "hits": 393,
+          "questions": 430,
+          "rate": 0.913953488372093
+        },
+        "top3_complete_or_partial": {
+          "hits": 415,
+          "questions": 430,
+          "rate": 0.9651162790697675
+        },
+        "ndcg_at_10": {
+          "questions": 119,
+          "score": 0.859436193377
+        }
+      },
+      "dense": {
+        "top3_complete": {
+          "hits": 328,
+          "questions": 430,
+          "rate": 0.7627906976744186
+        },
+        "top3_complete_or_partial": {
+          "hits": 351,
+          "questions": 430,
+          "rate": 0.8162790697674419
+        },
+        "ndcg_at_10": {
+          "questions": 119,
+          "score": 0.617473001282
+        }
+      },
+      "rrf": {
+        "top3_complete": {
+          "hits": 388,
+          "questions": 430,
+          "rate": 0.9023255813953488
+        },
+        "top3_complete_or_partial": {
+          "hits": 410,
+          "questions": 430,
+          "rate": 0.9534883720930233
+        },
+        "ndcg_at_10": {
+          "questions": 119,
+          "score": 0.814281244193
+        }
+      },
+      "hybrid": {
+        "top3_complete": {
+          "hits": 399,
+          "questions": 430,
+          "rate": 0.9279069767441861
+        },
+        "top3_complete_or_partial": {
+          "hits": 421,
+          "questions": 430,
+          "rate": 0.9790697674418605
+        },
+        "ndcg_at_10": {
+          "questions": 119,
+          "score": 0.841784815771
+        }
+      }
+    }
+  },
+  "semantic_test": {
+    "cases": 264,
+    "papers": 65,
+    "categories": {
+      "matched_conditions": 63,
+      "changed_conditions": 25,
+      "contradictions": 66,
+      "overgeneralization": 33,
+      "observation_inference_confusion": 49,
+      "missing_premises": 28
+    },
+    "variants": {
+      "claim_scope": {
+        "total": 264,
+        "failed_or_missing": 0,
+        "relation_correct": 217,
+        "relation_and_direction_correct": 184,
+        "model_counts": {
+          "deepseek-v4-flash": 121,
+          "gpt-6-luna": 143
+        }
+      },
+      "full_argument": {
+        "total": 264,
+        "failed_or_missing": 0,
+        "relation_correct": 241,
+        "relation_and_direction_correct": 195,
+        "model_counts": {
+          "deepseek-v4-flash": 124,
+          "gpt-6-luna": 140
+        }
+      },
+      "source_passages": {
+        "total": 264,
+        "failed_or_missing": 0,
+        "relation_correct": 221,
+        "relation_and_direction_correct": 187,
+        "model_counts": {
+          "deepseek-v4-flash": 120,
+          "gpt-6-luna": 144
+        }
+      },
+      "flat_argument": {
+        "total": 264,
+        "failed_or_missing": 0,
+        "relation_correct": 229,
+        "relation_and_direction_correct": 188,
+        "model_counts": {
+          "deepseek-v4-flash": 122,
+          "gpt-6-luna": 142
+        }
+      }
+    }
+  },
+  "semantic_development": {
+    "cases": 79,
+    "papers": 17,
+    "categories": {
+      "matched_conditions": 14,
+      "contradictions": 15,
+      "changed_conditions": 12,
+      "missing_premises": 15,
+      "overgeneralization": 10,
+      "observation_inference_confusion": 13
+    },
+    "variants": {
+      "claim_scope": {
+        "total": 79,
+        "failed_or_missing": 0,
+        "relation_correct": 48,
+        "relation_and_direction_correct": 41,
+        "model_counts": {
+          "gpt-6-luna": 47,
+          "deepseek-v4-flash": 32
+        }
+      },
+      "full_argument": {
+        "total": 79,
+        "failed_or_missing": 0,
+        "relation_correct": 66,
+        "relation_and_direction_correct": 62,
+        "model_counts": {
+          "gpt-6-luna": 48,
+          "deepseek-v4-flash": 31
+        }
+      },
+      "source_passages": {
+        "total": 79,
+        "failed_or_missing": 0,
+        "relation_correct": 54,
+        "relation_and_direction_correct": 51,
+        "model_counts": {
+          "gpt-6-luna": 46,
+          "deepseek-v4-flash": 33
+        }
+      },
+      "flat_argument": {
+        "total": 79,
+        "failed_or_missing": 0,
+        "relation_correct": 58,
+        "relation_and_direction_correct": 52,
+        "model_counts": {
+          "gpt-6-luna": 46,
+          "deepseek-v4-flash": 33
+        }
+      }
+    }
+  },
+  "online": {
+    "F2": {
+      "queries": 2,
+      "attempts": 2,
+      "completed": 2,
+      "failed_or_missing": 0,
+      "relation_and_direction_correct": 2,
+      "mean_completed_seconds": 29.56943132658489,
+      "median_completed_seconds": 29.56943132658489
+    },
+    "A": {
+      "queries": 87,
+      "attempts": 87,
+      "completed": 87,
+      "failed_or_missing": 0,
+      "relation_and_direction_correct": 79,
+      "mean_completed_seconds": 40.98511611363829,
+      "median_completed_seconds": 39.78853124100715
+    },
+    "B": {
+      "queries": 88,
+      "attempts": 88,
+      "completed": 88,
+      "failed_or_missing": 0,
+      "relation_and_direction_correct": 73,
+      "mean_completed_seconds": 40.74423018516179,
+      "median_completed_seconds": 41.60187215404585
+    }
+  },
+  "source_audit": {
+    "scientific_node": {
+      "fully_supported": 129
+    },
+    "scientific_dependency": {
+      "fully_supported": 120,
+      "partially_supported": 4
+    },
+    "source_or_data_link": {
+      "fully_supported": 91,
+      "partially_supported": 28,
+      "unsupported": 6,
+      "uncertain": 3
+    },
+    "data_node": {
+      "fully_supported": 2
+    }
+  }
+}

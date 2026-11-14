@@ -1,0 +1,2747 @@
+{
+  "schema_version": "ai-source-audit-v1",
+  "source": "q19",
+  "paper_id": "paper:44fa2fc0263db7bc048a3e5740a1d6c639c2f67a279ce50a1044d7d4c77cb2d8",
+  "snapshot_id": "snapshot:sha256:3e09615c762da275fb6bc3f92dfcfe908c571c0aed0d120c9928a4264cc9d345",
+  "pdf_sha256": "44fa2fc0263db7bc048a3e5740a1d6c639c2f67a279ce50a1044d7d4c77cb2d8",
+  "reviewer": {
+    "reviewed_at": "2026-11-04T09:39:33.609418+00:00",
+    "requested_model": "gpt-6-astra"
+  },
+  "counts": {
+    "scientific_node": {
+      "fully_supported": 35
+    },
+    "scientific_dependency": {
+      "fully_supported": 31
+    },
+    "source_or_data_link": {
+      "fully_supported": 19,
+      "partially_supported": 2,
+      "unsupported": 1
+    }
+  },
+  "items": [
+    {
+      "item_id": "q19:node:claim:sha256:038157ae420ae4752c5c31f08c7e35b70ed53a85493e981e3d31f4f7549f3e6d",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.figure.assimilation6",
+          "pdf_page": 9,
+          "excerpt": null,
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.assimilation.older_grains",
+          "pdf_page": 6,
+          "excerpt": "In the three upper-level gabbros, the oldest outliers have dates of $9 9 . 1 5 \\pm 0 . 1 0 \\mathrm { M a }$ , $9 7 . 8 7 \\pm 0 . 2 9$ Ma and $9 8 . 5 4 \\pm 0 . 1 1$ Ma, respectively, and are $2 . 3 6 \\pm 0 . 4 6$ Ma to $3 . 4 2 \\pm 0 . 2 1$ Ma older than the youngest grains in each sample.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.assimilation.preferred",
+          "pdf_page": 9,
+          "excerpt": "[29] We therefore prefer the interpretation that the xenocrystic zircons in the upper-level gabbros are related to assimilation of older rocks during ridge propagation.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.assimilation.xenocrysts",
+          "pdf_page": 6,
+          "excerpt": "The ${ > } 1$ Ma older zircons in three upper-level gabbros and a gabbroic pegmatite (Groups IV) are interpreted as xenocrystic grains incorporated from an older source.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.figure6.label",
+          "pdf_page": 9,
+          "excerpt": "Figure 6.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.figure6.model",
+          "pdf_page": 9,
+          "excerpt": "(a) Propagation of a younger ridge into older oceanic crust at a mid-ocean ridge spreading center [e.g., Boudier et al., 1997].",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.nd.interpretation",
+          "pdf_page": 1,
+          "excerpt": "The $\\varepsilon _ { \\mathrm { N d } }$ values are similar to those from other gabbros within the ophiolite, suggesting that any assimilated material had a similar isotopic composition to primitive basaltic magmas.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.nd.reference",
+          "pdf_page": 6,
+          "excerpt": "Figure 4 and Table S2).",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.nd.values",
+          "pdf_page": 6,
+          "excerpt": "[18] $\\mathrm { S m - N d }$ isotopic analyses from seven upper-level gabbros and a trondhjemite have tightly clustered initial values ranging from $\\varepsilon _ { \\mathrm { N d } } ( 9 6 ~ \\mathrm { M a } ) = 7 . 5 9 \\pm 0 . 2 3$ to $8 . 2 8 \\pm$ 0.31 $2 \\sigma$ ;",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:2fd92d6f173606bb17011b0ba5170e14144cceaf74f3334b91f1c8862e80aeb2",
+          "pdf_page": 7,
+          "excerpt": "Figure 4. $\\varepsilon _ { \\mathrm { N d } } ( 9 6 ~ \\mathrm { M a } )$ versus UTM easting of upper-level gabbros and a trondhjemite. ",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "第9页[29]和第10页结论明确偏好年轻洋脊侵入老洋壳；节点保留非唯一解释及upper-level范围。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q19:node:claim:sha256:43b3aa18e335cb6e13dd181fdfaa11166f79c5d135472d0d6a97ab9cbc9aa6b7",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.age.conclusion1",
+          "pdf_page": 9,
+          "excerpt": "Single grain $^ { 2 0 6 } \\mathrm { P b } / ^ { 2 3 8 } \\mathrm { U }$ dates range from $1 1 2 . 5 5 \\pm 0 . 2 1$ to $9 5 . 5 0 \\pm 0 . 1 7 \\mathrm { M a }$ ( $2 \\sigma$ analytical;",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.conclusion2",
+          "pdf_page": 9,
+          "excerpt": "Th corrected), with most dates between $9 6 . 4 0 \\pm 0 . 1 7$ to $9 5 . 5 0 \\pm 0 . 1 7 ~ \\mathrm { M a }$ .",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.group1",
+          "pdf_page": 4,
+          "excerpt": "[14] Group I: Two tonalite and trondhjemite plutons (8128M02A, 8128M04) and a single upper-level gabbro (9111M01) have single grain $^ { 2 0 6 } \\mathrm { P b } / ^ { \\overline { { 2 } } 3 8 } \\mathrm { U }$ dates that overlap within analytical uncertainty.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.group2",
+          "pdf_page": 4,
+          "excerpt": "[15] Group II: Three upper-level gabbros (8112M01, 8112M08, 9111M05) have clusters of data with no clear outliers, but two-sided p-values for the chi-square goodness of fit of $< 0 . 0 5$ (i.e., $\\mathrm { M S W D } \\gg 1$ ), suggesting that the data do not reflect repeat measurements of a single population and that zircon crystallized over an extended interval.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.group3",
+          "pdf_page": 4,
+          "excerpt": "[16] Group III: One upper-level gabbro (8112M02) and two gabbroic pegmatites that intrude the layered gabbros (9114M01A, 9123M02) have clusters of younger dates and one resolvable outlier that is ${ \\sim } 0 . 1 { - } 0 . 3 \\ \\mathrm { \\dot { M } a }$ older.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.group4a",
+          "pdf_page": 6,
+          "excerpt": "[17] Group IV: Three upper-level gabbros (8112M04, $8 1 1 2 \\mathrm { ~ M } 0 6 $ , 8112M07A) and one gabbroic pegmatite that intrudes the layered gabbros (8111M02;",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.group4b",
+          "pdf_page": 6,
+          "excerpt": "same pegmatite as 9114M01A) have clusters of younger dates and one or more ${ > } 1$ Ma older outlier.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.interpret",
+          "pdf_page": 6,
+          "excerpt": "[19] The cluster of younger dates in each sample, and the similar age of the youngest grains, suggest that these dates reflect crystallization of the gabbros, tonalite, trondhjemite and pegmatites between ${ \\sim } 9 6 . 2 {  { - } } 9 5 . 5 \\ \\mathrm { M a }$ (Figures 2 and 3).",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "第6页讨论96.2—95.5与第9页结论96.40±0.17—95.50±0.17均被准确区分；没有把老继承颗粒并入主期。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q19:node:claim:sha256:53dc9fdae73b0b05ce5a3767f6e75ad4cb7cdd5a926f0151fac9fbd3298591ec",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.series.abstract",
+          "pdf_page": 1,
+          "excerpt": "Dates from tonalites/trondhjemites and from a gabbroic pegmatite associated with a wehrlite intrusion overlap with dates from adjacent upper-level gabbros, suggesting that any age differences between these three magmatic series are smaller than the analytical uncertainties or intrasample variability in the dates.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.series.felsic",
+          "pdf_page": 7,
+          "excerpt": "Data from the two dated tonalite and trondhjemite plutons each define a single population that is within uncertainty of dates from adjacent gabbros.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.series.group1",
+          "pdf_page": 4,
+          "excerpt": "[14] Group I: Two tonalite and trondhjemite plutons (8128M02A, 8128M04) and a single upper-level gabbro (9111M01) have single grain $^ { 2 0 6 } \\mathrm { P b } / ^ { \\overline { { 2 } } 3 8 } \\mathrm { U }$ dates that overlap within analytical uncertainty.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.series.pegmatite_ages",
+          "pdf_page": 7,
+          "excerpt": "The pegmatite data are within uncertainty of the dates from the two closest upper-level gabbro samples (8112M02, 8112M04), suggesting that the age difference between the wehrlite and upper-level gabbros is also smaller than the analytical uncertainties or intrasample variability in single grain dates.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.series.pegmatite_crosscut",
+          "pdf_page": 7,
+          "excerpt": "Additional pegmatite intrusions from the same outcrop crosscut a wehrlite body, suggesting that the pegmatites are coeval with or younger than the wehrlite.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "第7页[21]与第9页结论支持所采样岩系在精度内无可分辨年龄差，保留crosscutting条件。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q19:node:claim:sha256:e6a592b135e931e3cb0547797cb180227d97d23bd386991620b80e4106b0c029",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.figure.rate5",
+          "pdf_page": 8,
+          "excerpt": "Figure 5. Comparison of different half-spreading rates to the $\\mathrm { U } \\mathrm { - } \\mathrm { P b }$ zircon dates from upper-level gabbros, tonalite and trondhjemite. Pegmatitic samples from lower in the crust are not plotted. (a) Model half-spreading rates assuming that the ridge axis was located to the west of the dated samples. (b) Model half-spreading rates assuming the paleo-ridge axis is preserved near the center of the study area. Older grains from samples 8112M04, 8112M06 and 8112M07A plot off the scale of the $y$ axis (denoted by arrows). Sample 8128M04 and 9111M05 are shifted $1 ~ \\mathrm { k m }$ to the east for clarity. The data are most consistent with spreading rates of $5 0 { \\mathrm { - } } 1 0 0 \\ \\mathrm { k m / M a }$ in each model. ",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.rate.estimate",
+          "pdf_page": 8,
+          "excerpt": "However, in each geometry the data are most consistent with fast to super-fast half-spreading rates of $5 0 { \\mathrm { - } } 1 0 0 \\ \\mathrm { k m / M a }$ (Figure 5).",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.rate.geometries",
+          "pdf_page": 7,
+          "excerpt": "The location of the paleo-ridge axis, with respect to the dated samples, is not definitively known and we present two possible geometries (Figure 5).",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.rate.level",
+          "pdf_page": 7,
+          "excerpt": "To determine the spreading rate, we used dates from the upper-level gabbros, tonalite and trondhjemite, which all come from the same structural level directly below the sheeted dike complex.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.rate.transect",
+          "pdf_page": 7,
+          "excerpt": "[23] The dated samples from this study are from a ${ \\sim } 3 0 \\mathrm { k m }$ transect perpendicular to the regional strike of the sheeted dikes within a single ophiolite block, providing an ideal opportunity to constrain the spreading rate during accretion.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "第7—8页同层位剖面和两几何比较给50—100半速率；节点正确限定非精确速率。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q19:node:obs.age.conclusion",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.age.conclusion1",
+          "pdf_page": 9,
+          "excerpt": "Single grain $^ { 2 0 6 } \\mathrm { P b } / ^ { 2 3 8 } \\mathrm { U }$ dates range from $1 1 2 . 5 5 \\pm 0 . 2 1$ to $9 5 . 5 0 \\pm 0 . 1 7 \\mathrm { M a }$ ( $2 \\sigma$ analytical;",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.conclusion2",
+          "pdf_page": 9,
+          "excerpt": "Th corrected), with most dates between $9 6 . 4 0 \\pm 0 . 1 7$ to $9 5 . 5 0 \\pm 0 . 1 7 ~ \\mathrm { M a }$ .",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "第9页[30]给most dates 96.40±0.17至95.50±0.17且Th corrected。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q19:node:obs.age.discussion",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.age.interpret",
+          "pdf_page": 6,
+          "excerpt": "[19] The cluster of younger dates in each sample, and the similar age of the youngest grains, suggest that these dates reflect crystallization of the gabbros, tonalite, trondhjemite and pegmatites between ${ \\sim } 9 6 . 2 {  { - } } 9 5 . 5 \\ \\mathrm { M a }$ (Figures 2 and 3).",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "第6页[19]明确用年轻群解释96.2—95.5 Ma结晶。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q19:node:obs.age.group1",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.age.group1",
+          "pdf_page": 4,
+          "excerpt": "[14] Group I: Two tonalite and trondhjemite plutons (8128M02A, 8128M04) and a single upper-level gabbro (9111M01) have single grain $^ { 2 0 6 } \\mathrm { P b } / ^ { \\overline { { 2 } } 3 8 } \\mathrm { U }$ dates that overlap within analytical uncertainty.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "第4页[14]两长英质岩体及一个上部辉长岩的单颗粒年龄在误差内重叠。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q19:node:obs.age.group2",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.age.group2",
+          "pdf_page": 4,
+          "excerpt": "[15] Group II: Three upper-level gabbros (8112M01, 8112M08, 9111M05) have clusters of data with no clear outliers, but two-sided p-values for the chi-square goodness of fit of $< 0 . 0 5$ (i.e., $\\mathrm { M S W D } \\gg 1$ ), suggesting that the data do not reflect repeat measurements of a single population and that zircon crystallized over an extended interval.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "第4页[15]三样品、无明显离群与p<0.05都明确；拒绝单一年龄重复测量假设是统计推论。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q19:node:obs.age.group3",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.age.group3",
+          "pdf_page": 4,
+          "excerpt": "[16] Group III: One upper-level gabbro (8112M02) and two gabbroic pegmatites that intrude the layered gabbros (9114M01A, 9123M02) have clusters of younger dates and one resolvable outlier that is ${ \\sim } 0 . 1 { - } 0 . 3 \\ \\mathrm { \\dot { M } a }$ older.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "第4页[16]一上部辉长岩和两伟晶岩，0.1—0.3 Ma老离群明确。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q19:node:obs.age.group4",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.age.group4a",
+          "pdf_page": 6,
+          "excerpt": "[17] Group IV: Three upper-level gabbros (8112M04, $8 1 1 2 \\mathrm { ~ M } 0 6 $ , 8112M07A) and one gabbroic pegmatite that intrudes the layered gabbros (8111M02;",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.group4b",
+          "pdf_page": 6,
+          "excerpt": "same pegmatite as 9114M01A) have clusters of younger dates and one or more ${ > } 1$ Ma older outlier.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "第6页[17]三上部辉长岩、一深部伟晶岩及>1 Ma老离群完整对应。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q19:node:obs.assimilation.model",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.figure.assimilation6",
+          "pdf_page": 9,
+          "excerpt": null,
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.figure6.label",
+          "pdf_page": 9,
+          "excerpt": "Figure 6.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.figure6.model",
+          "pdf_page": 9,
+          "excerpt": "(a) Propagation of a younger ridge into older oceanic crust at a mid-ocean ridge spreading center [e.g., Boudier et al., 1997].",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "第9页Figure 6a图注明确年轻脊向老洋壳传播；仅候选机制。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q19:node:obs.assimilation.older_grains",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.assimilation.older_grains",
+          "pdf_page": 6,
+          "excerpt": "In the three upper-level gabbros, the oldest outliers have dates of $9 9 . 1 5 \\pm 0 . 1 0 \\mathrm { M a }$ , $9 7 . 8 7 \\pm 0 . 2 9$ Ma and $9 8 . 5 4 \\pm 0 . 1 1$ Ma, respectively, and are $2 . 3 6 \\pm 0 . 4 6$ Ma to $3 . 4 2 \\pm 0 . 2 1$ Ma older than the youngest grains in each sample.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "第6页[17]明确三上部辉长岩最老与最年轻颗粒差2.36±0.46至3.42±0.21 Ma。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q19:node:obs.assimilation.preferred",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.assimilation.preferred",
+          "pdf_page": 9,
+          "excerpt": "[29] We therefore prefer the interpretation that the xenocrystic zircons in the upper-level gabbros are related to assimilation of older rocks during ridge propagation.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "第9页[29]明确prefer，节点忠实保留作者偏好。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q19:node:obs.assimilation.xenocrysts",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.assimilation.xenocrysts",
+          "pdf_page": 6,
+          "excerpt": "The ${ > } 1$ Ma older zircons in three upper-level gabbros and a gabbroic pegmatite (Groups IV) are interpreted as xenocrystic grains incorporated from an older source.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "第6页[19]将>1 Ma颗粒解释为老来源捕获晶，节点聚焦三个上部辉长岩。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q19:node:obs.nd.interpretation",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.nd.interpretation",
+          "pdf_page": 1,
+          "excerpt": "The $\\varepsilon _ { \\mathrm { N d } }$ values are similar to those from other gabbros within the ophiolite, suggesting that any assimilated material had a similar isotopic composition to primitive basaltic magmas.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "第6—7页[19]与摘要明确Nd相似支持同化源类似原始玄武质岩浆。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q19:node:obs.nd.values",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.nd.reference",
+          "pdf_page": 6,
+          "excerpt": "Figure 4 and Table S2).",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.nd.values",
+          "pdf_page": 6,
+          "excerpt": "[18] $\\mathrm { S m - N d }$ isotopic analyses from seven upper-level gabbros and a trondhjemite have tightly clustered initial values ranging from $\\varepsilon _ { \\mathrm { N d } } ( 9 6 ~ \\mathrm { M a } ) = 7 . 5 9 \\pm 0 . 2 3$ to $8 . 2 8 \\pm$ 0.31 $2 \\sigma$ ;",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:2fd92d6f173606bb17011b0ba5170e14144cceaf74f3334b91f1c8862e80aeb2",
+          "pdf_page": 7,
+          "excerpt": "Figure 4. $\\varepsilon _ { \\mathrm { N d } } ( 9 6 ~ \\mathrm { M a } )$ versus UTM easting of upper-level gabbros and a trondhjemite. ",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "第6页[18]明确七个上部辉长岩加一个trondhjemite，范围7.59±0.23至8.28±0.31，2σ；摘要七样品的简写不能覆盖正文。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q19:node:obs.rate.estimate",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.figure.rate5",
+          "pdf_page": 8,
+          "excerpt": "Figure 5. Comparison of different half-spreading rates to the $\\mathrm { U } \\mathrm { - } \\mathrm { P b }$ zircon dates from upper-level gabbros, tonalite and trondhjemite. Pegmatitic samples from lower in the crust are not plotted. (a) Model half-spreading rates assuming that the ridge axis was located to the west of the dated samples. (b) Model half-spreading rates assuming the paleo-ridge axis is preserved near the center of the study area. Older grains from samples 8112M04, 8112M06 and 8112M07A plot off the scale of the $y$ axis (denoted by arrows). Sample 8128M04 and 9111M05 are shifted $1 ~ \\mathrm { k m }$ to the east for clarity. The data are most consistent with spreading rates of $5 0 { \\mathrm { - } } 1 0 0 \\ \\mathrm { k m / M a }$ in each model. ",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.rate.estimate",
+          "pdf_page": 8,
+          "excerpt": "However, in each geometry the data are most consistent with fast to super-fast half-spreading rates of $5 0 { \\mathrm { - } } 1 0 0 \\ \\mathrm { k m / M a }$ (Figure 5).",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "第8页[24]同时给不可能精确计算与两几何50—100 km/Ma半速率。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q19:node:obs.rate.geometries",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.figure.rate5",
+          "pdf_page": 8,
+          "excerpt": "Figure 5. Comparison of different half-spreading rates to the $\\mathrm { U } \\mathrm { - } \\mathrm { P b }$ zircon dates from upper-level gabbros, tonalite and trondhjemite. Pegmatitic samples from lower in the crust are not plotted. (a) Model half-spreading rates assuming that the ridge axis was located to the west of the dated samples. (b) Model half-spreading rates assuming the paleo-ridge axis is preserved near the center of the study area. Older grains from samples 8112M04, 8112M06 and 8112M07A plot off the scale of the $y$ axis (denoted by arrows). Sample 8128M04 and 9111M05 are shifted $1 ~ \\mathrm { k m }$ to the east for clarity. The data are most consistent with spreading rates of $5 0 { \\mathrm { - } } 1 0 0 \\ \\mathrm { k m / M a }$ in each model. ",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.rate.geometries",
+          "pdf_page": 7,
+          "excerpt": "The location of the paleo-ridge axis, with respect to the dated samples, is not definitively known and we present two possible geometries (Figure 5).",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "第7页[23]明确脊轴未知，并考察西侧及区域中心两几何。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q19:node:obs.rate.transect",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.rate.level",
+          "pdf_page": 7,
+          "excerpt": "To determine the spreading rate, we used dates from the upper-level gabbros, tonalite and trondhjemite, which all come from the same structural level directly below the sheeted dike complex.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.rate.transect",
+          "pdf_page": 7,
+          "excerpt": "[23] The dated samples from this study are from a ${ \\sim } 3 0 \\mathrm { k m }$ transect perpendicular to the regional strike of the sheeted dikes within a single ophiolite block, providing an ideal opportunity to constrain the spreading rate during accretion.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "第7页[23]明确单块体约30 km、垂直岩墙走向及岩墙下同结构层位。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q19:node:obs.series.abstract",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.series.abstract",
+          "pdf_page": 1,
+          "excerpt": "Dates from tonalites/trondhjemites and from a gabbroic pegmatite associated with a wehrlite intrusion overlap with dates from adjacent upper-level gabbros, suggesting that any age differences between these three magmatic series are smaller than the analytical uncertainties or intrasample variability in the dates.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "第1页摘要直接给felsic和wehrlite-associated pegmatite相对邻近gabbro的年龄重叠。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q19:node:obs.series.felsic",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.series.felsic",
+          "pdf_page": 7,
+          "excerpt": "Data from the two dated tonalite and trondhjemite plutons each define a single population that is within uncertainty of dates from adjacent gabbros.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "第7页[21]两长英质岩体各为单群且与邻近辉长岩误差内一致。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q19:node:obs.series.group1",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.series.group1",
+          "pdf_page": 4,
+          "excerpt": "[14] Group I: Two tonalite and trondhjemite plutons (8128M02A, 8128M04) and a single upper-level gabbro (9111M01) have single grain $^ { 2 0 6 } \\mathrm { P b } / ^ { \\overline { { 2 } } 3 8 } \\mathrm { U }$ dates that overlap within analytical uncertainty.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "第4页[14]明确三类所列样品年龄重叠。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q19:node:obs.series.pegmatite_ages",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.series.pegmatite_ages",
+          "pdf_page": 7,
+          "excerpt": "The pegmatite data are within uncertainty of the dates from the two closest upper-level gabbro samples (8112M02, 8112M04), suggesting that the age difference between the wehrlite and upper-level gabbros is also smaller than the analytical uncertainties or intrasample variability in single grain dates.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "第7页[21]明确相邻两个上部辉长岩8112M02/04与伟晶岩的年龄误差内一致。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q19:node:obs.series.pegmatite_crosscut",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.series.pegmatite_crosscut",
+          "pdf_page": 7,
+          "excerpt": "Additional pegmatite intrusions from the same outcrop crosscut a wehrlite body, suggesting that the pegmatites are coeval with or younger than the wehrlite.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "第7页[21]说同露头其他伟晶岩切wehrlite，推出同龄或更年轻；节点没有误写成被测样品直接切穿。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q19:node:reason.age.patterns",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.age.group1",
+          "pdf_page": 4,
+          "excerpt": "[14] Group I: Two tonalite and trondhjemite plutons (8128M02A, 8128M04) and a single upper-level gabbro (9111M01) have single grain $^ { 2 0 6 } \\mathrm { P b } / ^ { \\overline { { 2 } } 3 8 } \\mathrm { U }$ dates that overlap within analytical uncertainty.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.group2",
+          "pdf_page": 4,
+          "excerpt": "[15] Group II: Three upper-level gabbros (8112M01, 8112M08, 9111M05) have clusters of data with no clear outliers, but two-sided p-values for the chi-square goodness of fit of $< 0 . 0 5$ (i.e., $\\mathrm { M S W D } \\gg 1$ ), suggesting that the data do not reflect repeat measurements of a single population and that zircon crystallized over an extended interval.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.group3",
+          "pdf_page": 4,
+          "excerpt": "[16] Group III: One upper-level gabbro (8112M02) and two gabbroic pegmatites that intrude the layered gabbros (9114M01A, 9123M02) have clusters of younger dates and one resolvable outlier that is ${ \\sim } 0 . 1 { - } 0 . 3 \\ \\mathrm { \\dot { M } a }$ older.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.group4a",
+          "pdf_page": 6,
+          "excerpt": "[17] Group IV: Three upper-level gabbros (8112M04, $8 1 1 2 \\mathrm { ~ M } 0 6 $ , 8112M07A) and one gabbroic pegmatite that intrudes the layered gabbros (8111M02;",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.group4b",
+          "pdf_page": 6,
+          "excerpt": "same pegmatite as 9114M01A) have clusters of younger dates and one or more ${ > } 1$ Ma older outlier.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "第4、6页四组分布及年轻群年龄支撑主群集中与老粒/过量离散并存。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q19:node:reason.age.window",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.age.conclusion1",
+          "pdf_page": 9,
+          "excerpt": "Single grain $^ { 2 0 6 } \\mathrm { P b } / ^ { 2 3 8 } \\mathrm { U }$ dates range from $1 1 2 . 5 5 \\pm 0 . 2 1$ to $9 5 . 5 0 \\pm 0 . 1 7 \\mathrm { M a }$ ( $2 \\sigma$ analytical;",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.conclusion2",
+          "pdf_page": 9,
+          "excerpt": "Th corrected), with most dates between $9 6 . 4 0 \\pm 0 . 1 7$ to $9 5 . 5 0 \\pm 0 . 1 7 ~ \\mathrm { M a }$ .",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.interpret",
+          "pdf_page": 6,
+          "excerpt": "[19] The cluster of younger dates in each sample, and the similar age of the youngest grains, suggest that these dates reflect crystallization of the gabbros, tonalite, trondhjemite and pegmatites between ${ \\sim } 9 6 . 2 {  { - } } 9 5 . 5 \\ \\mathrm { M a }$ (Figures 2 and 3).",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "第6页[19]作者以年轻群相似解释结晶期；第9页另有96.40上限，节点保留差别。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q19:node:reason.assimilation.isotopes",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.nd.interpretation",
+          "pdf_page": 1,
+          "excerpt": "The $\\varepsilon _ { \\mathrm { N d } }$ values are similar to those from other gabbros within the ophiolite, suggesting that any assimilated material had a similar isotopic composition to primitive basaltic magmas.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.nd.reference",
+          "pdf_page": 6,
+          "excerpt": "Figure 4 and Table S2).",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.nd.values",
+          "pdf_page": 6,
+          "excerpt": "[18] $\\mathrm { S m - N d }$ isotopic analyses from seven upper-level gabbros and a trondhjemite have tightly clustered initial values ranging from $\\varepsilon _ { \\mathrm { N d } } ( 9 6 ~ \\mathrm { M a } ) = 7 . 5 9 \\pm 0 . 2 3$ to $8 . 2 8 \\pm$ 0.31 $2 \\sigma$ ;",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:2fd92d6f173606bb17011b0ba5170e14144cceaf74f3334b91f1c8862e80aeb2",
+          "pdf_page": 7,
+          "excerpt": "Figure 4. $\\varepsilon _ { \\mathrm { N d } } ( 9 6 ~ \\mathrm { M a } )$ versus UTM easting of upper-level gabbros and a trondhjemite. ",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "第6—7页明确该Nd解释；是与原始玄武质源相容而非唯一识别源。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q19:node:reason.assimilation.model",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.figure.assimilation6",
+          "pdf_page": 9,
+          "excerpt": null,
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.figure6.label",
+          "pdf_page": 9,
+          "excerpt": "Figure 6.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.figure6.model",
+          "pdf_page": 9,
+          "excerpt": "(a) Propagation of a younger ridge into older oceanic crust at a mid-ocean ridge spreading center [e.g., Boudier et al., 1997].",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "第9页Figure 6a图注支持候选接触老洋壳机制，不将模型图当实测。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q19:node:reason.assimilation.synthesis",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.figure.assimilation6",
+          "pdf_page": 9,
+          "excerpt": null,
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.assimilation.older_grains",
+          "pdf_page": 6,
+          "excerpt": "In the three upper-level gabbros, the oldest outliers have dates of $9 9 . 1 5 \\pm 0 . 1 0 \\mathrm { M a }$ , $9 7 . 8 7 \\pm 0 . 2 9$ Ma and $9 8 . 5 4 \\pm 0 . 1 1$ Ma, respectively, and are $2 . 3 6 \\pm 0 . 4 6$ Ma to $3 . 4 2 \\pm 0 . 2 1$ Ma older than the youngest grains in each sample.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.assimilation.preferred",
+          "pdf_page": 9,
+          "excerpt": "[29] We therefore prefer the interpretation that the xenocrystic zircons in the upper-level gabbros are related to assimilation of older rocks during ridge propagation.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.assimilation.xenocrysts",
+          "pdf_page": 6,
+          "excerpt": "The ${ > } 1$ Ma older zircons in three upper-level gabbros and a gabbroic pegmatite (Groups IV) are interpreted as xenocrystic grains incorporated from an older source.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.figure6.label",
+          "pdf_page": 9,
+          "excerpt": "Figure 6.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.figure6.model",
+          "pdf_page": 9,
+          "excerpt": "(a) Propagation of a younger ridge into older oceanic crust at a mid-ocean ridge spreading center [e.g., Boudier et al., 1997].",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.nd.interpretation",
+          "pdf_page": 1,
+          "excerpt": "The $\\varepsilon _ { \\mathrm { N d } }$ values are similar to those from other gabbros within the ophiolite, suggesting that any assimilated material had a similar isotopic composition to primitive basaltic magmas.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.nd.values",
+          "pdf_page": 6,
+          "excerpt": "[18] $\\mathrm { S m - N d }$ isotopic analyses from seven upper-level gabbros and a trondhjemite have tightly clustered initial values ranging from $\\varepsilon _ { \\mathrm { N d } } ( 9 6 ~ \\mathrm { M a } ) = 7 . 5 9 \\pm 0 . 2 3$ to $8 . 2 8 \\pm$ 0.31 $2 \\sigma$ ;",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "第6—9页继承颗粒、Nd与地质模型共同形成作者偏好；还需保留第9页高温锆石溶解对替代模型的约束。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q19:node:reason.assimilation.xenocrysts",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.assimilation.older_grains",
+          "pdf_page": 6,
+          "excerpt": "In the three upper-level gabbros, the oldest outliers have dates of $9 9 . 1 5 \\pm 0 . 1 0 \\mathrm { M a }$ , $9 7 . 8 7 \\pm 0 . 2 9$ Ma and $9 8 . 5 4 \\pm 0 . 1 1$ Ma, respectively, and are $2 . 3 6 \\pm 0 . 4 6$ Ma to $3 . 4 2 \\pm 0 . 2 1$ Ma older than the youngest grains in each sample.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.assimilation.xenocrysts",
+          "pdf_page": 6,
+          "excerpt": "The ${ > } 1$ Ma older zircons in three upper-level gabbros and a gabbroic pegmatite (Groups IV) are interpreted as xenocrystic grains incorporated from an older source.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "第6页[19]明确把显著老颗粒解释为捕获晶，因果方向正确。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q19:node:reason.rate",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.figure.rate5",
+          "pdf_page": 8,
+          "excerpt": "Figure 5. Comparison of different half-spreading rates to the $\\mathrm { U } \\mathrm { - } \\mathrm { P b }$ zircon dates from upper-level gabbros, tonalite and trondhjemite. Pegmatitic samples from lower in the crust are not plotted. (a) Model half-spreading rates assuming that the ridge axis was located to the west of the dated samples. (b) Model half-spreading rates assuming the paleo-ridge axis is preserved near the center of the study area. Older grains from samples 8112M04, 8112M06 and 8112M07A plot off the scale of the $y$ axis (denoted by arrows). Sample 8128M04 and 9111M05 are shifted $1 ~ \\mathrm { k m }$ to the east for clarity. The data are most consistent with spreading rates of $5 0 { \\mathrm { - } } 1 0 0 \\ \\mathrm { k m / M a }$ in each model. ",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.rate.estimate",
+          "pdf_page": 8,
+          "excerpt": "However, in each geometry the data are most consistent with fast to super-fast half-spreading rates of $5 0 { \\mathrm { - } } 1 0 0 \\ \\mathrm { k m / M a }$ (Figure 5).",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.rate.geometries",
+          "pdf_page": 7,
+          "excerpt": "The location of the paleo-ridge axis, with respect to the dated samples, is not definitively known and we present two possible geometries (Figure 5).",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.rate.level",
+          "pdf_page": 7,
+          "excerpt": "To determine the spreading rate, we used dates from the upper-level gabbros, tonalite and trondhjemite, which all come from the same structural level directly below the sheeted dike complex.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.rate.transect",
+          "pdf_page": 7,
+          "excerpt": "[23] The dated samples from this study are from a ${ \\sim } 3 0 \\mathrm { k m }$ transect perpendicular to the regional strike of the sheeted dikes within a single ophiolite block, providing an ideal opportunity to constrain the spreading rate during accretion.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "第7—8页同层位、两几何及年龄离散共同支撑半速率范围与不可精确计算。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q19:node:reason.series.felsic",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.series.felsic",
+          "pdf_page": 7,
+          "excerpt": "Data from the two dated tonalite and trondhjemite plutons each define a single population that is within uncertainty of dates from adjacent gabbros.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.series.group1",
+          "pdf_page": 4,
+          "excerpt": "[14] Group I: Two tonalite and trondhjemite plutons (8128M02A, 8128M04) and a single upper-level gabbro (9111M01) have single grain $^ { 2 0 6 } \\mathrm { P b } / ^ { \\overline { { 2 } } 3 8 } \\mathrm { U }$ dates that overlap within analytical uncertainty.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "第4页[14]误差可能掩盖离散，第7页[21]仅在分析分辨率上判同时，节点适当。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q19:node:reason.series.synthesis",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.series.abstract",
+          "pdf_page": 1,
+          "excerpt": "Dates from tonalites/trondhjemites and from a gabbroic pegmatite associated with a wehrlite intrusion overlap with dates from adjacent upper-level gabbros, suggesting that any age differences between these three magmatic series are smaller than the analytical uncertainties or intrasample variability in the dates.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "第1、7、9页分别及共同支持两比较的无可分辨年龄差结论。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q19:node:reason.series.wehrlite",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.series.pegmatite_ages",
+          "pdf_page": 7,
+          "excerpt": "The pegmatite data are within uncertainty of the dates from the two closest upper-level gabbro samples (8112M02, 8112M04), suggesting that the age difference between the wehrlite and upper-level gabbros is also smaller than the analytical uncertainties or intrasample variability in single grain dates.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.series.pegmatite_crosscut",
+          "pdf_page": 7,
+          "excerpt": "Additional pegmatite intrusions from the same outcrop crosscut a wehrlite body, suggesting that the pegmatites are coeval with or younger than the wehrlite.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "第7页[21]使用同露头切穿关系及与邻近辉长岩年龄重叠进行该推论，节点保留间接关系。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q19:node:assumption.rate.geometry",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.figure.rate5",
+          "pdf_page": 8,
+          "excerpt": "Figure 5. Comparison of different half-spreading rates to the $\\mathrm { U } \\mathrm { - } \\mathrm { P b }$ zircon dates from upper-level gabbros, tonalite and trondhjemite. Pegmatitic samples from lower in the crust are not plotted. (a) Model half-spreading rates assuming that the ridge axis was located to the west of the dated samples. (b) Model half-spreading rates assuming the paleo-ridge axis is preserved near the center of the study area. Older grains from samples 8112M04, 8112M06 and 8112M07A plot off the scale of the $y$ axis (denoted by arrows). Sample 8128M04 and 9111M05 are shifted $1 ~ \\mathrm { k m }$ to the east for clarity. The data are most consistent with spreading rates of $5 0 { \\mathrm { - } } 1 0 0 \\ \\mathrm { k m / M a }$ in each model. ",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.rate.geometries",
+          "pdf_page": 7,
+          "excerpt": "The location of the paleo-ridge axis, with respect to the dated samples, is not definitively known and we present two possible geometries (Figure 5).",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "第7页[23]脊轴位置未知，两个假定几何确为速率推断条件。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q19:edge:edge.assumption.rate.geometry",
+      "item_type": "edge",
+      "edge_category": "scientific_dependency",
+      "source_id": "assumption.rate.geometry",
+      "relation": "assumption_for",
+      "target_id": "reason.rate",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.figure.rate5",
+          "pdf_page": 8,
+          "excerpt": "Figure 5. Comparison of different half-spreading rates to the $\\mathrm { U } \\mathrm { - } \\mathrm { P b }$ zircon dates from upper-level gabbros, tonalite and trondhjemite. Pegmatitic samples from lower in the crust are not plotted. (a) Model half-spreading rates assuming that the ridge axis was located to the west of the dated samples. (b) Model half-spreading rates assuming the paleo-ridge axis is preserved near the center of the study area. Older grains from samples 8112M04, 8112M06 and 8112M07A plot off the scale of the $y$ axis (denoted by arrows). Sample 8128M04 and 9111M05 are shifted $1 ~ \\mathrm { k m }$ to the east for clarity. The data are most consistent with spreading rates of $5 0 { \\mathrm { - } } 1 0 0 \\ \\mathrm { k m / M a }$ in each model. ",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.rate.geometries",
+          "pdf_page": 7,
+          "excerpt": "The location of the paleo-ridge axis, with respect to the dated samples, is not definitively known and we present two possible geometries (Figure 5).",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.rate.estimate",
+          "pdf_page": 8,
+          "excerpt": "However, in each geometry the data are most consistent with fast to super-fast half-spreading rates of $5 0 { \\mathrm { - } } 1 0 0 \\ \\mathrm { k m / M a }$ (Figure 5).",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.rate.level",
+          "pdf_page": 7,
+          "excerpt": "To determine the spreading rate, we used dates from the upper-level gabbros, tonalite and trondhjemite, which all come from the same structural level directly below the sheeted dike complex.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.rate.transect",
+          "pdf_page": 7,
+          "excerpt": "[23] The dated samples from this study are from a ${ \\sim } 3 0 \\mathrm { k m }$ transect perpendicular to the regional strike of the sheeted dikes within a single ophiolite block, providing an ideal opportunity to constrain the spreading rate during accretion.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "assumption.rate.geometry → reason.rate（assumption_for）：第7页[23]脊轴位置未知，两个假定几何确为速率推断条件。 此信息作为目标的条件方向正确；目标核对：第7—8页同层位、两几何及年龄离散共同支撑半速率范围与不可精确计算。",
+      "relation_and_direction_checked": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q19:edge:edge.ground.age.conclusion2",
+      "item_type": "edge",
+      "edge_category": "anchor_link",
+      "source_id": "a.text.age.conclusion2",
+      "relation": "grounds",
+      "target_id": "obs.age.conclusion",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.age.conclusion2",
+          "pdf_page": 9,
+          "excerpt": "Th corrected), with most dates between $9 6 . 4 0 \\pm 0 . 1 7$ to $9 5 . 5 0 \\pm 0 . 1 7 ~ \\mathrm { M a }$ .",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "锚点→obs.age.conclusion的来源链接：该页原文与目标的相关信息一致。目标核对：第9页[30]给most dates 96.40±0.17至95.50±0.17且Th corrected。",
+      "relation_and_direction_checked": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q19:edge:edge.ground.age.discussion",
+      "item_type": "edge",
+      "edge_category": "anchor_link",
+      "source_id": "a.text.age.interpret",
+      "relation": "grounds",
+      "target_id": "obs.age.discussion",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.age.interpret",
+          "pdf_page": 6,
+          "excerpt": "[19] The cluster of younger dates in each sample, and the similar age of the youngest grains, suggest that these dates reflect crystallization of the gabbros, tonalite, trondhjemite and pegmatites between ${ \\sim } 9 6 . 2 {  { - } } 9 5 . 5 \\ \\mathrm { M a }$ (Figures 2 and 3).",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "锚点→obs.age.discussion的来源链接：该页原文与目标的相关信息一致。目标核对：第6页[19]明确用年轻群解释96.2—95.5 Ma结晶。",
+      "relation_and_direction_checked": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q19:edge:edge.ground.age.g1",
+      "item_type": "edge",
+      "edge_category": "anchor_link",
+      "source_id": "a.text.age.group1",
+      "relation": "grounds",
+      "target_id": "obs.age.group1",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.age.group1",
+          "pdf_page": 4,
+          "excerpt": "[14] Group I: Two tonalite and trondhjemite plutons (8128M02A, 8128M04) and a single upper-level gabbro (9111M01) have single grain $^ { 2 0 6 } \\mathrm { P b } / ^ { \\overline { { 2 } } 3 8 } \\mathrm { U }$ dates that overlap within analytical uncertainty.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "锚点→obs.age.group1的来源链接：该页原文与目标的相关信息一致。目标核对：第4页[14]两长英质岩体及一个上部辉长岩的单颗粒年龄在误差内重叠。",
+      "relation_and_direction_checked": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q19:edge:edge.ground.age.g2",
+      "item_type": "edge",
+      "edge_category": "anchor_link",
+      "source_id": "a.text.age.group2",
+      "relation": "grounds",
+      "target_id": "obs.age.group2",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.age.group2",
+          "pdf_page": 4,
+          "excerpt": "[15] Group II: Three upper-level gabbros (8112M01, 8112M08, 9111M05) have clusters of data with no clear outliers, but two-sided p-values for the chi-square goodness of fit of $< 0 . 0 5$ (i.e., $\\mathrm { M S W D } \\gg 1$ ), suggesting that the data do not reflect repeat measurements of a single population and that zircon crystallized over an extended interval.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "锚点→obs.age.group2的来源链接：该页原文与目标的相关信息一致。目标核对：第4页[15]三样品、无明显离群与p<0.05都明确；拒绝单一年龄重复测量假设是统计推论。",
+      "relation_and_direction_checked": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q19:edge:edge.ground.age.g3",
+      "item_type": "edge",
+      "edge_category": "anchor_link",
+      "source_id": "a.text.age.group3",
+      "relation": "grounds",
+      "target_id": "obs.age.group3",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.age.group3",
+          "pdf_page": 4,
+          "excerpt": "[16] Group III: One upper-level gabbro (8112M02) and two gabbroic pegmatites that intrude the layered gabbros (9114M01A, 9123M02) have clusters of younger dates and one resolvable outlier that is ${ \\sim } 0 . 1 { - } 0 . 3 \\ \\mathrm { \\dot { M } a }$ older.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "锚点→obs.age.group3的来源链接：该页原文与目标的相关信息一致。目标核对：第4页[16]一上部辉长岩和两伟晶岩，0.1—0.3 Ma老离群明确。",
+      "relation_and_direction_checked": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q19:edge:edge.ground.age.g4a",
+      "item_type": "edge",
+      "edge_category": "anchor_link",
+      "source_id": "a.text.age.group4a",
+      "relation": "grounds",
+      "target_id": "obs.age.group4",
+      "decision": "partially_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.age.group4a",
+          "pdf_page": 6,
+          "excerpt": "[17] Group IV: Three upper-level gabbros (8112M04, $8 1 1 2 \\mathrm { ~ M } 0 6 $ , 8112M07A) and one gabbroic pegmatite that intrudes the layered gabbros (8111M02;",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "此锚点提供目标的一部分条件/结果，需与相邻正文或另一锚点合读；不能独立覆盖目标全部语义。原文片段：[17] Group IV: Three upper-level gabbros (8112M04, $8 1 1 2 \\mathrm { ~ M } 0 6 $ , 8112M07A) and one gabbroic pegmatite that intrudes the layered gabbros (8111M02;。目标核对：第6页[17]三上部辉长岩、一深部伟晶岩及>1 Ma老离群完整对应。",
+      "relation_and_direction_checked": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q19:edge:edge.ground.assim.interpretation",
+      "item_type": "edge",
+      "edge_category": "anchor_link",
+      "source_id": "a.text.assimilation.xenocrysts",
+      "relation": "grounds",
+      "target_id": "obs.assimilation.xenocrysts",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.assimilation.xenocrysts",
+          "pdf_page": 6,
+          "excerpt": "The ${ > } 1$ Ma older zircons in three upper-level gabbros and a gabbroic pegmatite (Groups IV) are interpreted as xenocrystic grains incorporated from an older source.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "锚点→obs.assimilation.xenocrysts的来源链接：该页原文与目标的相关信息一致。目标核对：第6页[19]将>1 Ma颗粒解释为老来源捕获晶，节点聚焦三个上部辉长岩。",
+      "relation_and_direction_checked": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q19:edge:edge.ground.assim.model.label",
+      "item_type": "edge",
+      "edge_category": "anchor_link",
+      "source_id": "a.text.figure6.label",
+      "relation": "grounds",
+      "target_id": "obs.assimilation.model",
+      "decision": "unsupported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.figure6.label",
+          "pdf_page": 9,
+          "excerpt": "Figure 6.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "所指定锚点仅为图号、短标题或指向图的句子（Figure 6.），自身没有Figure 6a depicts propagation of a younger ridge into older oceanic crust at a mid-ocean-ridge spreading center.所需的科学内容；同页正文或完整图注可支持节点，但不能替此短锚点提供支持。",
+      "relation_and_direction_checked": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q19:edge:edge.ground.assim.model.text",
+      "item_type": "edge",
+      "edge_category": "anchor_link",
+      "source_id": "a.text.figure6.model",
+      "relation": "grounds",
+      "target_id": "obs.assimilation.model",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.figure6.model",
+          "pdf_page": 9,
+          "excerpt": "(a) Propagation of a younger ridge into older oceanic crust at a mid-ocean ridge spreading center [e.g., Boudier et al., 1997].",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "锚点→obs.assimilation.model的来源链接：该页原文与目标的相关信息一致。目标核对：第9页Figure 6a图注明确年轻脊向老洋壳传播；仅候选机制。",
+      "relation_and_direction_checked": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q19:edge:edge.ground.assim.older",
+      "item_type": "edge",
+      "edge_category": "anchor_link",
+      "source_id": "a.text.assimilation.older_grains",
+      "relation": "grounds",
+      "target_id": "obs.assimilation.older_grains",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.assimilation.older_grains",
+          "pdf_page": 6,
+          "excerpt": "In the three upper-level gabbros, the oldest outliers have dates of $9 9 . 1 5 \\pm 0 . 1 0 \\mathrm { M a }$ , $9 7 . 8 7 \\pm 0 . 2 9$ Ma and $9 8 . 5 4 \\pm 0 . 1 1$ Ma, respectively, and are $2 . 3 6 \\pm 0 . 4 6$ Ma to $3 . 4 2 \\pm 0 . 2 1$ Ma older than the youngest grains in each sample.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "锚点→obs.assimilation.older_grains的来源链接：该页原文与目标的相关信息一致。目标核对：第6页[17]明确三上部辉长岩最老与最年轻颗粒差2.36±0.46至3.42±0.21 Ma。",
+      "relation_and_direction_checked": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q19:edge:edge.ground.assim.preferred",
+      "item_type": "edge",
+      "edge_category": "anchor_link",
+      "source_id": "a.text.assimilation.preferred",
+      "relation": "grounds",
+      "target_id": "obs.assimilation.preferred",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.assimilation.preferred",
+          "pdf_page": 9,
+          "excerpt": "[29] We therefore prefer the interpretation that the xenocrystic zircons in the upper-level gabbros are related to assimilation of older rocks during ridge propagation.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "锚点→obs.assimilation.preferred的来源链接：该页原文与目标的相关信息一致。目标核对：第9页[29]明确prefer，节点忠实保留作者偏好。",
+      "relation_and_direction_checked": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q19:edge:edge.ground.nd.interpretation",
+      "item_type": "edge",
+      "edge_category": "anchor_link",
+      "source_id": "a.text.nd.interpretation",
+      "relation": "grounds",
+      "target_id": "obs.nd.interpretation",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.nd.interpretation",
+          "pdf_page": 1,
+          "excerpt": "The $\\varepsilon _ { \\mathrm { N d } }$ values are similar to those from other gabbros within the ophiolite, suggesting that any assimilated material had a similar isotopic composition to primitive basaltic magmas.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "锚点→obs.nd.interpretation的来源链接：该页原文与目标的相关信息一致。目标核对：第6—7页[19]与摘要明确Nd相似支持同化源类似原始玄武质岩浆。",
+      "relation_and_direction_checked": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q19:edge:edge.ground.nd.values",
+      "item_type": "edge",
+      "edge_category": "anchor_link",
+      "source_id": "a.text.nd.values",
+      "relation": "grounds",
+      "target_id": "obs.nd.values",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.nd.values",
+          "pdf_page": 6,
+          "excerpt": "[18] $\\mathrm { S m - N d }$ isotopic analyses from seven upper-level gabbros and a trondhjemite have tightly clustered initial values ranging from $\\varepsilon _ { \\mathrm { N d } } ( 9 6 ~ \\mathrm { M a } ) = 7 . 5 9 \\pm 0 . 2 3$ to $8 . 2 8 \\pm$ 0.31 $2 \\sigma$ ;",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "锚点→obs.nd.values的来源链接：该页原文与目标的相关信息一致。目标核对：第6页[18]明确七个上部辉长岩加一个trondhjemite，范围7.59±0.23至8.28±0.31，2σ；摘要七样品的简写不能覆盖正文。",
+      "relation_and_direction_checked": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q19:edge:edge.ground.rate.estimate.figure",
+      "item_type": "edge",
+      "edge_category": "anchor_link",
+      "source_id": "a.figure.rate5",
+      "relation": "grounds",
+      "target_id": "obs.rate.estimate",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.figure.rate5",
+          "pdf_page": 8,
+          "excerpt": "Figure 5. Comparison of different half-spreading rates to the $\\mathrm { U } \\mathrm { - } \\mathrm { P b }$ zircon dates from upper-level gabbros, tonalite and trondhjemite. Pegmatitic samples from lower in the crust are not plotted. (a) Model half-spreading rates assuming that the ridge axis was located to the west of the dated samples. (b) Model half-spreading rates assuming the paleo-ridge axis is preserved near the center of the study area. Older grains from samples 8112M04, 8112M06 and 8112M07A plot off the scale of the $y$ axis (denoted by arrows). Sample 8128M04 and 9111M05 are shifted $1 ~ \\mathrm { k m }$ to the east for clarity. The data are most consistent with spreading rates of $5 0 { \\mathrm { - } } 1 0 0 \\ \\mathrm { k m / M a }$ in each model. ",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "锚点→obs.rate.estimate的来源链接：该页原文与目标的相关信息一致。目标核对：第8页[24]同时给不可能精确计算与两几何50—100 km/Ma半速率。",
+      "relation_and_direction_checked": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q19:edge:edge.ground.rate.figure",
+      "item_type": "edge",
+      "edge_category": "anchor_link",
+      "source_id": "a.figure.rate5",
+      "relation": "grounds",
+      "target_id": "obs.rate.geometries",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.figure.rate5",
+          "pdf_page": 8,
+          "excerpt": "Figure 5. Comparison of different half-spreading rates to the $\\mathrm { U } \\mathrm { - } \\mathrm { P b }$ zircon dates from upper-level gabbros, tonalite and trondhjemite. Pegmatitic samples from lower in the crust are not plotted. (a) Model half-spreading rates assuming that the ridge axis was located to the west of the dated samples. (b) Model half-spreading rates assuming the paleo-ridge axis is preserved near the center of the study area. Older grains from samples 8112M04, 8112M06 and 8112M07A plot off the scale of the $y$ axis (denoted by arrows). Sample 8128M04 and 9111M05 are shifted $1 ~ \\mathrm { k m }$ to the east for clarity. The data are most consistent with spreading rates of $5 0 { \\mathrm { - } } 1 0 0 \\ \\mathrm { k m / M a }$ in each model. ",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "锚点→obs.rate.geometries的来源链接：该页原文与目标的相关信息一致。目标核对：第7页[23]明确脊轴未知，并考察西侧及区域中心两几何。",
+      "relation_and_direction_checked": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q19:edge:edge.ground.rate.geometries",
+      "item_type": "edge",
+      "edge_category": "anchor_link",
+      "source_id": "a.text.rate.geometries",
+      "relation": "grounds",
+      "target_id": "obs.rate.geometries",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.rate.geometries",
+          "pdf_page": 7,
+          "excerpt": "The location of the paleo-ridge axis, with respect to the dated samples, is not definitively known and we present two possible geometries (Figure 5).",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "锚点→obs.rate.geometries的来源链接：该页原文与目标的相关信息一致。目标核对：第7页[23]明确脊轴未知，并考察西侧及区域中心两几何。",
+      "relation_and_direction_checked": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q19:edge:edge.ground.rate.level",
+      "item_type": "edge",
+      "edge_category": "anchor_link",
+      "source_id": "a.text.rate.level",
+      "relation": "grounds",
+      "target_id": "obs.rate.transect",
+      "decision": "partially_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.rate.level",
+          "pdf_page": 7,
+          "excerpt": "To determine the spreading rate, we used dates from the upper-level gabbros, tonalite and trondhjemite, which all come from the same structural level directly below the sheeted dike complex.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "此锚点提供目标的一部分条件/结果，需与相邻正文或另一锚点合读；不能独立覆盖目标全部语义。原文片段：To determine the spreading rate, we used dates from the upper-level gabbros, tonalite and trondhjemite, which all come from the same structural level directly below the sheeted dike complex.。目标核对：第7页[23]明确单块体约30 km、垂直岩墙走向及岩墙下同结构层位。",
+      "relation_and_direction_checked": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q19:edge:edge.ground.series.abstract",
+      "item_type": "edge",
+      "edge_category": "anchor_link",
+      "source_id": "a.text.series.abstract",
+      "relation": "grounds",
+      "target_id": "obs.series.abstract",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.series.abstract",
+          "pdf_page": 1,
+          "excerpt": "Dates from tonalites/trondhjemites and from a gabbroic pegmatite associated with a wehrlite intrusion overlap with dates from adjacent upper-level gabbros, suggesting that any age differences between these three magmatic series are smaller than the analytical uncertainties or intrasample variability in the dates.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "锚点→obs.series.abstract的来源链接：该页原文与目标的相关信息一致。目标核对：第1页摘要直接给felsic和wehrlite-associated pegmatite相对邻近gabbro的年龄重叠。",
+      "relation_and_direction_checked": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q19:edge:edge.ground.series.crosscut",
+      "item_type": "edge",
+      "edge_category": "anchor_link",
+      "source_id": "a.text.series.pegmatite_crosscut",
+      "relation": "grounds",
+      "target_id": "obs.series.pegmatite_crosscut",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.series.pegmatite_crosscut",
+          "pdf_page": 7,
+          "excerpt": "Additional pegmatite intrusions from the same outcrop crosscut a wehrlite body, suggesting that the pegmatites are coeval with or younger than the wehrlite.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "锚点→obs.series.pegmatite_crosscut的来源链接：该页原文与目标的相关信息一致。目标核对：第7页[21]说同露头其他伟晶岩切wehrlite，推出同龄或更年轻；节点没有误写成被测样品直接切穿。",
+      "relation_and_direction_checked": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q19:edge:edge.ground.series.felsic",
+      "item_type": "edge",
+      "edge_category": "anchor_link",
+      "source_id": "a.text.series.felsic",
+      "relation": "grounds",
+      "target_id": "obs.series.felsic",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.series.felsic",
+          "pdf_page": 7,
+          "excerpt": "Data from the two dated tonalite and trondhjemite plutons each define a single population that is within uncertainty of dates from adjacent gabbros.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "锚点→obs.series.felsic的来源链接：该页原文与目标的相关信息一致。目标核对：第7页[21]两长英质岩体各为单群且与邻近辉长岩误差内一致。",
+      "relation_and_direction_checked": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q19:edge:edge.ground.series.group1",
+      "item_type": "edge",
+      "edge_category": "anchor_link",
+      "source_id": "a.text.series.group1",
+      "relation": "grounds",
+      "target_id": "obs.series.group1",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.series.group1",
+          "pdf_page": 4,
+          "excerpt": "[14] Group I: Two tonalite and trondhjemite plutons (8128M02A, 8128M04) and a single upper-level gabbro (9111M01) have single grain $^ { 2 0 6 } \\mathrm { P b } / ^ { \\overline { { 2 } } 3 8 } \\mathrm { U }$ dates that overlap within analytical uncertainty.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "锚点→obs.series.group1的来源链接：该页原文与目标的相关信息一致。目标核对：第4页[14]明确三类所列样品年龄重叠。",
+      "relation_and_direction_checked": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q19:edge:edge.ground.series.pegmatite",
+      "item_type": "edge",
+      "edge_category": "anchor_link",
+      "source_id": "a.text.series.pegmatite_ages",
+      "relation": "grounds",
+      "target_id": "obs.series.pegmatite_ages",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.series.pegmatite_ages",
+          "pdf_page": 7,
+          "excerpt": "The pegmatite data are within uncertainty of the dates from the two closest upper-level gabbro samples (8112M02, 8112M04), suggesting that the age difference between the wehrlite and upper-level gabbros is also smaller than the analytical uncertainties or intrasample variability in single grain dates.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "锚点→obs.series.pegmatite_ages的来源链接：该页原文与目标的相关信息一致。目标核对：第7页[21]明确相邻两个上部辉长岩8112M02/04与伟晶岩的年龄误差内一致。",
+      "relation_and_direction_checked": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q19:edge:edge.premise.age.conclusion",
+      "item_type": "edge",
+      "edge_category": "scientific_dependency",
+      "source_id": "obs.age.conclusion",
+      "relation": "premise_for",
+      "target_id": "reason.age.window",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.age.conclusion1",
+          "pdf_page": 9,
+          "excerpt": "Single grain $^ { 2 0 6 } \\mathrm { P b } / ^ { 2 3 8 } \\mathrm { U }$ dates range from $1 1 2 . 5 5 \\pm 0 . 2 1$ to $9 5 . 5 0 \\pm 0 . 1 7 \\mathrm { M a }$ ( $2 \\sigma$ analytical;",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.conclusion2",
+          "pdf_page": 9,
+          "excerpt": "Th corrected), with most dates between $9 6 . 4 0 \\pm 0 . 1 7$ to $9 5 . 5 0 \\pm 0 . 1 7 ~ \\mathrm { M a }$ .",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.interpret",
+          "pdf_page": 6,
+          "excerpt": "[19] The cluster of younger dates in each sample, and the similar age of the youngest grains, suggest that these dates reflect crystallization of the gabbros, tonalite, trondhjemite and pegmatites between ${ \\sim } 9 6 . 2 {  { - } } 9 5 . 5 \\ \\mathrm { M a }$ (Figures 2 and 3).",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "obs.age.conclusion → reason.age.window（premise_for）：第9页[30]给most dates 96.40±0.17至95.50±0.17且Th corrected。 此信息作为目标的组成前提方向正确；目标核对：第6页[19]作者以年轻群相似解释结晶期；第9页另有96.40上限，节点保留差别。",
+      "relation_and_direction_checked": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q19:edge:edge.premise.age.discussion",
+      "item_type": "edge",
+      "edge_category": "scientific_dependency",
+      "source_id": "obs.age.discussion",
+      "relation": "premise_for",
+      "target_id": "reason.age.window",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.age.interpret",
+          "pdf_page": 6,
+          "excerpt": "[19] The cluster of younger dates in each sample, and the similar age of the youngest grains, suggest that these dates reflect crystallization of the gabbros, tonalite, trondhjemite and pegmatites between ${ \\sim } 9 6 . 2 {  { - } } 9 5 . 5 \\ \\mathrm { M a }$ (Figures 2 and 3).",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.conclusion1",
+          "pdf_page": 9,
+          "excerpt": "Single grain $^ { 2 0 6 } \\mathrm { P b } / ^ { 2 3 8 } \\mathrm { U }$ dates range from $1 1 2 . 5 5 \\pm 0 . 2 1$ to $9 5 . 5 0 \\pm 0 . 1 7 \\mathrm { M a }$ ( $2 \\sigma$ analytical;",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.conclusion2",
+          "pdf_page": 9,
+          "excerpt": "Th corrected), with most dates between $9 6 . 4 0 \\pm 0 . 1 7$ to $9 5 . 5 0 \\pm 0 . 1 7 ~ \\mathrm { M a }$ .",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "obs.age.discussion → reason.age.window（premise_for）：第6页[19]明确用年轻群解释96.2—95.5 Ma结晶。 此信息作为目标的组成前提方向正确；目标核对：第6页[19]作者以年轻群相似解释结晶期；第9页另有96.40上限，节点保留差别。",
+      "relation_and_direction_checked": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q19:edge:edge.premise.age.g1",
+      "item_type": "edge",
+      "edge_category": "scientific_dependency",
+      "source_id": "obs.age.group1",
+      "relation": "premise_for",
+      "target_id": "reason.age.patterns",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.age.group1",
+          "pdf_page": 4,
+          "excerpt": "[14] Group I: Two tonalite and trondhjemite plutons (8128M02A, 8128M04) and a single upper-level gabbro (9111M01) have single grain $^ { 2 0 6 } \\mathrm { P b } / ^ { \\overline { { 2 } } 3 8 } \\mathrm { U }$ dates that overlap within analytical uncertainty.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.group2",
+          "pdf_page": 4,
+          "excerpt": "[15] Group II: Three upper-level gabbros (8112M01, 8112M08, 9111M05) have clusters of data with no clear outliers, but two-sided p-values for the chi-square goodness of fit of $< 0 . 0 5$ (i.e., $\\mathrm { M S W D } \\gg 1$ ), suggesting that the data do not reflect repeat measurements of a single population and that zircon crystallized over an extended interval.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.group3",
+          "pdf_page": 4,
+          "excerpt": "[16] Group III: One upper-level gabbro (8112M02) and two gabbroic pegmatites that intrude the layered gabbros (9114M01A, 9123M02) have clusters of younger dates and one resolvable outlier that is ${ \\sim } 0 . 1 { - } 0 . 3 \\ \\mathrm { \\dot { M } a }$ older.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.group4a",
+          "pdf_page": 6,
+          "excerpt": "[17] Group IV: Three upper-level gabbros (8112M04, $8 1 1 2 \\mathrm { ~ M } 0 6 $ , 8112M07A) and one gabbroic pegmatite that intrudes the layered gabbros (8111M02;",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.group4b",
+          "pdf_page": 6,
+          "excerpt": "same pegmatite as 9114M01A) have clusters of younger dates and one or more ${ > } 1$ Ma older outlier.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "obs.age.group1 → reason.age.patterns（premise_for）：第4页[14]两长英质岩体及一个上部辉长岩的单颗粒年龄在误差内重叠。 此信息作为目标的组成前提方向正确；目标核对：第4、6页四组分布及年轻群年龄支撑主群集中与老粒/过量离散并存。",
+      "relation_and_direction_checked": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q19:edge:edge.premise.age.g2",
+      "item_type": "edge",
+      "edge_category": "scientific_dependency",
+      "source_id": "obs.age.group2",
+      "relation": "premise_for",
+      "target_id": "reason.age.patterns",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.age.group2",
+          "pdf_page": 4,
+          "excerpt": "[15] Group II: Three upper-level gabbros (8112M01, 8112M08, 9111M05) have clusters of data with no clear outliers, but two-sided p-values for the chi-square goodness of fit of $< 0 . 0 5$ (i.e., $\\mathrm { M S W D } \\gg 1$ ), suggesting that the data do not reflect repeat measurements of a single population and that zircon crystallized over an extended interval.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.group1",
+          "pdf_page": 4,
+          "excerpt": "[14] Group I: Two tonalite and trondhjemite plutons (8128M02A, 8128M04) and a single upper-level gabbro (9111M01) have single grain $^ { 2 0 6 } \\mathrm { P b } / ^ { \\overline { { 2 } } 3 8 } \\mathrm { U }$ dates that overlap within analytical uncertainty.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.group3",
+          "pdf_page": 4,
+          "excerpt": "[16] Group III: One upper-level gabbro (8112M02) and two gabbroic pegmatites that intrude the layered gabbros (9114M01A, 9123M02) have clusters of younger dates and one resolvable outlier that is ${ \\sim } 0 . 1 { - } 0 . 3 \\ \\mathrm { \\dot { M } a }$ older.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.group4a",
+          "pdf_page": 6,
+          "excerpt": "[17] Group IV: Three upper-level gabbros (8112M04, $8 1 1 2 \\mathrm { ~ M } 0 6 $ , 8112M07A) and one gabbroic pegmatite that intrudes the layered gabbros (8111M02;",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.group4b",
+          "pdf_page": 6,
+          "excerpt": "same pegmatite as 9114M01A) have clusters of younger dates and one or more ${ > } 1$ Ma older outlier.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "obs.age.group2 → reason.age.patterns（premise_for）：第4页[15]三样品、无明显离群与p<0.05都明确；拒绝单一年龄重复测量假设是统计推论。 此信息作为目标的组成前提方向正确；目标核对：第4、6页四组分布及年轻群年龄支撑主群集中与老粒/过量离散并存。",
+      "relation_and_direction_checked": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q19:edge:edge.premise.age.g3",
+      "item_type": "edge",
+      "edge_category": "scientific_dependency",
+      "source_id": "obs.age.group3",
+      "relation": "premise_for",
+      "target_id": "reason.age.patterns",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.age.group3",
+          "pdf_page": 4,
+          "excerpt": "[16] Group III: One upper-level gabbro (8112M02) and two gabbroic pegmatites that intrude the layered gabbros (9114M01A, 9123M02) have clusters of younger dates and one resolvable outlier that is ${ \\sim } 0 . 1 { - } 0 . 3 \\ \\mathrm { \\dot { M } a }$ older.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.group1",
+          "pdf_page": 4,
+          "excerpt": "[14] Group I: Two tonalite and trondhjemite plutons (8128M02A, 8128M04) and a single upper-level gabbro (9111M01) have single grain $^ { 2 0 6 } \\mathrm { P b } / ^ { \\overline { { 2 } } 3 8 } \\mathrm { U }$ dates that overlap within analytical uncertainty.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.group2",
+          "pdf_page": 4,
+          "excerpt": "[15] Group II: Three upper-level gabbros (8112M01, 8112M08, 9111M05) have clusters of data with no clear outliers, but two-sided p-values for the chi-square goodness of fit of $< 0 . 0 5$ (i.e., $\\mathrm { M S W D } \\gg 1$ ), suggesting that the data do not reflect repeat measurements of a single population and that zircon crystallized over an extended interval.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.group4a",
+          "pdf_page": 6,
+          "excerpt": "[17] Group IV: Three upper-level gabbros (8112M04, $8 1 1 2 \\mathrm { ~ M } 0 6 $ , 8112M07A) and one gabbroic pegmatite that intrudes the layered gabbros (8111M02;",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.group4b",
+          "pdf_page": 6,
+          "excerpt": "same pegmatite as 9114M01A) have clusters of younger dates and one or more ${ > } 1$ Ma older outlier.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "obs.age.group3 → reason.age.patterns（premise_for）：第4页[16]一上部辉长岩和两伟晶岩，0.1—0.3 Ma老离群明确。 此信息作为目标的组成前提方向正确；目标核对：第4、6页四组分布及年轻群年龄支撑主群集中与老粒/过量离散并存。",
+      "relation_and_direction_checked": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q19:edge:edge.premise.age.g4",
+      "item_type": "edge",
+      "edge_category": "scientific_dependency",
+      "source_id": "obs.age.group4",
+      "relation": "premise_for",
+      "target_id": "reason.age.patterns",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.age.group4a",
+          "pdf_page": 6,
+          "excerpt": "[17] Group IV: Three upper-level gabbros (8112M04, $8 1 1 2 \\mathrm { ~ M } 0 6 $ , 8112M07A) and one gabbroic pegmatite that intrudes the layered gabbros (8111M02;",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.group4b",
+          "pdf_page": 6,
+          "excerpt": "same pegmatite as 9114M01A) have clusters of younger dates and one or more ${ > } 1$ Ma older outlier.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.group1",
+          "pdf_page": 4,
+          "excerpt": "[14] Group I: Two tonalite and trondhjemite plutons (8128M02A, 8128M04) and a single upper-level gabbro (9111M01) have single grain $^ { 2 0 6 } \\mathrm { P b } / ^ { \\overline { { 2 } } 3 8 } \\mathrm { U }$ dates that overlap within analytical uncertainty.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.group2",
+          "pdf_page": 4,
+          "excerpt": "[15] Group II: Three upper-level gabbros (8112M01, 8112M08, 9111M05) have clusters of data with no clear outliers, but two-sided p-values for the chi-square goodness of fit of $< 0 . 0 5$ (i.e., $\\mathrm { M S W D } \\gg 1$ ), suggesting that the data do not reflect repeat measurements of a single population and that zircon crystallized over an extended interval.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.group3",
+          "pdf_page": 4,
+          "excerpt": "[16] Group III: One upper-level gabbro (8112M02) and two gabbroic pegmatites that intrude the layered gabbros (9114M01A, 9123M02) have clusters of younger dates and one resolvable outlier that is ${ \\sim } 0 . 1 { - } 0 . 3 \\ \\mathrm { \\dot { M } a }$ older.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "obs.age.group4 → reason.age.patterns（premise_for）：第6页[17]三上部辉长岩、一深部伟晶岩及>1 Ma老离群完整对应。 此信息作为目标的组成前提方向正确；目标核对：第4、6页四组分布及年轻群年龄支撑主群集中与老粒/过量离散并存。",
+      "relation_and_direction_checked": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q19:edge:edge.premise.age.patterns",
+      "item_type": "edge",
+      "edge_category": "scientific_dependency",
+      "source_id": "reason.age.patterns",
+      "relation": "premise_for",
+      "target_id": "reason.age.window",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.age.group1",
+          "pdf_page": 4,
+          "excerpt": "[14] Group I: Two tonalite and trondhjemite plutons (8128M02A, 8128M04) and a single upper-level gabbro (9111M01) have single grain $^ { 2 0 6 } \\mathrm { P b } / ^ { \\overline { { 2 } } 3 8 } \\mathrm { U }$ dates that overlap within analytical uncertainty.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.group2",
+          "pdf_page": 4,
+          "excerpt": "[15] Group II: Three upper-level gabbros (8112M01, 8112M08, 9111M05) have clusters of data with no clear outliers, but two-sided p-values for the chi-square goodness of fit of $< 0 . 0 5$ (i.e., $\\mathrm { M S W D } \\gg 1$ ), suggesting that the data do not reflect repeat measurements of a single population and that zircon crystallized over an extended interval.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.group3",
+          "pdf_page": 4,
+          "excerpt": "[16] Group III: One upper-level gabbro (8112M02) and two gabbroic pegmatites that intrude the layered gabbros (9114M01A, 9123M02) have clusters of younger dates and one resolvable outlier that is ${ \\sim } 0 . 1 { - } 0 . 3 \\ \\mathrm { \\dot { M } a }$ older.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.group4a",
+          "pdf_page": 6,
+          "excerpt": "[17] Group IV: Three upper-level gabbros (8112M04, $8 1 1 2 \\mathrm { ~ M } 0 6 $ , 8112M07A) and one gabbroic pegmatite that intrudes the layered gabbros (8111M02;",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.group4b",
+          "pdf_page": 6,
+          "excerpt": "same pegmatite as 9114M01A) have clusters of younger dates and one or more ${ > } 1$ Ma older outlier.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.conclusion1",
+          "pdf_page": 9,
+          "excerpt": "Single grain $^ { 2 0 6 } \\mathrm { P b } / ^ { 2 3 8 } \\mathrm { U }$ dates range from $1 1 2 . 5 5 \\pm 0 . 2 1$ to $9 5 . 5 0 \\pm 0 . 1 7 \\mathrm { M a }$ ( $2 \\sigma$ analytical;",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.conclusion2",
+          "pdf_page": 9,
+          "excerpt": "Th corrected), with most dates between $9 6 . 4 0 \\pm 0 . 1 7$ to $9 5 . 5 0 \\pm 0 . 1 7 ~ \\mathrm { M a }$ .",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.interpret",
+          "pdf_page": 6,
+          "excerpt": "[19] The cluster of younger dates in each sample, and the similar age of the youngest grains, suggest that these dates reflect crystallization of the gabbros, tonalite, trondhjemite and pegmatites between ${ \\sim } 9 6 . 2 {  { - } } 9 5 . 5 \\ \\mathrm { M a }$ (Figures 2 and 3).",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "reason.age.patterns → reason.age.window（premise_for）：第4、6页四组分布及年轻群年龄支撑主群集中与老粒/过量离散并存。 此信息作为目标的组成前提方向正确；目标核对：第6页[19]作者以年轻群相似解释结晶期；第9页另有96.40上限，节点保留差别。",
+      "relation_and_direction_checked": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q19:edge:edge.premise.assimilation.grains",
+      "item_type": "edge",
+      "edge_category": "scientific_dependency",
+      "source_id": "obs.assimilation.older_grains",
+      "relation": "premise_for",
+      "target_id": "reason.assimilation.xenocrysts",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.assimilation.older_grains",
+          "pdf_page": 6,
+          "excerpt": "In the three upper-level gabbros, the oldest outliers have dates of $9 9 . 1 5 \\pm 0 . 1 0 \\mathrm { M a }$ , $9 7 . 8 7 \\pm 0 . 2 9$ Ma and $9 8 . 5 4 \\pm 0 . 1 1$ Ma, respectively, and are $2 . 3 6 \\pm 0 . 4 6$ Ma to $3 . 4 2 \\pm 0 . 2 1$ Ma older than the youngest grains in each sample.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.assimilation.xenocrysts",
+          "pdf_page": 6,
+          "excerpt": "The ${ > } 1$ Ma older zircons in three upper-level gabbros and a gabbroic pegmatite (Groups IV) are interpreted as xenocrystic grains incorporated from an older source.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "obs.assimilation.older_grains → reason.assimilation.xenocrysts（premise_for）：第6页[17]明确三上部辉长岩最老与最年轻颗粒差2.36±0.46至3.42±0.21 Ma。 此信息作为目标的组成前提方向正确；目标核对：第6页[19]明确把显著老颗粒解释为捕获晶，因果方向正确。",
+      "relation_and_direction_checked": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q19:edge:edge.premise.assimilation.model",
+      "item_type": "edge",
+      "edge_category": "scientific_dependency",
+      "source_id": "obs.assimilation.model",
+      "relation": "premise_for",
+      "target_id": "reason.assimilation.model",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.figure.assimilation6",
+          "pdf_page": 9,
+          "excerpt": null,
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.figure6.label",
+          "pdf_page": 9,
+          "excerpt": "Figure 6.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.figure6.model",
+          "pdf_page": 9,
+          "excerpt": "(a) Propagation of a younger ridge into older oceanic crust at a mid-ocean ridge spreading center [e.g., Boudier et al., 1997].",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "obs.assimilation.model → reason.assimilation.model（premise_for）：第9页Figure 6a图注明确年轻脊向老洋壳传播；仅候选机制。 此信息作为目标的组成前提方向正确；目标核对：第9页Figure 6a图注支持候选接触老洋壳机制，不将模型图当实测。",
+      "relation_and_direction_checked": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q19:edge:edge.premise.assimilation.model_synthesis",
+      "item_type": "edge",
+      "edge_category": "scientific_dependency",
+      "source_id": "reason.assimilation.model",
+      "relation": "premise_for",
+      "target_id": "reason.assimilation.synthesis",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.figure.assimilation6",
+          "pdf_page": 9,
+          "excerpt": null,
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.figure6.label",
+          "pdf_page": 9,
+          "excerpt": "Figure 6.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.figure6.model",
+          "pdf_page": 9,
+          "excerpt": "(a) Propagation of a younger ridge into older oceanic crust at a mid-ocean ridge spreading center [e.g., Boudier et al., 1997].",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.assimilation.older_grains",
+          "pdf_page": 6,
+          "excerpt": "In the three upper-level gabbros, the oldest outliers have dates of $9 9 . 1 5 \\pm 0 . 1 0 \\mathrm { M a }$ , $9 7 . 8 7 \\pm 0 . 2 9$ Ma and $9 8 . 5 4 \\pm 0 . 1 1$ Ma, respectively, and are $2 . 3 6 \\pm 0 . 4 6$ Ma to $3 . 4 2 \\pm 0 . 2 1$ Ma older than the youngest grains in each sample.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.assimilation.preferred",
+          "pdf_page": 9,
+          "excerpt": "[29] We therefore prefer the interpretation that the xenocrystic zircons in the upper-level gabbros are related to assimilation of older rocks during ridge propagation.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.assimilation.xenocrysts",
+          "pdf_page": 6,
+          "excerpt": "The ${ > } 1$ Ma older zircons in three upper-level gabbros and a gabbroic pegmatite (Groups IV) are interpreted as xenocrystic grains incorporated from an older source.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.nd.interpretation",
+          "pdf_page": 1,
+          "excerpt": "The $\\varepsilon _ { \\mathrm { N d } }$ values are similar to those from other gabbros within the ophiolite, suggesting that any assimilated material had a similar isotopic composition to primitive basaltic magmas.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.nd.values",
+          "pdf_page": 6,
+          "excerpt": "[18] $\\mathrm { S m - N d }$ isotopic analyses from seven upper-level gabbros and a trondhjemite have tightly clustered initial values ranging from $\\varepsilon _ { \\mathrm { N d } } ( 9 6 ~ \\mathrm { M a } ) = 7 . 5 9 \\pm 0 . 2 3$ to $8 . 2 8 \\pm$ 0.31 $2 \\sigma$ ;",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "reason.assimilation.model → reason.assimilation.synthesis（premise_for）：第9页Figure 6a图注支持候选接触老洋壳机制，不将模型图当实测。 此信息作为目标的组成前提方向正确；目标核对：第6—9页继承颗粒、Nd与地质模型共同形成作者偏好；还需保留第9页高温锆石溶解对替代模型的约束。",
+      "relation_and_direction_checked": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q19:edge:edge.premise.assimilation.nd_synthesis",
+      "item_type": "edge",
+      "edge_category": "scientific_dependency",
+      "source_id": "reason.assimilation.isotopes",
+      "relation": "premise_for",
+      "target_id": "reason.assimilation.synthesis",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.nd.interpretation",
+          "pdf_page": 1,
+          "excerpt": "The $\\varepsilon _ { \\mathrm { N d } }$ values are similar to those from other gabbros within the ophiolite, suggesting that any assimilated material had a similar isotopic composition to primitive basaltic magmas.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.nd.reference",
+          "pdf_page": 6,
+          "excerpt": "Figure 4 and Table S2).",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.nd.values",
+          "pdf_page": 6,
+          "excerpt": "[18] $\\mathrm { S m - N d }$ isotopic analyses from seven upper-level gabbros and a trondhjemite have tightly clustered initial values ranging from $\\varepsilon _ { \\mathrm { N d } } ( 9 6 ~ \\mathrm { M a } ) = 7 . 5 9 \\pm 0 . 2 3$ to $8 . 2 8 \\pm$ 0.31 $2 \\sigma$ ;",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:2fd92d6f173606bb17011b0ba5170e14144cceaf74f3334b91f1c8862e80aeb2",
+          "pdf_page": 7,
+          "excerpt": "Figure 4. $\\varepsilon _ { \\mathrm { N d } } ( 9 6 ~ \\mathrm { M a } )$ versus UTM easting of upper-level gabbros and a trondhjemite. ",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.figure.assimilation6",
+          "pdf_page": 9,
+          "excerpt": null,
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.assimilation.older_grains",
+          "pdf_page": 6,
+          "excerpt": "In the three upper-level gabbros, the oldest outliers have dates of $9 9 . 1 5 \\pm 0 . 1 0 \\mathrm { M a }$ , $9 7 . 8 7 \\pm 0 . 2 9$ Ma and $9 8 . 5 4 \\pm 0 . 1 1$ Ma, respectively, and are $2 . 3 6 \\pm 0 . 4 6$ Ma to $3 . 4 2 \\pm 0 . 2 1$ Ma older than the youngest grains in each sample.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.assimilation.preferred",
+          "pdf_page": 9,
+          "excerpt": "[29] We therefore prefer the interpretation that the xenocrystic zircons in the upper-level gabbros are related to assimilation of older rocks during ridge propagation.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.assimilation.xenocrysts",
+          "pdf_page": 6,
+          "excerpt": "The ${ > } 1$ Ma older zircons in three upper-level gabbros and a gabbroic pegmatite (Groups IV) are interpreted as xenocrystic grains incorporated from an older source.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.figure6.label",
+          "pdf_page": 9,
+          "excerpt": "Figure 6.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.figure6.model",
+          "pdf_page": 9,
+          "excerpt": "(a) Propagation of a younger ridge into older oceanic crust at a mid-ocean ridge spreading center [e.g., Boudier et al., 1997].",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "reason.assimilation.isotopes → reason.assimilation.synthesis（premise_for）：第6—7页明确该Nd解释；是与原始玄武质源相容而非唯一识别源。 此信息作为目标的组成前提方向正确；目标核对：第6—9页继承颗粒、Nd与地质模型共同形成作者偏好；还需保留第9页高温锆石溶解对替代模型的约束。",
+      "relation_and_direction_checked": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q19:edge:edge.premise.assimilation.preferred",
+      "item_type": "edge",
+      "edge_category": "scientific_dependency",
+      "source_id": "obs.assimilation.preferred",
+      "relation": "premise_for",
+      "target_id": "reason.assimilation.synthesis",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.assimilation.preferred",
+          "pdf_page": 9,
+          "excerpt": "[29] We therefore prefer the interpretation that the xenocrystic zircons in the upper-level gabbros are related to assimilation of older rocks during ridge propagation.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.figure.assimilation6",
+          "pdf_page": 9,
+          "excerpt": null,
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.assimilation.older_grains",
+          "pdf_page": 6,
+          "excerpt": "In the three upper-level gabbros, the oldest outliers have dates of $9 9 . 1 5 \\pm 0 . 1 0 \\mathrm { M a }$ , $9 7 . 8 7 \\pm 0 . 2 9$ Ma and $9 8 . 5 4 \\pm 0 . 1 1$ Ma, respectively, and are $2 . 3 6 \\pm 0 . 4 6$ Ma to $3 . 4 2 \\pm 0 . 2 1$ Ma older than the youngest grains in each sample.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.assimilation.xenocrysts",
+          "pdf_page": 6,
+          "excerpt": "The ${ > } 1$ Ma older zircons in three upper-level gabbros and a gabbroic pegmatite (Groups IV) are interpreted as xenocrystic grains incorporated from an older source.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.figure6.label",
+          "pdf_page": 9,
+          "excerpt": "Figure 6.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.figure6.model",
+          "pdf_page": 9,
+          "excerpt": "(a) Propagation of a younger ridge into older oceanic crust at a mid-ocean ridge spreading center [e.g., Boudier et al., 1997].",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.nd.interpretation",
+          "pdf_page": 1,
+          "excerpt": "The $\\varepsilon _ { \\mathrm { N d } }$ values are similar to those from other gabbros within the ophiolite, suggesting that any assimilated material had a similar isotopic composition to primitive basaltic magmas.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.nd.values",
+          "pdf_page": 6,
+          "excerpt": "[18] $\\mathrm { S m - N d }$ isotopic analyses from seven upper-level gabbros and a trondhjemite have tightly clustered initial values ranging from $\\varepsilon _ { \\mathrm { N d } } ( 9 6 ~ \\mathrm { M a } ) = 7 . 5 9 \\pm 0 . 2 3$ to $8 . 2 8 \\pm$ 0.31 $2 \\sigma$ ;",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "obs.assimilation.preferred → reason.assimilation.synthesis（premise_for）：第9页[29]明确prefer，节点忠实保留作者偏好。 此信息作为目标的组成前提方向正确；目标核对：第6—9页继承颗粒、Nd与地质模型共同形成作者偏好；还需保留第9页高温锆石溶解对替代模型的约束。",
+      "relation_and_direction_checked": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q19:edge:edge.premise.assimilation.xeno_synthesis",
+      "item_type": "edge",
+      "edge_category": "scientific_dependency",
+      "source_id": "reason.assimilation.xenocrysts",
+      "relation": "premise_for",
+      "target_id": "reason.assimilation.synthesis",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.assimilation.older_grains",
+          "pdf_page": 6,
+          "excerpt": "In the three upper-level gabbros, the oldest outliers have dates of $9 9 . 1 5 \\pm 0 . 1 0 \\mathrm { M a }$ , $9 7 . 8 7 \\pm 0 . 2 9$ Ma and $9 8 . 5 4 \\pm 0 . 1 1$ Ma, respectively, and are $2 . 3 6 \\pm 0 . 4 6$ Ma to $3 . 4 2 \\pm 0 . 2 1$ Ma older than the youngest grains in each sample.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.assimilation.xenocrysts",
+          "pdf_page": 6,
+          "excerpt": "The ${ > } 1$ Ma older zircons in three upper-level gabbros and a gabbroic pegmatite (Groups IV) are interpreted as xenocrystic grains incorporated from an older source.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.figure.assimilation6",
+          "pdf_page": 9,
+          "excerpt": null,
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.assimilation.preferred",
+          "pdf_page": 9,
+          "excerpt": "[29] We therefore prefer the interpretation that the xenocrystic zircons in the upper-level gabbros are related to assimilation of older rocks during ridge propagation.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.figure6.label",
+          "pdf_page": 9,
+          "excerpt": "Figure 6.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.figure6.model",
+          "pdf_page": 9,
+          "excerpt": "(a) Propagation of a younger ridge into older oceanic crust at a mid-ocean ridge spreading center [e.g., Boudier et al., 1997].",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.nd.interpretation",
+          "pdf_page": 1,
+          "excerpt": "The $\\varepsilon _ { \\mathrm { N d } }$ values are similar to those from other gabbros within the ophiolite, suggesting that any assimilated material had a similar isotopic composition to primitive basaltic magmas.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.nd.values",
+          "pdf_page": 6,
+          "excerpt": "[18] $\\mathrm { S m - N d }$ isotopic analyses from seven upper-level gabbros and a trondhjemite have tightly clustered initial values ranging from $\\varepsilon _ { \\mathrm { N d } } ( 9 6 ~ \\mathrm { M a } ) = 7 . 5 9 \\pm 0 . 2 3$ to $8 . 2 8 \\pm$ 0.31 $2 \\sigma$ ;",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "reason.assimilation.xenocrysts → reason.assimilation.synthesis（premise_for）：第6页[19]明确把显著老颗粒解释为捕获晶，因果方向正确。 此信息作为目标的组成前提方向正确；目标核对：第6—9页继承颗粒、Nd与地质模型共同形成作者偏好；还需保留第9页高温锆石溶解对替代模型的约束。",
+      "relation_and_direction_checked": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q19:edge:edge.premise.assimilation.xenocrysts",
+      "item_type": "edge",
+      "edge_category": "scientific_dependency",
+      "source_id": "obs.assimilation.xenocrysts",
+      "relation": "premise_for",
+      "target_id": "reason.assimilation.xenocrysts",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.assimilation.xenocrysts",
+          "pdf_page": 6,
+          "excerpt": "The ${ > } 1$ Ma older zircons in three upper-level gabbros and a gabbroic pegmatite (Groups IV) are interpreted as xenocrystic grains incorporated from an older source.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.assimilation.older_grains",
+          "pdf_page": 6,
+          "excerpt": "In the three upper-level gabbros, the oldest outliers have dates of $9 9 . 1 5 \\pm 0 . 1 0 \\mathrm { M a }$ , $9 7 . 8 7 \\pm 0 . 2 9$ Ma and $9 8 . 5 4 \\pm 0 . 1 1$ Ma, respectively, and are $2 . 3 6 \\pm 0 . 4 6$ Ma to $3 . 4 2 \\pm 0 . 2 1$ Ma older than the youngest grains in each sample.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "obs.assimilation.xenocrysts → reason.assimilation.xenocrysts（premise_for）：第6页[19]将>1 Ma颗粒解释为老来源捕获晶，节点聚焦三个上部辉长岩。 此信息作为目标的组成前提方向正确；目标核对：第6页[19]明确把显著老颗粒解释为捕获晶，因果方向正确。",
+      "relation_and_direction_checked": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q19:edge:edge.premise.nd.interpretation",
+      "item_type": "edge",
+      "edge_category": "scientific_dependency",
+      "source_id": "obs.nd.interpretation",
+      "relation": "premise_for",
+      "target_id": "reason.assimilation.isotopes",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.nd.interpretation",
+          "pdf_page": 1,
+          "excerpt": "The $\\varepsilon _ { \\mathrm { N d } }$ values are similar to those from other gabbros within the ophiolite, suggesting that any assimilated material had a similar isotopic composition to primitive basaltic magmas.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.nd.reference",
+          "pdf_page": 6,
+          "excerpt": "Figure 4 and Table S2).",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.nd.values",
+          "pdf_page": 6,
+          "excerpt": "[18] $\\mathrm { S m - N d }$ isotopic analyses from seven upper-level gabbros and a trondhjemite have tightly clustered initial values ranging from $\\varepsilon _ { \\mathrm { N d } } ( 9 6 ~ \\mathrm { M a } ) = 7 . 5 9 \\pm 0 . 2 3$ to $8 . 2 8 \\pm$ 0.31 $2 \\sigma$ ;",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:2fd92d6f173606bb17011b0ba5170e14144cceaf74f3334b91f1c8862e80aeb2",
+          "pdf_page": 7,
+          "excerpt": "Figure 4. $\\varepsilon _ { \\mathrm { N d } } ( 9 6 ~ \\mathrm { M a } )$ versus UTM easting of upper-level gabbros and a trondhjemite. ",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "obs.nd.interpretation → reason.assimilation.isotopes（premise_for）：第6—7页[19]与摘要明确Nd相似支持同化源类似原始玄武质岩浆。 此信息作为目标的组成前提方向正确；目标核对：第6—7页明确该Nd解释；是与原始玄武质源相容而非唯一识别源。",
+      "relation_and_direction_checked": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q19:edge:edge.premise.nd.values",
+      "item_type": "edge",
+      "edge_category": "scientific_dependency",
+      "source_id": "obs.nd.values",
+      "relation": "premise_for",
+      "target_id": "reason.assimilation.isotopes",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.nd.reference",
+          "pdf_page": 6,
+          "excerpt": "Figure 4 and Table S2).",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.nd.values",
+          "pdf_page": 6,
+          "excerpt": "[18] $\\mathrm { S m - N d }$ isotopic analyses from seven upper-level gabbros and a trondhjemite have tightly clustered initial values ranging from $\\varepsilon _ { \\mathrm { N d } } ( 9 6 ~ \\mathrm { M a } ) = 7 . 5 9 \\pm 0 . 2 3$ to $8 . 2 8 \\pm$ 0.31 $2 \\sigma$ ;",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:2fd92d6f173606bb17011b0ba5170e14144cceaf74f3334b91f1c8862e80aeb2",
+          "pdf_page": 7,
+          "excerpt": "Figure 4. $\\varepsilon _ { \\mathrm { N d } } ( 9 6 ~ \\mathrm { M a } )$ versus UTM easting of upper-level gabbros and a trondhjemite. ",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.nd.interpretation",
+          "pdf_page": 1,
+          "excerpt": "The $\\varepsilon _ { \\mathrm { N d } }$ values are similar to those from other gabbros within the ophiolite, suggesting that any assimilated material had a similar isotopic composition to primitive basaltic magmas.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "obs.nd.values → reason.assimilation.isotopes（premise_for）：第6页[18]明确七个上部辉长岩加一个trondhjemite，范围7.59±0.23至8.28±0.31，2σ；摘要七样品的简写不能覆盖正文。 此信息作为目标的组成前提方向正确；目标核对：第6—7页明确该Nd解释；是与原始玄武质源相容而非唯一识别源。",
+      "relation_and_direction_checked": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q19:edge:edge.premise.rate.estimate",
+      "item_type": "edge",
+      "edge_category": "scientific_dependency",
+      "source_id": "obs.rate.estimate",
+      "relation": "premise_for",
+      "target_id": "reason.rate",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.figure.rate5",
+          "pdf_page": 8,
+          "excerpt": "Figure 5. Comparison of different half-spreading rates to the $\\mathrm { U } \\mathrm { - } \\mathrm { P b }$ zircon dates from upper-level gabbros, tonalite and trondhjemite. Pegmatitic samples from lower in the crust are not plotted. (a) Model half-spreading rates assuming that the ridge axis was located to the west of the dated samples. (b) Model half-spreading rates assuming the paleo-ridge axis is preserved near the center of the study area. Older grains from samples 8112M04, 8112M06 and 8112M07A plot off the scale of the $y$ axis (denoted by arrows). Sample 8128M04 and 9111M05 are shifted $1 ~ \\mathrm { k m }$ to the east for clarity. The data are most consistent with spreading rates of $5 0 { \\mathrm { - } } 1 0 0 \\ \\mathrm { k m / M a }$ in each model. ",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.rate.estimate",
+          "pdf_page": 8,
+          "excerpt": "However, in each geometry the data are most consistent with fast to super-fast half-spreading rates of $5 0 { \\mathrm { - } } 1 0 0 \\ \\mathrm { k m / M a }$ (Figure 5).",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.rate.geometries",
+          "pdf_page": 7,
+          "excerpt": "The location of the paleo-ridge axis, with respect to the dated samples, is not definitively known and we present two possible geometries (Figure 5).",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.rate.level",
+          "pdf_page": 7,
+          "excerpt": "To determine the spreading rate, we used dates from the upper-level gabbros, tonalite and trondhjemite, which all come from the same structural level directly below the sheeted dike complex.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.rate.transect",
+          "pdf_page": 7,
+          "excerpt": "[23] The dated samples from this study are from a ${ \\sim } 3 0 \\mathrm { k m }$ transect perpendicular to the regional strike of the sheeted dikes within a single ophiolite block, providing an ideal opportunity to constrain the spreading rate during accretion.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "obs.rate.estimate → reason.rate（premise_for）：第8页[24]同时给不可能精确计算与两几何50—100 km/Ma半速率。 此信息作为目标的组成前提方向正确；目标核对：第7—8页同层位、两几何及年龄离散共同支撑半速率范围与不可精确计算。",
+      "relation_and_direction_checked": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q19:edge:edge.premise.rate.geometries",
+      "item_type": "edge",
+      "edge_category": "scientific_dependency",
+      "source_id": "obs.rate.geometries",
+      "relation": "premise_for",
+      "target_id": "reason.rate",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.figure.rate5",
+          "pdf_page": 8,
+          "excerpt": "Figure 5. Comparison of different half-spreading rates to the $\\mathrm { U } \\mathrm { - } \\mathrm { P b }$ zircon dates from upper-level gabbros, tonalite and trondhjemite. Pegmatitic samples from lower in the crust are not plotted. (a) Model half-spreading rates assuming that the ridge axis was located to the west of the dated samples. (b) Model half-spreading rates assuming the paleo-ridge axis is preserved near the center of the study area. Older grains from samples 8112M04, 8112M06 and 8112M07A plot off the scale of the $y$ axis (denoted by arrows). Sample 8128M04 and 9111M05 are shifted $1 ~ \\mathrm { k m }$ to the east for clarity. The data are most consistent with spreading rates of $5 0 { \\mathrm { - } } 1 0 0 \\ \\mathrm { k m / M a }$ in each model. ",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.rate.geometries",
+          "pdf_page": 7,
+          "excerpt": "The location of the paleo-ridge axis, with respect to the dated samples, is not definitively known and we present two possible geometries (Figure 5).",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.rate.estimate",
+          "pdf_page": 8,
+          "excerpt": "However, in each geometry the data are most consistent with fast to super-fast half-spreading rates of $5 0 { \\mathrm { - } } 1 0 0 \\ \\mathrm { k m / M a }$ (Figure 5).",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.rate.level",
+          "pdf_page": 7,
+          "excerpt": "To determine the spreading rate, we used dates from the upper-level gabbros, tonalite and trondhjemite, which all come from the same structural level directly below the sheeted dike complex.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.rate.transect",
+          "pdf_page": 7,
+          "excerpt": "[23] The dated samples from this study are from a ${ \\sim } 3 0 \\mathrm { k m }$ transect perpendicular to the regional strike of the sheeted dikes within a single ophiolite block, providing an ideal opportunity to constrain the spreading rate during accretion.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "obs.rate.geometries → reason.rate（premise_for）：第7页[23]明确脊轴未知，并考察西侧及区域中心两几何。 此信息作为目标的组成前提方向正确；目标核对：第7—8页同层位、两几何及年龄离散共同支撑半速率范围与不可精确计算。",
+      "relation_and_direction_checked": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q19:edge:edge.premise.rate.transect",
+      "item_type": "edge",
+      "edge_category": "scientific_dependency",
+      "source_id": "obs.rate.transect",
+      "relation": "premise_for",
+      "target_id": "reason.rate",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.rate.level",
+          "pdf_page": 7,
+          "excerpt": "To determine the spreading rate, we used dates from the upper-level gabbros, tonalite and trondhjemite, which all come from the same structural level directly below the sheeted dike complex.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.rate.transect",
+          "pdf_page": 7,
+          "excerpt": "[23] The dated samples from this study are from a ${ \\sim } 3 0 \\mathrm { k m }$ transect perpendicular to the regional strike of the sheeted dikes within a single ophiolite block, providing an ideal opportunity to constrain the spreading rate during accretion.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.figure.rate5",
+          "pdf_page": 8,
+          "excerpt": "Figure 5. Comparison of different half-spreading rates to the $\\mathrm { U } \\mathrm { - } \\mathrm { P b }$ zircon dates from upper-level gabbros, tonalite and trondhjemite. Pegmatitic samples from lower in the crust are not plotted. (a) Model half-spreading rates assuming that the ridge axis was located to the west of the dated samples. (b) Model half-spreading rates assuming the paleo-ridge axis is preserved near the center of the study area. Older grains from samples 8112M04, 8112M06 and 8112M07A plot off the scale of the $y$ axis (denoted by arrows). Sample 8128M04 and 9111M05 are shifted $1 ~ \\mathrm { k m }$ to the east for clarity. The data are most consistent with spreading rates of $5 0 { \\mathrm { - } } 1 0 0 \\ \\mathrm { k m / M a }$ in each model. ",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.rate.estimate",
+          "pdf_page": 8,
+          "excerpt": "However, in each geometry the data are most consistent with fast to super-fast half-spreading rates of $5 0 { \\mathrm { - } } 1 0 0 \\ \\mathrm { k m / M a }$ (Figure 5).",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.rate.geometries",
+          "pdf_page": 7,
+          "excerpt": "The location of the paleo-ridge axis, with respect to the dated samples, is not definitively known and we present two possible geometries (Figure 5).",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "obs.rate.transect → reason.rate（premise_for）：第7页[23]明确单块体约30 km、垂直岩墙走向及岩墙下同结构层位。 此信息作为目标的组成前提方向正确；目标核对：第7—8页同层位、两几何及年龄离散共同支撑半速率范围与不可精确计算。",
+      "relation_and_direction_checked": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q19:edge:edge.premise.series.abstract",
+      "item_type": "edge",
+      "edge_category": "scientific_dependency",
+      "source_id": "obs.series.abstract",
+      "relation": "premise_for",
+      "target_id": "reason.series.synthesis",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.series.abstract",
+          "pdf_page": 1,
+          "excerpt": "Dates from tonalites/trondhjemites and from a gabbroic pegmatite associated with a wehrlite intrusion overlap with dates from adjacent upper-level gabbros, suggesting that any age differences between these three magmatic series are smaller than the analytical uncertainties or intrasample variability in the dates.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "obs.series.abstract → reason.series.synthesis（premise_for）：第1页摘要直接给felsic和wehrlite-associated pegmatite相对邻近gabbro的年龄重叠。 此信息作为目标的组成前提方向正确；目标核对：第1、7、9页分别及共同支持两比较的无可分辨年龄差结论。",
+      "relation_and_direction_checked": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q19:edge:edge.premise.series.crosscut",
+      "item_type": "edge",
+      "edge_category": "scientific_dependency",
+      "source_id": "obs.series.pegmatite_crosscut",
+      "relation": "premise_for",
+      "target_id": "reason.series.wehrlite",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.series.pegmatite_crosscut",
+          "pdf_page": 7,
+          "excerpt": "Additional pegmatite intrusions from the same outcrop crosscut a wehrlite body, suggesting that the pegmatites are coeval with or younger than the wehrlite.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.series.pegmatite_ages",
+          "pdf_page": 7,
+          "excerpt": "The pegmatite data are within uncertainty of the dates from the two closest upper-level gabbro samples (8112M02, 8112M04), suggesting that the age difference between the wehrlite and upper-level gabbros is also smaller than the analytical uncertainties or intrasample variability in single grain dates.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "obs.series.pegmatite_crosscut → reason.series.wehrlite（premise_for）：第7页[21]说同露头其他伟晶岩切wehrlite，推出同龄或更年轻；节点没有误写成被测样品直接切穿。 此信息作为目标的组成前提方向正确；目标核对：第7页[21]使用同露头切穿关系及与邻近辉长岩年龄重叠进行该推论，节点保留间接关系。",
+      "relation_and_direction_checked": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q19:edge:edge.premise.series.felsic",
+      "item_type": "edge",
+      "edge_category": "scientific_dependency",
+      "source_id": "obs.series.felsic",
+      "relation": "premise_for",
+      "target_id": "reason.series.felsic",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.series.felsic",
+          "pdf_page": 7,
+          "excerpt": "Data from the two dated tonalite and trondhjemite plutons each define a single population that is within uncertainty of dates from adjacent gabbros.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.series.group1",
+          "pdf_page": 4,
+          "excerpt": "[14] Group I: Two tonalite and trondhjemite plutons (8128M02A, 8128M04) and a single upper-level gabbro (9111M01) have single grain $^ { 2 0 6 } \\mathrm { P b } / ^ { \\overline { { 2 } } 3 8 } \\mathrm { U }$ dates that overlap within analytical uncertainty.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "obs.series.felsic → reason.series.felsic（premise_for）：第7页[21]两长英质岩体各为单群且与邻近辉长岩误差内一致。 此信息作为目标的组成前提方向正确；目标核对：第4页[14]误差可能掩盖离散，第7页[21]仅在分析分辨率上判同时，节点适当。",
+      "relation_and_direction_checked": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q19:edge:edge.premise.series.felsic_synthesis",
+      "item_type": "edge",
+      "edge_category": "scientific_dependency",
+      "source_id": "reason.series.felsic",
+      "relation": "premise_for",
+      "target_id": "reason.series.synthesis",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.series.felsic",
+          "pdf_page": 7,
+          "excerpt": "Data from the two dated tonalite and trondhjemite plutons each define a single population that is within uncertainty of dates from adjacent gabbros.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.series.group1",
+          "pdf_page": 4,
+          "excerpt": "[14] Group I: Two tonalite and trondhjemite plutons (8128M02A, 8128M04) and a single upper-level gabbro (9111M01) have single grain $^ { 2 0 6 } \\mathrm { P b } / ^ { \\overline { { 2 } } 3 8 } \\mathrm { U }$ dates that overlap within analytical uncertainty.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.series.abstract",
+          "pdf_page": 1,
+          "excerpt": "Dates from tonalites/trondhjemites and from a gabbroic pegmatite associated with a wehrlite intrusion overlap with dates from adjacent upper-level gabbros, suggesting that any age differences between these three magmatic series are smaller than the analytical uncertainties or intrasample variability in the dates.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "reason.series.felsic → reason.series.synthesis（premise_for）：第4页[14]误差可能掩盖离散，第7页[21]仅在分析分辨率上判同时，节点适当。 此信息作为目标的组成前提方向正确；目标核对：第1、7、9页分别及共同支持两比较的无可分辨年龄差结论。",
+      "relation_and_direction_checked": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q19:edge:edge.premise.series.group1",
+      "item_type": "edge",
+      "edge_category": "scientific_dependency",
+      "source_id": "obs.series.group1",
+      "relation": "premise_for",
+      "target_id": "reason.series.felsic",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.series.group1",
+          "pdf_page": 4,
+          "excerpt": "[14] Group I: Two tonalite and trondhjemite plutons (8128M02A, 8128M04) and a single upper-level gabbro (9111M01) have single grain $^ { 2 0 6 } \\mathrm { P b } / ^ { \\overline { { 2 } } 3 8 } \\mathrm { U }$ dates that overlap within analytical uncertainty.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.series.felsic",
+          "pdf_page": 7,
+          "excerpt": "Data from the two dated tonalite and trondhjemite plutons each define a single population that is within uncertainty of dates from adjacent gabbros.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "obs.series.group1 → reason.series.felsic（premise_for）：第4页[14]明确三类所列样品年龄重叠。 此信息作为目标的组成前提方向正确；目标核对：第4页[14]误差可能掩盖离散，第7页[21]仅在分析分辨率上判同时，节点适当。",
+      "relation_and_direction_checked": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q19:edge:edge.premise.series.pegmatite",
+      "item_type": "edge",
+      "edge_category": "scientific_dependency",
+      "source_id": "obs.series.pegmatite_ages",
+      "relation": "premise_for",
+      "target_id": "reason.series.wehrlite",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.series.pegmatite_ages",
+          "pdf_page": 7,
+          "excerpt": "The pegmatite data are within uncertainty of the dates from the two closest upper-level gabbro samples (8112M02, 8112M04), suggesting that the age difference between the wehrlite and upper-level gabbros is also smaller than the analytical uncertainties or intrasample variability in single grain dates.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.series.pegmatite_crosscut",
+          "pdf_page": 7,
+          "excerpt": "Additional pegmatite intrusions from the same outcrop crosscut a wehrlite body, suggesting that the pegmatites are coeval with or younger than the wehrlite.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "obs.series.pegmatite_ages → reason.series.wehrlite（premise_for）：第7页[21]明确相邻两个上部辉长岩8112M02/04与伟晶岩的年龄误差内一致。 此信息作为目标的组成前提方向正确；目标核对：第7页[21]使用同露头切穿关系及与邻近辉长岩年龄重叠进行该推论，节点保留间接关系。",
+      "relation_and_direction_checked": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q19:edge:edge.premise.series.wehrlite_synthesis",
+      "item_type": "edge",
+      "edge_category": "scientific_dependency",
+      "source_id": "reason.series.wehrlite",
+      "relation": "premise_for",
+      "target_id": "reason.series.synthesis",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.series.pegmatite_ages",
+          "pdf_page": 7,
+          "excerpt": "The pegmatite data are within uncertainty of the dates from the two closest upper-level gabbro samples (8112M02, 8112M04), suggesting that the age difference between the wehrlite and upper-level gabbros is also smaller than the analytical uncertainties or intrasample variability in single grain dates.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.series.pegmatite_crosscut",
+          "pdf_page": 7,
+          "excerpt": "Additional pegmatite intrusions from the same outcrop crosscut a wehrlite body, suggesting that the pegmatites are coeval with or younger than the wehrlite.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.series.abstract",
+          "pdf_page": 1,
+          "excerpt": "Dates from tonalites/trondhjemites and from a gabbroic pegmatite associated with a wehrlite intrusion overlap with dates from adjacent upper-level gabbros, suggesting that any age differences between these three magmatic series are smaller than the analytical uncertainties or intrasample variability in the dates.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "reason.series.wehrlite → reason.series.synthesis（premise_for）：第7页[21]使用同露头切穿关系及与邻近辉长岩年龄重叠进行该推论，节点保留间接关系。 此信息作为目标的组成前提方向正确；目标核对：第1、7、9页分别及共同支持两比较的无可分辨年龄差结论。",
+      "relation_and_direction_checked": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q19:edge:edge.support.age",
+      "item_type": "edge",
+      "edge_category": "scientific_dependency",
+      "source_id": "reason.age.window",
+      "relation": "infers",
+      "target_id": "claim:sha256:43b3aa18e335cb6e13dd181fdfaa11166f79c5d135472d0d6a97ab9cbc9aa6b7",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.age.conclusion1",
+          "pdf_page": 9,
+          "excerpt": "Single grain $^ { 2 0 6 } \\mathrm { P b } / ^ { 2 3 8 } \\mathrm { U }$ dates range from $1 1 2 . 5 5 \\pm 0 . 2 1$ to $9 5 . 5 0 \\pm 0 . 1 7 \\mathrm { M a }$ ( $2 \\sigma$ analytical;",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.conclusion2",
+          "pdf_page": 9,
+          "excerpt": "Th corrected), with most dates between $9 6 . 4 0 \\pm 0 . 1 7$ to $9 5 . 5 0 \\pm 0 . 1 7 ~ \\mathrm { M a }$ .",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.interpret",
+          "pdf_page": 6,
+          "excerpt": "[19] The cluster of younger dates in each sample, and the similar age of the youngest grains, suggest that these dates reflect crystallization of the gabbros, tonalite, trondhjemite and pegmatites between ${ \\sim } 9 6 . 2 {  { - } } 9 5 . 5 \\ \\mathrm { M a }$ (Figures 2 and 3).",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.group1",
+          "pdf_page": 4,
+          "excerpt": "[14] Group I: Two tonalite and trondhjemite plutons (8128M02A, 8128M04) and a single upper-level gabbro (9111M01) have single grain $^ { 2 0 6 } \\mathrm { P b } / ^ { \\overline { { 2 } } 3 8 } \\mathrm { U }$ dates that overlap within analytical uncertainty.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.group2",
+          "pdf_page": 4,
+          "excerpt": "[15] Group II: Three upper-level gabbros (8112M01, 8112M08, 9111M05) have clusters of data with no clear outliers, but two-sided p-values for the chi-square goodness of fit of $< 0 . 0 5$ (i.e., $\\mathrm { M S W D } \\gg 1$ ), suggesting that the data do not reflect repeat measurements of a single population and that zircon crystallized over an extended interval.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.group3",
+          "pdf_page": 4,
+          "excerpt": "[16] Group III: One upper-level gabbro (8112M02) and two gabbroic pegmatites that intrude the layered gabbros (9114M01A, 9123M02) have clusters of younger dates and one resolvable outlier that is ${ \\sim } 0 . 1 { - } 0 . 3 \\ \\mathrm { \\dot { M } a }$ older.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.group4a",
+          "pdf_page": 6,
+          "excerpt": "[17] Group IV: Three upper-level gabbros (8112M04, $8 1 1 2 \\mathrm { ~ M } 0 6 $ , 8112M07A) and one gabbroic pegmatite that intrudes the layered gabbros (8111M02;",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.age.group4b",
+          "pdf_page": 6,
+          "excerpt": "same pegmatite as 9114M01A) have clusters of younger dates and one or more ${ > } 1$ Ma older outlier.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "reason.age.window → claim:sha256:43b3aa18e335cb6e13dd181fdfaa11166f79c5d135472d0d6a97ab9cbc9aa6b7（infers）：第6页[19]作者以年轻群相似解释结晶期；第9页另有96.40上限，节点保留差别。 此信息作为目标的推理结论方向正确；目标核对：第6页讨论96.2—95.5与第9页结论96.40±0.17—95.50±0.17均被准确区分；没有把老继承颗粒并入主期。",
+      "relation_and_direction_checked": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q19:edge:edge.support.assimilation",
+      "item_type": "edge",
+      "edge_category": "scientific_dependency",
+      "source_id": "reason.assimilation.synthesis",
+      "relation": "infers",
+      "target_id": "claim:sha256:038157ae420ae4752c5c31f08c7e35b70ed53a85493e981e3d31f4f7549f3e6d",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.figure.assimilation6",
+          "pdf_page": 9,
+          "excerpt": null,
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.assimilation.older_grains",
+          "pdf_page": 6,
+          "excerpt": "In the three upper-level gabbros, the oldest outliers have dates of $9 9 . 1 5 \\pm 0 . 1 0 \\mathrm { M a }$ , $9 7 . 8 7 \\pm 0 . 2 9$ Ma and $9 8 . 5 4 \\pm 0 . 1 1$ Ma, respectively, and are $2 . 3 6 \\pm 0 . 4 6$ Ma to $3 . 4 2 \\pm 0 . 2 1$ Ma older than the youngest grains in each sample.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.assimilation.preferred",
+          "pdf_page": 9,
+          "excerpt": "[29] We therefore prefer the interpretation that the xenocrystic zircons in the upper-level gabbros are related to assimilation of older rocks during ridge propagation.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.assimilation.xenocrysts",
+          "pdf_page": 6,
+          "excerpt": "The ${ > } 1$ Ma older zircons in three upper-level gabbros and a gabbroic pegmatite (Groups IV) are interpreted as xenocrystic grains incorporated from an older source.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.figure6.label",
+          "pdf_page": 9,
+          "excerpt": "Figure 6.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.figure6.model",
+          "pdf_page": 9,
+          "excerpt": "(a) Propagation of a younger ridge into older oceanic crust at a mid-ocean ridge spreading center [e.g., Boudier et al., 1997].",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.nd.interpretation",
+          "pdf_page": 1,
+          "excerpt": "The $\\varepsilon _ { \\mathrm { N d } }$ values are similar to those from other gabbros within the ophiolite, suggesting that any assimilated material had a similar isotopic composition to primitive basaltic magmas.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.nd.values",
+          "pdf_page": 6,
+          "excerpt": "[18] $\\mathrm { S m - N d }$ isotopic analyses from seven upper-level gabbros and a trondhjemite have tightly clustered initial values ranging from $\\varepsilon _ { \\mathrm { N d } } ( 9 6 ~ \\mathrm { M a } ) = 7 . 5 9 \\pm 0 . 2 3$ to $8 . 2 8 \\pm$ 0.31 $2 \\sigma$ ;",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.nd.reference",
+          "pdf_page": 6,
+          "excerpt": "Figure 4 and Table S2).",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:2fd92d6f173606bb17011b0ba5170e14144cceaf74f3334b91f1c8862e80aeb2",
+          "pdf_page": 7,
+          "excerpt": "Figure 4. $\\varepsilon _ { \\mathrm { N d } } ( 9 6 ~ \\mathrm { M a } )$ versus UTM easting of upper-level gabbros and a trondhjemite. ",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "reason.assimilation.synthesis → claim:sha256:038157ae420ae4752c5c31f08c7e35b70ed53a85493e981e3d31f4f7549f3e6d（infers）：第6—9页继承颗粒、Nd与地质模型共同形成作者偏好；还需保留第9页高温锆石溶解对替代模型的约束。 此信息作为目标的推理结论方向正确；目标核对：第9页[29]和第10页结论明确偏好年轻洋脊侵入老洋壳；节点保留非唯一解释及upper-level范围。",
+      "relation_and_direction_checked": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q19:edge:edge.support.rate",
+      "item_type": "edge",
+      "edge_category": "scientific_dependency",
+      "source_id": "reason.rate",
+      "relation": "infers",
+      "target_id": "claim:sha256:e6a592b135e931e3cb0547797cb180227d97d23bd386991620b80e4106b0c029",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.figure.rate5",
+          "pdf_page": 8,
+          "excerpt": "Figure 5. Comparison of different half-spreading rates to the $\\mathrm { U } \\mathrm { - } \\mathrm { P b }$ zircon dates from upper-level gabbros, tonalite and trondhjemite. Pegmatitic samples from lower in the crust are not plotted. (a) Model half-spreading rates assuming that the ridge axis was located to the west of the dated samples. (b) Model half-spreading rates assuming the paleo-ridge axis is preserved near the center of the study area. Older grains from samples 8112M04, 8112M06 and 8112M07A plot off the scale of the $y$ axis (denoted by arrows). Sample 8128M04 and 9111M05 are shifted $1 ~ \\mathrm { k m }$ to the east for clarity. The data are most consistent with spreading rates of $5 0 { \\mathrm { - } } 1 0 0 \\ \\mathrm { k m / M a }$ in each model. ",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.rate.estimate",
+          "pdf_page": 8,
+          "excerpt": "However, in each geometry the data are most consistent with fast to super-fast half-spreading rates of $5 0 { \\mathrm { - } } 1 0 0 \\ \\mathrm { k m / M a }$ (Figure 5).",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.rate.geometries",
+          "pdf_page": 7,
+          "excerpt": "The location of the paleo-ridge axis, with respect to the dated samples, is not definitively known and we present two possible geometries (Figure 5).",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.rate.level",
+          "pdf_page": 7,
+          "excerpt": "To determine the spreading rate, we used dates from the upper-level gabbros, tonalite and trondhjemite, which all come from the same structural level directly below the sheeted dike complex.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.rate.transect",
+          "pdf_page": 7,
+          "excerpt": "[23] The dated samples from this study are from a ${ \\sim } 3 0 \\mathrm { k m }$ transect perpendicular to the regional strike of the sheeted dikes within a single ophiolite block, providing an ideal opportunity to constrain the spreading rate during accretion.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "reason.rate → claim:sha256:e6a592b135e931e3cb0547797cb180227d97d23bd386991620b80e4106b0c029（infers）：第7—8页同层位、两几何及年龄离散共同支撑半速率范围与不可精确计算。 此信息作为目标的推理结论方向正确；目标核对：第7—8页同层位剖面和两几何比较给50—100半速率；节点正确限定非精确速率。",
+      "relation_and_direction_checked": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q19:edge:edge.support.series",
+      "item_type": "edge",
+      "edge_category": "scientific_dependency",
+      "source_id": "reason.series.synthesis",
+      "relation": "infers",
+      "target_id": "claim:sha256:53dc9fdae73b0b05ce5a3767f6e75ad4cb7cdd5a926f0151fac9fbd3298591ec",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "anchor_id": "a.text.series.abstract",
+          "pdf_page": 1,
+          "excerpt": "Dates from tonalites/trondhjemites and from a gabbroic pegmatite associated with a wehrlite intrusion overlap with dates from adjacent upper-level gabbros, suggesting that any age differences between these three magmatic series are smaller than the analytical uncertainties or intrasample variability in the dates.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.series.felsic",
+          "pdf_page": 7,
+          "excerpt": "Data from the two dated tonalite and trondhjemite plutons each define a single population that is within uncertainty of dates from adjacent gabbros.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.series.group1",
+          "pdf_page": 4,
+          "excerpt": "[14] Group I: Two tonalite and trondhjemite plutons (8128M02A, 8128M04) and a single upper-level gabbro (9111M01) have single grain $^ { 2 0 6 } \\mathrm { P b } / ^ { \\overline { { 2 } } 3 8 } \\mathrm { U }$ dates that overlap within analytical uncertainty.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.series.pegmatite_ages",
+          "pdf_page": 7,
+          "excerpt": "The pegmatite data are within uncertainty of the dates from the two closest upper-level gabbro samples (8112M02, 8112M04), suggesting that the age difference between the wehrlite and upper-level gabbros is also smaller than the analytical uncertainties or intrasample variability in single grain dates.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        },
+        {
+          "anchor_id": "a.text.series.pegmatite_crosscut",
+          "pdf_page": 7,
+          "excerpt": "Additional pegmatite intrusions from the same outcrop crosscut a wehrlite body, suggesting that the pegmatites are coeval with or younger than the wehrlite.",
+          "basis": "full PDF page text and surrounding argument; anchor quote is a locator, not an automatic support decision"
+        }
+      ],
+      "rationale": "reason.series.synthesis → claim:sha256:53dc9fdae73b0b05ce5a3767f6e75ad4cb7cdd5a926f0151fac9fbd3298591ec（infers）：第1、7、9页分别及共同支持两比较的无可分辨年龄差结论。 此信息作为目标的推理结论方向正确；目标核对：第7页[21]与第9页结论支持所采样岩系在精度内无可分辨年龄差，保留crosscutting条件。",
+      "relation_and_direction_checked": true,
+      "audit_category": "scientific_dependency"
+    }
+  ],
+  "omitted_conditions": [
+    {
+      "condition": "年代为Th校正2σ分析误差；跨示踪剂/同位素体系比较须加示踪剂和衰变常数误差。",
+      "pdf_pages": [
+        4
+      ],
+      "impact": "误差内同时性不能无限扩展到其他计时体系。"
+    },
+    {
+      "condition": "主年龄群96.40—95.50与解释96.2—95.5不同；完整单粒范围112.55—95.50 Ma。",
+      "pdf_pages": [
+        4,
+        6,
+        9
+      ],
+      "impact": "不可用主结晶期排除老继承颗粒。"
+    },
+    {
+      "condition": "年龄离散还可能来自持续结晶、较老壁岩同化或隐伏核-边混合；后者可使最年轻年龄仍偏老，作者认为较不可能。",
+      "pdf_pages": [
+        6
+      ],
+      "impact": "主结晶窗口及机制属解释，不能唯一由年龄群推出。"
+    },
+    {
+      "condition": "上部辉长岩与底部伟晶岩老锆石来源不同，底部>102 Ma颗粒可能与蛇绿岩就位有关。",
+      "pdf_pages": [
+        9
+      ],
+      "impact": "ridge propagation解释不能推广到全部老锆石。"
+    },
+    {
+      "condition": "替代的俯冲/逆冲输送模型受~1240±20°C玄武质岩浆中锆石快速溶解（远短于0.1 Ma）、原始Nd及共同母岩浆限制；Fig6a/b传播均可发生。",
+      "pdf_pages": [
+        8,
+        9
+      ],
+      "impact": "目前图谱略去偏好机制的重要排他论据，Nd本身不能唯一判定洋中脊/俯冲环境。"
+    },
+    {
+      "condition": "相对年龄来自有限样品；切wehrlite的是同露头其他伟晶岩，felsic较大误差可能掩盖样内离散。",
+      "pdf_pages": [
+        4,
+        7
+      ],
+      "impact": "无可分辨年龄差不等于各岩系严格同步。"
+    },
+    {
+      "condition": "半速率推断排除下部伟晶岩，并测试西侧/中心脊轴几何；中心模型取最年轻粒为最终结晶年龄。",
+      "pdf_pages": [
+        7,
+        8
+      ],
+      "impact": "50—100 km/Ma是有条件范围而非全部蛇绿岩精确扩张率。"
+    }
+  ],
+  "counting_rule": "Scientific nodes are claims, observations, assumptions, reasoning. A scientific dependency connects two such nodes. Data nodes and source/data links are separately reported."
+}

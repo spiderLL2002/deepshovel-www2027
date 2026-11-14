@@ -1,0 +1,3843 @@
+{
+  "schema_version": "ai-source-audit-v1",
+  "source": "q17",
+  "paper_id": "paper:e214d61c26e1bab5ece65128924ed0e2cd7899d153fcc0a26260627ae0b7e444",
+  "snapshot_id": "snapshot:sha256:22d752b96d4c552dcf417052f224ee56a377e55ae81e8bb39974cd9a56812e2e",
+  "pdf_sha256": "e214d61c26e1bab5ece65128924ed0e2cd7899d153fcc0a26260627ae0b7e444",
+  "reviewer": {
+    "reviewed_at": "2026-11-04T09:40:49.264215+00:00",
+    "requested_model": "gpt-6-astra"
+  },
+  "counts": {
+    "scientific_node": {
+      "fully_supported": 24
+    },
+    "data_node": {
+      "fully_supported": 1
+    },
+    "scientific_dependency": {
+      "fully_supported": 31
+    },
+    "source_or_data_link": {
+      "fully_supported": 29,
+      "partially_supported": 5
+    }
+  },
+  "items": [
+    {
+      "item_id": "q17:node:claim:sha256:2d45c03a143b3469f659f7fe040ec1e9f7be652a786928b0c82786a6992d27f9",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 1
+        },
+        {
+          "pdf_page": 20,
+          "printed_page": 20
+        },
+        {
+          "pdf_page": 21,
+          "printed_page": 21
+        },
+        {
+          "anchor_id": "anchor.text.abstract_transfer",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "Two intrabasin faults east of the Evrona Fault that have been inactive for the last several tens of thousands of years were mapped, and motion from these faults has likely transferred to the Evrona Fault."
+        },
+        {
+          "anchor_id": "anchor.text.migration",
+          "pdf_page": 21,
+          "figure": null,
+          "table": null,
+          "original_quote": "The change in rate and location of active faulting may reflect migration of fault motion from Ayla and East Ayla strands to the Evrona Fault during time."
+        }
+      ],
+      "rationale": "摘要及第20—21页用likely/may描述迁移，节点及qualifier保留备选来源。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q17:node:claim:sha256:2fde655dad43a19764c130e948cf99e4baea0a742aee747fa1652c8eeeec5b46",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 15,
+          "printed_page": 15
+        },
+        {
+          "anchor_id": "anchor.figure.15",
+          "pdf_page": 16,
+          "figure": "Figure 15",
+          "table": null,
+          "original_quote": "Figure 15. A map of the major faults (black lines) that divide the northern GEA and their estimated slip rates (internal frames), overlaid on the curvature of the seafloor. Faults are marked by solid lines where they were interpreted from the seismic data across the shelf. The continuation of the faults southward is suggested based on their extrapolation from the curvature analysis of the bathymetric data and in similarity to the fault outlines that were previously suggested [Reches et al., 1987; Ben Avraham and Tibor, 1993; Ehrhardt et al., 2005; Tibor et al., 2010]. Their continuation northward is suggested based on their extrapolation from presettlement (1945) aerial photographs. The graphs of average slip rates and tilt rates as a function of the averaging time-span are shown for their relevant faults. Average slip rates are marked by black lines and calculated uncertainty indicated by gray boxes."
+        },
+        {
+          "anchor_id": "anchor.text.elat_aqaba_rate",
+          "pdf_page": 15,
+          "figure": null,
+          "table": null,
+          "original_quote": "Using an age of 9–10 ka for the SB2 surface, we calculate a vertical slip rate of 1.0 ± 0.2 mm/yr and 0.4 ± 0.1 mm/yr for the Elat and Aqaba faults, respectively (Figure 15)."
+        },
+        {
+          "anchor_id": "anchor.text.marginal_flank",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "The basin is flanked on the west by the Elat Fault and on the east by the Aqaba Fault."
+        }
+      ],
+      "rationale": "第15页明确以SB2约9—10 ka计算两边界断层垂向速率，数字与次序正确。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q17:node:claim:sha256:4b95dff345bd6e7e52c58faa1c6566743ac320c517dba5320abb7e08af96505a",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 20,
+          "printed_page": 20
+        },
+        {
+          "pdf_page": 21,
+          "printed_page": 21
+        },
+        {
+          "anchor_id": "anchor.figure.16",
+          "pdf_page": 18,
+          "figure": "Figure 16",
+          "table": null,
+          "original_quote": null
+        },
+        {
+          "anchor_id": "anchor.text.fig16_caption",
+          "pdf_page": 18,
+          "figure": null,
+          "table": null,
+          "original_quote": "Schematic illustrations of models of basin evolution along left lateral strike-slip fault."
+        },
+        {
+          "anchor_id": "anchor.text.intermediate",
+          "pdf_page": 21,
+          "figure": null,
+          "table": null,
+          "original_quote": "The basin of the northern GEA is still in an intermediate phase of evolution, where slip is partitioned onto marginal normal faults and strike-slip and oblique-slip intrabasinal faults."
+        },
+        {
+          "anchor_id": "anchor.text.intermediate_loc",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "The northern shelf of the GEA appears to be a location in an intermediate stage of development where distributed deformation translates motion onto the Evrona Fault from other intrabasinal faults."
+        },
+        {
+          "anchor_id": "anchor.text.model_support",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "The results of this study support the model of basin evolution along strike-slip fault, where the stage of evolution is predicted by fault geometry and slip."
+        },
+        {
+          "anchor_id": "anchor.text.phase_desc",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "Whereas the initial phase of transform basin evolution is characterized by a rhomb-shaped graben bounded by marginal dominant faults, the intermediate phase has intrabasin faults partitioning strain on various types of faults."
+        }
+      ],
+      "rationale": "第20—21页支持中间阶段与全新世Evrona集中趋势；节点qualifier如实披露Key Points措辞。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q17:node:claim:sha256:834d0062f059165c7537b98282b514320f7bdbc77fd3af6882ef446f9c53048a",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 1
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "pdf_page": 20,
+          "printed_page": 20
+        },
+        {
+          "anchor_id": "anchor.figure.15",
+          "pdf_page": 16,
+          "figure": "Figure 15",
+          "table": null,
+          "original_quote": "Figure 15. A map of the major faults (black lines) that divide the northern GEA and their estimated slip rates (internal frames), overlaid on the curvature of the seafloor. Faults are marked by solid lines where they were interpreted from the seismic data across the shelf. The continuation of the faults southward is suggested based on their extrapolation from the curvature analysis of the bathymetric data and in similarity to the fault outlines that were previously suggested [Reches et al., 1987; Ben Avraham and Tibor, 1993; Ehrhardt et al., 2005; Tibor et al., 2010]. Their continuation northward is suggested based on their extrapolation from presettlement (1945) aerial photographs. The graphs of average slip rates and tilt rates as a function of the averaging time-span are shown for their relevant faults. Average slip rates are marked by black lines and calculated uncertainty indicated by gray boxes."
+        },
+        {
+          "anchor_id": "anchor.text.abstract_evrona",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "The most active fault is the Evrona Fault that absorbs most of the left lateral slip within the basin with an average sinistral slip rate of 0.7 ± 0.3 mm/yr through the Late Pleistocene and 2.3–3.4 mm/yr during the Holocene."
+        },
+        {
+          "anchor_id": "anchor.text.concl_evrona",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "The activity and slip measurements across the faults imply that a major strike-slip fault, the Evrona Fault, occupies most of the Holocene left lateral slip within the basin."
+        }
+      ],
+      "rationale": "摘要及第20页结论如此解释；限定mapped shelf faults并保留West Aqaba走滑未知，忠实于论文。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q17:node:claim:sha256:9a7ce0aefa350eb2d8bf43066c6953b101e65f67ef2e9e27b750fa0c4782895b",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 1
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "pdf_page": 20,
+          "printed_page": 20
+        },
+        {
+          "pdf_page": 21,
+          "printed_page": 21
+        },
+        {
+          "anchor_id": "anchor.figure.15",
+          "pdf_page": 16,
+          "figure": "Figure 15",
+          "table": null,
+          "original_quote": "Figure 15. A map of the major faults (black lines) that divide the northern GEA and their estimated slip rates (internal frames), overlaid on the curvature of the seafloor. Faults are marked by solid lines where they were interpreted from the seismic data across the shelf. The continuation of the faults southward is suggested based on their extrapolation from the curvature analysis of the bathymetric data and in similarity to the fault outlines that were previously suggested [Reches et al., 1987; Ben Avraham and Tibor, 1993; Ehrhardt et al., 2005; Tibor et al., 2010]. Their continuation northward is suggested based on their extrapolation from presettlement (1945) aerial photographs. The graphs of average slip rates and tilt rates as a function of the averaging time-span are shown for their relevant faults. Average slip rates are marked by black lines and calculated uncertainty indicated by gray boxes."
+        },
+        {
+          "anchor_id": "anchor.text.abstract_evrona",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "The most active fault is the Evrona Fault that absorbs most of the left lateral slip within the basin with an average sinistral slip rate of 0.7 ± 0.3 mm/yr through the Late Pleistocene and 2.3–3.4 mm/yr during the Holocene."
+        },
+        {
+          "anchor_id": "anchor.text.evrona_incr",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "The resulting sinistral and normal slip rates along the Evrona Fault indicate an increasing slip rate from the Late Pleistocene to the early Holocene."
+        },
+        {
+          "anchor_id": "anchor.text.tilting_increase",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "Since the last marine transgression (i.e., MIS 5, \\~130–80 ka), the average sinistral, slip rate of the Evrona Fault has increased from \\~0.7 ± 0.3 mm/yr to between approximately 2.3 and 3.4 mm/yr, and the average rate of tilting of the Ayla High has increased from 4°/my to 9°/my."
+        }
+      ],
+      "rationale": "摘要及第20—21页确有0.7±0.3到2.3—3.4；正文U6的两种年龄和平均3.4需保留。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q17:node:claim:sha256:a4b6300462cbe6a0f7bc423c41ab35cda90a7dd2dfd8817a66b918965e173b3b",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 13,
+          "printed_page": 13
+        },
+        {
+          "pdf_page": 14,
+          "printed_page": 14
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "pdf_page": 20,
+          "printed_page": 20
+        },
+        {
+          "anchor_id": "anchor.text.alya_buried",
+          "pdf_page": 13,
+          "figure": null,
+          "table": null,
+          "original_quote": "Both the Ayla and East Ayla Faults are buried beneath the SB2 sequence boundary."
+        },
+        {
+          "anchor_id": "anchor.text.alya_inactive",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "East of the Ayla High, the Ayla and the East Ayla faults bound an internal sag depression and are likely inactive oblique-slip faults."
+        },
+        {
+          "anchor_id": "anchor.text.no_offset_sb2",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "However, no offset is observed along the reflectors of the SB2 sequence boundary across the Ayla and East Ayla Faults."
+        }
+      ],
+      "rationale": "第13—14、17、20页的SB2截切和未错动支持至少全新世不活动；更早停止仅为可能。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q17:node:obs.alya_buried",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 13,
+          "printed_page": 13
+        },
+        {
+          "anchor_id": "anchor.text.alya_buried",
+          "pdf_page": 13,
+          "figure": null,
+          "table": null,
+          "original_quote": "Both the Ayla and East Ayla Faults are buried beneath the SB2 sequence boundary."
+        }
+      ],
+      "rationale": "第13页明确两断层被SB2覆盖。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q17:node:obs.evrona_normal",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": 12
+        },
+        {
+          "anchor_id": "anchor.text.evrona_normal",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "Both the segments of R4.1 and R5 are offset by \\~12 m down-to-the-west toward the Elat Subbasin."
+        }
+      ],
+      "rationale": "第12页直接记载两礁均向西约12 m，解释前提是礁原始近水平。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q17:node:obs.evrona_seafloor",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 11,
+          "printed_page": 11
+        },
+        {
+          "anchor_id": "anchor.text.evrona_seafloor",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "All reflectors visible on the seismic profiles, as well as the seafloor, are offset by the Evrona Fault."
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:840d275326b464974c9a25208a6d07e7e6b2b51b1ee131809997c487860017be",
+          "pdf_page": 9,
+          "figure": "Figure 7",
+          "table": null,
+          "original_quote": "Figure 7. Interpreted faults along the northern shelf of the Gulf of Elat/Aqaba. The location of each fault was picked from the seismic profiles, and each fault interpretation is marked by a grey dot. The fault lines were interpolated between these data points and projected onto the bathymetric image of the seafloor."
+        }
+      ],
+      "rationale": "第11页正文及图10支持可见反射层和海底被Evrona错动。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q17:node:obs.evrona_subsidence",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "anchor_id": "anchor.figure.15",
+          "pdf_page": 16,
+          "figure": "Figure 15",
+          "table": null,
+          "original_quote": "Figure 15. A map of the major faults (black lines) that divide the northern GEA and their estimated slip rates (internal frames), overlaid on the curvature of the seafloor. Faults are marked by solid lines where they were interpreted from the seismic data across the shelf. The continuation of the faults southward is suggested based on their extrapolation from the curvature analysis of the bathymetric data and in similarity to the fault outlines that were previously suggested [Reches et al., 1987; Ben Avraham and Tibor, 1993; Ehrhardt et al., 2005; Tibor et al., 2010]. Their continuation northward is suggested based on their extrapolation from presettlement (1945) aerial photographs. The graphs of average slip rates and tilt rates as a function of the averaging time-span are shown for their relevant faults. Average slip rates are marked by black lines and calculated uncertainty indicated by gray boxes."
+        },
+        {
+          "anchor_id": "anchor.text.evrona_subsidence",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Since R5 developed until 11.5 ka, the Evrona fault has an average subsidence rate of \\~1 mm/yr during the Holocene (Figure 15)."
+        }
+      ],
+      "rationale": "第17页用R5的11.5 ka和约12 m估算约1 mm/yr。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q17:node:obs.holo_rate_r5",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "anchor_id": "anchor.text.holo_rate",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "These data indicate a Holocene slip rates of 2.3 ± 0.6 mm/yr."
+        }
+      ],
+      "rationale": "第17页R5 28±6 m与Younger Dryas 12.8—11.5 ka给2.3±0.6，文本保留interpreted。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q17:node:obs.marginal_faults",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 1
+        },
+        {
+          "pdf_page": 10,
+          "printed_page": 10
+        },
+        {
+          "pdf_page": 11,
+          "printed_page": 11
+        },
+        {
+          "anchor_id": "anchor.text.marginal_flank",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "The basin is flanked on the west by the Elat Fault and on the east by the Aqaba Fault."
+        }
+      ],
+      "rationale": "摘要与第10—11页位置对应正确。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q17:node:obs.mis5_rate",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "anchor_id": "anchor.text.mis5_rate",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Using these MIS5 age determinations, we calculate an average late Pleistocene slip rate for the Evrona fault of 0.7 ± 0.3 mm/yr since the R4.1 generation."
+        }
+      ],
+      "rationale": "第17页以R4.1的MIS5 130—80 ka归属估计0.7±0.3，条件保留。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q17:node:obs.model_phases",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 18,
+          "printed_page": 18
+        },
+        {
+          "anchor_id": "anchor.figure.16",
+          "pdf_page": 18,
+          "figure": "Figure 16",
+          "table": null,
+          "original_quote": null
+        },
+        {
+          "anchor_id": "anchor.text.fig16_caption",
+          "pdf_page": 18,
+          "figure": null,
+          "table": null,
+          "original_quote": "Schematic illustrations of models of basin evolution along left lateral strike-slip fault."
+        },
+        {
+          "anchor_id": "anchor.text.fig16_first",
+          "pdf_page": 18,
+          "figure": null,
+          "table": null,
+          "original_quote": "In the first phase a rhomb-shaped basin develops."
+        },
+        {
+          "anchor_id": "anchor.text.fig16_last",
+          "pdf_page": 18,
+          "figure": null,
+          "table": null,
+          "original_quote": "In the last phase the marginal faults became inactive, and most of the strikeslip strain is along the cross-basin fault."
+        },
+        {
+          "anchor_id": "anchor.text.fig16_partition",
+          "pdf_page": 18,
+          "figure": null,
+          "table": null,
+          "original_quote": "Then a cross-basin strike-slip fault evolves, and the strike-slip strain partitions between the marginal faults and the intrabasin fault."
+        },
+        {
+          "anchor_id": "anchor.text.fig16_phases",
+          "pdf_page": 18,
+          "figure": null,
+          "table": null,
+          "original_quote": "(b) The evolutionary model is illustrated in three phases in an orthogonal view (modifed after McClay and Dooley [1995], Rahe et al."
+        }
+      ],
+      "rationale": "第18页图16b三阶段和图注支持该模型序列；是示意模型而非直接年代序列。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q17:node:obs.no_offset_sb2",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 20,
+          "printed_page": 20
+        },
+        {
+          "anchor_id": "anchor.text.no_offset_sb2",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "However, no offset is observed along the reflectors of the SB2 sequence boundary across the Ayla and East Ayla Faults."
+        }
+      ],
+      "rationale": "第20页明确两断层SB2反射层未观测到错动。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q17:node:obs.offsets_r41_r5",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": 12
+        },
+        {
+          "anchor_id": "anchor.figure.11",
+          "pdf_page": 12,
+          "figure": "Figure 11",
+          "table": null,
+          "original_quote": "Figure 11. Sinistral offsets and depths of Reef 4.1 (R4.1) and Reef 5 (R5) along the Evrona Fault. (a) The trend of R5 is marked by a green line and is delineated based on the bathymetric data (see shaded background). The trend of R4.1 marked by a blue line is the interpreted location from the seismic reflection profiles. Both trends of the reefs were picked from the top of the structures. Depths of the top of the reefs are marked by the same colors as the lines of the reefs’ trends. (b) Enlarged sketch of the reefs and the measured lateral offset across the Evrona Fault (marked by a red line). Because of the uncertainty in the location of the trends, an estimated 20% of error is added due to flexibility in outlining the reefs’ trend. As a result sinistral offsets of 62 ± 13 m for R4.1 and 28 ± 6 m for R5 are estimated."
+        },
+        {
+          "anchor_id": "anchor.text.offset_reefs",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "As a result sinistral offsets of 62 ± 13 m for R4.1 and 28 ± 6 m for R5 are estimated."
+        }
+      ],
+      "rationale": "第12页正文/图11明确62±13与28±6 m的左行位移。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q17:node:obs.sb2_age",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 15,
+          "printed_page": 15
+        },
+        {
+          "anchor_id": "anchor.text.sb2_age",
+          "pdf_page": 15,
+          "figure": null,
+          "table": null,
+          "original_quote": "The SB2 surface and the overlying sediments of units U5 and U6 are vertically offset an equal amount implying that the total measured offset developed since the early Holocene approximately 9–10 ka."
+        }
+      ],
+      "rationale": "第15页通过SB2与上覆U5/U6等量位移推断约9—10 ka以来累计，文本保留implying。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q17:node:obs.tilt_rates",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": 12
+        },
+        {
+          "pdf_page": 15,
+          "printed_page": 15
+        },
+        {
+          "pdf_page": 16,
+          "printed_page": 16
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "anchor_id": "anchor.figure.11",
+          "pdf_page": 12,
+          "figure": "Figure 11",
+          "table": null,
+          "original_quote": "Figure 11. Sinistral offsets and depths of Reef 4.1 (R4.1) and Reef 5 (R5) along the Evrona Fault. (a) The trend of R5 is marked by a green line and is delineated based on the bathymetric data (see shaded background). The trend of R4.1 marked by a blue line is the interpreted location from the seismic reflection profiles. Both trends of the reefs were picked from the top of the structures. Depths of the top of the reefs are marked by the same colors as the lines of the reefs’ trends. (b) Enlarged sketch of the reefs and the measured lateral offset across the Evrona Fault (marked by a red line). Because of the uncertainty in the location of the trends, an estimated 20% of error is added due to flexibility in outlining the reefs’ trend. As a result sinistral offsets of 62 ± 13 m for R4.1 and 28 ± 6 m for R5 are estimated."
+        },
+        {
+          "anchor_id": "anchor.figure.15",
+          "pdf_page": 16,
+          "figure": "Figure 15",
+          "table": null,
+          "original_quote": "Figure 15. A map of the major faults (black lines) that divide the northern GEA and their estimated slip rates (internal frames), overlaid on the curvature of the seafloor. Faults are marked by solid lines where they were interpreted from the seismic data across the shelf. The continuation of the faults southward is suggested based on their extrapolation from the curvature analysis of the bathymetric data and in similarity to the fault outlines that were previously suggested [Reches et al., 1987; Ben Avraham and Tibor, 1993; Ehrhardt et al., 2005; Tibor et al., 2010]. Their continuation northward is suggested based on their extrapolation from presettlement (1945) aerial photographs. The graphs of average slip rates and tilt rates as a function of the averaging time-span are shown for their relevant faults. Average slip rates are marked by black lines and calculated uncertainty indicated by gray boxes."
+        },
+        {
+          "anchor_id": "anchor.text.tilt_rates",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Furthermore, R4.1 and R5 are tilted eastward by \\~0.46° and \\~0.11° (Figure 11), respectively, based on our age model estimated tilting rates of \\~4°/my and \\~9°/my (Figure 15), respectively."
+        }
+      ],
+      "rationale": "第15、17页和图11/15支持角度及模型年龄所得倾斜速率；单位degree/my为每百万年。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q17:node:obs.u6_offset_avg",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": 12
+        },
+        {
+          "pdf_page": 14,
+          "printed_page": 14
+        },
+        {
+          "anchor_id": "anchor.table.2",
+          "pdf_page": 14,
+          "figure": null,
+          "table": null,
+          "original_quote": "<table><tr><td>Isochron (ms)</td><td>Shoreward Offset (m)</td><td>Slope Side Offset (m)</td></tr><tr><td>2</td><td>19</td><td>0</td></tr><tr><td>3</td><td>19</td><td>44</td></tr><tr><td>4</td><td>38</td><td>59</td></tr><tr><td>5</td><td>38</td><td>83</td></tr><tr><td>6</td><td>35</td><td>66</td></tr><tr><td>7</td><td>31</td><td>35</td></tr><tr><td>8</td><td>29</td><td>5</td></tr><tr><td>9</td><td>21</td><td>11</td></tr><tr><td>10</td><td>25</td><td>19</td></tr><tr><td>11</td><td>30</td><td>57</td></tr></table>"
+        },
+        {
+          "anchor_id": "anchor.text.offset_u6_avg",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "Given this observation, the average offset of the shoreward edge of U6 which is largely buried under units U7–U9 measures 29 ± 7 m and is a more reliable estimation of the displacement of U6."
+        }
+      ],
+      "rationale": "第12页和表2脚注支持shoreward平均29±7 m及上覆覆盖。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q17:node:obs.u6_rate",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 9,
+          "printed_page": 9
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "anchor_id": "anchor.text.u6_rate",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Using the 29 ± 7 m offset and an age for the top of U6 of 8.4–8 ka yields a slip rate of 3.5 ± 0.9 mm/yr since deposition of U6."
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:8640c39f9003d1c0d884670049da5cfa8e3162da8aed37fb4c0ec1c1248f444c",
+          "pdf_page": 9,
+          "figure": "Figure 6",
+          "table": null,
+          "original_quote": "Figure 6. Calibrated and marine-reservoir-corrected radiocarbon ages on foraminifera tests collected from core H02 on the northern shelf of the GEA in proximity to the Evrona Fault [after Galloway, 2011]. These data yield a sedimentation rate of 1.24 mm/yr."
+        }
+      ],
+      "rationale": "第17页原文确给该计算；但同段强调U6位移范围是最大值且年龄/等时线不确定，需伴随限制使用。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q17:node:obs.u6_rate_alt",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "anchor_id": "anchor.text.u6_rate_alt",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Using this maximum limiting age and the offset of 29 ± 7 m, a slip rate of 3.13 ± 0.76 mm/yr is calculated."
+        }
+      ],
+      "rationale": "第17页明确以9.25 ka最大限制年龄另算3.13±0.76。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q17:node:obs.u6_table_offsets",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 14,
+          "printed_page": 14
+        },
+        {
+          "anchor_id": "anchor.table.2",
+          "pdf_page": 14,
+          "figure": null,
+          "table": null,
+          "original_quote": "<table><tr><td>Isochron (ms)</td><td>Shoreward Offset (m)</td><td>Slope Side Offset (m)</td></tr><tr><td>2</td><td>19</td><td>0</td></tr><tr><td>3</td><td>19</td><td>44</td></tr><tr><td>4</td><td>38</td><td>59</td></tr><tr><td>5</td><td>38</td><td>83</td></tr><tr><td>6</td><td>35</td><td>66</td></tr><tr><td>7</td><td>31</td><td>35</td></tr><tr><td>8</td><td>29</td><td>5</td></tr><tr><td>9</td><td>21</td><td>11</td></tr><tr><td>10</td><td>25</td><td>19</td></tr><tr><td>11</td><td>30</td><td>57</td></tr></table>"
+        }
+      ],
+      "rationale": "只读渲染第14页表2逐格核对，shoreward19—38、slope0—83正确。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q17:node:reason.evrona_dominant",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 1
+        },
+        {
+          "pdf_page": 11,
+          "printed_page": 11
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": 12
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "pdf_page": 20,
+          "printed_page": 20
+        },
+        {
+          "anchor_id": "anchor.figure.15",
+          "pdf_page": 16,
+          "figure": "Figure 15",
+          "table": null,
+          "original_quote": "Figure 15. A map of the major faults (black lines) that divide the northern GEA and their estimated slip rates (internal frames), overlaid on the curvature of the seafloor. Faults are marked by solid lines where they were interpreted from the seismic data across the shelf. The continuation of the faults southward is suggested based on their extrapolation from the curvature analysis of the bathymetric data and in similarity to the fault outlines that were previously suggested [Reches et al., 1987; Ben Avraham and Tibor, 1993; Ehrhardt et al., 2005; Tibor et al., 2010]. Their continuation northward is suggested based on their extrapolation from presettlement (1945) aerial photographs. The graphs of average slip rates and tilt rates as a function of the averaging time-span are shown for their relevant faults. Average slip rates are marked by black lines and calculated uncertainty indicated by gray boxes."
+        },
+        {
+          "anchor_id": "anchor.text.concl_evrona",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "The activity and slip measurements across the faults imply that a major strike-slip fault, the Evrona Fault, occupies most of the Holocene left lateral slip within the basin."
+        },
+        {
+          "anchor_id": "anchor.text.evrona_seafloor",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "All reflectors visible on the seismic profiles, as well as the seafloor, are offset by the Evrona Fault."
+        },
+        {
+          "anchor_id": "anchor.text.evrona_subsidence",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Since R5 developed until 11.5 ka, the Evrona fault has an average subsidence rate of \\~1 mm/yr during the Holocene (Figure 15)."
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:840d275326b464974c9a25208a6d07e7e6b2b51b1ee131809997c487860017be",
+          "pdf_page": 9,
+          "figure": "Figure 7",
+          "table": null,
+          "original_quote": "Figure 7. Interpreted faults along the northern shelf of the Gulf of Elat/Aqaba. The location of each fault was picked from the seismic profiles, and each fault interpretation is marked by a grey dot. The fault lines were interpolated between these data points and projected onto the bathymetric image of the seafloor."
+        }
+      ],
+      "rationale": "年轻反射层错动、位移和速率共同支持作者的Evrona主导解释；West Aqaba速率缺失使定量占比不闭合。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q17:node:reason.evrona_rate",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "pdf_page": 20,
+          "printed_page": 20
+        },
+        {
+          "anchor_id": "anchor.text.holo_rate",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "These data indicate a Holocene slip rates of 2.3 ± 0.6 mm/yr."
+        },
+        {
+          "anchor_id": "anchor.text.mis5_rate",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Using these MIS5 age determinations, we calculate an average late Pleistocene slip rate for the Evrona fault of 0.7 ± 0.3 mm/yr since the R4.1 generation."
+        },
+        {
+          "anchor_id": "anchor.text.u6_rate",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Using the 29 ± 7 m offset and an age for the top of U6 of 8.4–8 ka yields a slip rate of 3.5 ± 0.9 mm/yr since deposition of U6."
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:8640c39f9003d1c0d884670049da5cfa8e3162da8aed37fb4c0ec1c1248f444c",
+          "pdf_page": 9,
+          "figure": "Figure 6",
+          "table": null,
+          "original_quote": "Figure 6. Calibrated and marine-reservoir-corrected radiocarbon ages on foraminifera tests collected from core H02 on the northern shelf of the GEA in proximity to the Evrona Fault [after Galloway, 2011]. These data yield a sedimentation rate of 1.24 mm/yr."
+        }
+      ],
+      "rationale": "第17页及摘要比较支持晚更新世至全新世速率增加；全新世估计彼此重叠，不能据此证明全新世内部持续加速。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q17:node:visual.table.2",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 14,
+          "printed_page": 14
+        },
+        {
+          "anchor_id": "anchor.table.2",
+          "pdf_page": 14,
+          "figure": null,
+          "table": null,
+          "original_quote": "<table><tr><td>Isochron (ms)</td><td>Shoreward Offset (m)</td><td>Slope Side Offset (m)</td></tr><tr><td>2</td><td>19</td><td>0</td></tr><tr><td>3</td><td>19</td><td>44</td></tr><tr><td>4</td><td>38</td><td>59</td></tr><tr><td>5</td><td>38</td><td>83</td></tr><tr><td>6</td><td>35</td><td>66</td></tr><tr><td>7</td><td>31</td><td>35</td></tr><tr><td>8</td><td>29</td><td>5</td></tr><tr><td>9</td><td>21</td><td>11</td></tr><tr><td>10</td><td>25</td><td>19</td></tr><tr><td>11</td><td>30</td><td>57</td></tr></table>"
+        }
+      ],
+      "rationale": "第14页表2原图逐格核对30个数值、单位和列次序一致。",
+      "relation_and_direction_checked": null,
+      "audit_category": "data_node"
+    },
+    {
+      "item_id": "q17:edge:edge.assumption.1",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 9,
+          "printed_page": 9
+        },
+        {
+          "pdf_page": 10,
+          "printed_page": 10
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": 12
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "anchor_id": "anchor.text.blocks",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "the Elat Subbasin on the west, the Ayla High in middle, and the Aqaba Subbasin to the east (Figure 8)."
+        },
+        {
+          "anchor_id": "anchor.text.ew_fault",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "In addition, one E-W striking fault was mapped across the Aqaba Subbasin (Figure 7)."
+        },
+        {
+          "anchor_id": "anchor.text.fault_count",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "Six major faults trending NNE-SSW and deforming the deposits of the shelf were mapped."
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:8161cc3b094439f3865a4924b4cf5afb64400d9d332ab0e83661fb124caa9c1c",
+          "pdf_page": 10,
+          "figure": "Figure 8",
+          "table": null,
+          "original_quote": "Figure 8. Cross section along the northern GEA shelf comprised of four seismic profiles (DE10, W05a, E05a, and DA21; marked by a dashed line). This cross section shows the major faults that divide the northern GEA into the Elat subbasin, Ayla horst, and Aqaba subbasin. The marginal Elat and Aqaba Faults have a normal component, and they displace the reflectors of the Upper Stratigraphic Package. The Evrona Fault is a strike-slip fault with a component of normal slip. Both the Ayla and East-Ayla faults have a normal component and neither displaces the reflectors of the upper depositional sequence. The vertical scale is shown in two-way travel time (TWT) in milliseconds (ms)."
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:840d275326b464974c9a25208a6d07e7e6b2b51b1ee131809997c487860017be",
+          "pdf_page": 9,
+          "figure": "Figure 7",
+          "table": null,
+          "original_quote": "Figure 7. Interpreted faults along the northern shelf of the Gulf of Elat/Aqaba. The location of each fault was picked from the seismic profiles, and each fault interpretation is marked by a grey dot. The fault lines were interpolated between these data points and projected onto the bathymetric image of the seafloor."
+        }
+      ],
+      "rationale": "该前提与目标方法的依赖方向成立。第10页和图8支持六NNE及三块，但把边界断层全称intrabasin、把E-W加入三块划分不严谨。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q17:edge:edge.assumption.2",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 10,
+          "printed_page": 10
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": 12
+        },
+        {
+          "pdf_page": 14,
+          "printed_page": 14
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "anchor_id": "anchor.table.2",
+          "pdf_page": 14,
+          "figure": null,
+          "table": null,
+          "original_quote": "<table><tr><td>Isochron (ms)</td><td>Shoreward Offset (m)</td><td>Slope Side Offset (m)</td></tr><tr><td>2</td><td>19</td><td>0</td></tr><tr><td>3</td><td>19</td><td>44</td></tr><tr><td>4</td><td>38</td><td>59</td></tr><tr><td>5</td><td>38</td><td>83</td></tr><tr><td>6</td><td>35</td><td>66</td></tr><tr><td>7</td><td>31</td><td>35</td></tr><tr><td>8</td><td>29</td><td>5</td></tr><tr><td>9</td><td>21</td><td>11</td></tr><tr><td>10</td><td>25</td><td>19</td></tr><tr><td>11</td><td>30</td><td>57</td></tr></table>"
+        },
+        {
+          "anchor_id": "anchor.text.offset_reefs",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "As a result sinistral offsets of 62 ± 13 m for R4.1 and 28 ± 6 m for R5 are estimated."
+        },
+        {
+          "anchor_id": "anchor.text.offset_u6_avg",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "Given this observation, the average offset of the shoreward edge of U6 which is largely buried under units U7–U9 measures 29 ± 7 m and is a more reliable estimation of the displacement of U6."
+        }
+      ],
+      "rationale": "该前提与目标方法的依赖方向成立。第12页明确坡侧侵蚀造成散布而shoreward更可靠，三标志左行位移一致方向，不等于等量。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q17:edge:edge.assumption.3",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 10,
+          "printed_page": 10
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": 12
+        },
+        {
+          "pdf_page": 15,
+          "printed_page": 15
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "anchor_id": "anchor.figure.15",
+          "pdf_page": 16,
+          "figure": "Figure 15",
+          "table": null,
+          "original_quote": "Figure 15. A map of the major faults (black lines) that divide the northern GEA and their estimated slip rates (internal frames), overlaid on the curvature of the seafloor. Faults are marked by solid lines where they were interpreted from the seismic data across the shelf. The continuation of the faults southward is suggested based on their extrapolation from the curvature analysis of the bathymetric data and in similarity to the fault outlines that were previously suggested [Reches et al., 1987; Ben Avraham and Tibor, 1993; Ehrhardt et al., 2005; Tibor et al., 2010]. Their continuation northward is suggested based on their extrapolation from presettlement (1945) aerial photographs. The graphs of average slip rates and tilt rates as a function of the averaging time-span are shown for their relevant faults. Average slip rates are marked by black lines and calculated uncertainty indicated by gray boxes."
+        },
+        {
+          "anchor_id": "anchor.text.elat_aqaba_rate",
+          "pdf_page": 15,
+          "figure": null,
+          "table": null,
+          "original_quote": "Using an age of 9–10 ka for the SB2 surface, we calculate a vertical slip rate of 1.0 ± 0.2 mm/yr and 0.4 ± 0.1 mm/yr for the Elat and Aqaba faults, respectively (Figure 15)."
+        },
+        {
+          "anchor_id": "anchor.text.marginal_flank",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "The basin is flanked on the west by the Elat Fault and on the east by the Aqaba Fault."
+        },
+        {
+          "anchor_id": "anchor.text.sb2_age",
+          "pdf_page": 15,
+          "figure": null,
+          "table": null,
+          "original_quote": "The SB2 surface and the overlying sediments of units U5 and U6 are vertically offset an equal amount implying that the total measured offset developed since the early Holocene approximately 9–10 ka."
+        }
+      ],
+      "rationale": "该前提与目标方法的依赖方向成立。第15页明确给出等量错动、时间及两垂向速率的推理。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q17:edge:edge.assumption.4",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 7,
+          "printed_page": 7
+        },
+        {
+          "pdf_page": 9,
+          "printed_page": 9
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "pdf_page": 20,
+          "printed_page": 20
+        },
+        {
+          "anchor_id": "anchor.text.holo_rate",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "These data indicate a Holocene slip rates of 2.3 ± 0.6 mm/yr."
+        },
+        {
+          "anchor_id": "anchor.text.mis5_rate",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Using these MIS5 age determinations, we calculate an average late Pleistocene slip rate for the Evrona fault of 0.7 ± 0.3 mm/yr since the R4.1 generation."
+        },
+        {
+          "anchor_id": "anchor.text.u6_rate",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Using the 29 ± 7 m offset and an age for the top of U6 of 8.4–8 ka yields a slip rate of 3.5 ± 0.9 mm/yr since deposition of U6."
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:8640c39f9003d1c0d884670049da5cfa8e3162da8aed37fb4c0ec1c1248f444c",
+          "pdf_page": 9,
+          "figure": "Figure 6",
+          "table": null,
+          "original_quote": "Figure 6. Calibrated and marine-reservoir-corrected radiocarbon ages on foraminifera tests collected from core H02 on the northern shelf of the GEA in proximity to the Evrona Fault [after Galloway, 2011]. These data yield a sedimentation rate of 1.24 mm/yr."
+        }
+      ],
+      "rationale": "该前提与目标方法的依赖方向成立。第17页及摘要比较支持晚更新世至全新世速率增加；全新世估计彼此重叠，不能据此证明全新世内部持续加速。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q17:edge:edge.assumption.5",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 7,
+          "printed_page": 7
+        },
+        {
+          "pdf_page": 9,
+          "printed_page": 9
+        },
+        {
+          "pdf_page": 15,
+          "printed_page": 15
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "anchor_id": "anchor.figure.15",
+          "pdf_page": 16,
+          "figure": "Figure 15",
+          "table": null,
+          "original_quote": "Figure 15. A map of the major faults (black lines) that divide the northern GEA and their estimated slip rates (internal frames), overlaid on the curvature of the seafloor. Faults are marked by solid lines where they were interpreted from the seismic data across the shelf. The continuation of the faults southward is suggested based on their extrapolation from the curvature analysis of the bathymetric data and in similarity to the fault outlines that were previously suggested [Reches et al., 1987; Ben Avraham and Tibor, 1993; Ehrhardt et al., 2005; Tibor et al., 2010]. Their continuation northward is suggested based on their extrapolation from presettlement (1945) aerial photographs. The graphs of average slip rates and tilt rates as a function of the averaging time-span are shown for their relevant faults. Average slip rates are marked by black lines and calculated uncertainty indicated by gray boxes."
+        },
+        {
+          "anchor_id": "anchor.text.elat_aqaba_rate",
+          "pdf_page": 15,
+          "figure": null,
+          "table": null,
+          "original_quote": "Using an age of 9–10 ka for the SB2 surface, we calculate a vertical slip rate of 1.0 ± 0.2 mm/yr and 0.4 ± 0.1 mm/yr for the Elat and Aqaba faults, respectively (Figure 15)."
+        },
+        {
+          "anchor_id": "anchor.text.marginal_flank",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "The basin is flanked on the west by the Elat Fault and on the east by the Aqaba Fault."
+        },
+        {
+          "anchor_id": "anchor.text.sb2_age",
+          "pdf_page": 15,
+          "figure": null,
+          "table": null,
+          "original_quote": "The SB2 surface and the overlying sediments of units U5 and U6 are vertically offset an equal amount implying that the total measured offset developed since the early Holocene approximately 9–10 ka."
+        }
+      ],
+      "rationale": "该前提与目标方法的依赖方向成立。第15页明确给出等量错动、时间及两垂向速率的推理。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q17:edge:edge.assumption.7",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 13,
+          "printed_page": 13
+        },
+        {
+          "pdf_page": 14,
+          "printed_page": 14
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "pdf_page": 20,
+          "printed_page": 20
+        },
+        {
+          "anchor_id": "anchor.text.alya_buried",
+          "pdf_page": 13,
+          "figure": null,
+          "table": null,
+          "original_quote": "Both the Ayla and East Ayla Faults are buried beneath the SB2 sequence boundary."
+        },
+        {
+          "anchor_id": "anchor.text.alya_inactive",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "East of the Ayla High, the Ayla and the East Ayla faults bound an internal sag depression and are likely inactive oblique-slip faults."
+        },
+        {
+          "anchor_id": "anchor.text.no_offset_sb2",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "However, no offset is observed along the reflectors of the SB2 sequence boundary across the Ayla and East Ayla Faults."
+        }
+      ],
+      "rationale": "该前提与目标方法的依赖方向成立。无SB2位移支持停止活动；迁移只为may/likely，节点therefore及since before把可能起止和转移写得过强。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q17:edge:edge.ground.1",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 10,
+          "printed_page": 10
+        },
+        {
+          "anchor_id": "anchor.text.fault_count",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "Six major faults trending NNE-SSW and deforming the deposits of the shelf were mapped."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第10页描述six major NNE-SSW，未把所有断层称为内部断层，准确。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q17:edge:edge.ground.10",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "anchor_id": "anchor.text.mis5_rate",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Using these MIS5 age determinations, we calculate an average late Pleistocene slip rate for the Evrona fault of 0.7 ± 0.3 mm/yr since the R4.1 generation."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第17页以R4.1的MIS5 130—80 ka归属估计0.7±0.3，条件保留。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q17:edge:edge.ground.11",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "anchor_id": "anchor.text.holo_rate",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "These data indicate a Holocene slip rates of 2.3 ± 0.6 mm/yr."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第17页R5 28±6 m与Younger Dryas 12.8—11.5 ka给2.3±0.6，文本保留interpreted。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q17:edge:edge.ground.12",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 9,
+          "printed_page": 9
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "anchor_id": "anchor.text.u6_rate",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Using the 29 ± 7 m offset and an age for the top of U6 of 8.4–8 ka yields a slip rate of 3.5 ± 0.9 mm/yr since deposition of U6."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第17页原文确给该计算；但同段强调U6位移范围是最大值且年龄/等时线不确定，需伴随限制使用。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q17:edge:edge.ground.13",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "anchor_id": "anchor.text.u6_rate_alt",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Using this maximum limiting age and the offset of 29 ± 7 m, a slip rate of 3.13 ± 0.76 mm/yr is calculated."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第17页明确以9.25 ka最大限制年龄另算3.13±0.76。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q17:edge:edge.ground.14",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 11,
+          "printed_page": 11
+        },
+        {
+          "anchor_id": "anchor.text.evrona_seafloor",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "All reflectors visible on the seismic profiles, as well as the seafloor, are offset by the Evrona Fault."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第11页正文及图10支持可见反射层和海底被Evrona错动。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q17:edge:edge.ground.15",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": 12
+        },
+        {
+          "anchor_id": "anchor.text.evrona_normal",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "Both the segments of R4.1 and R5 are offset by \\~12 m down-to-the-west toward the Elat Subbasin."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第12页直接记载两礁均向西约12 m，解释前提是礁原始近水平。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q17:edge:edge.ground.16",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "anchor_id": "anchor.text.evrona_subsidence",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Since R5 developed until 11.5 ka, the Evrona fault has an average subsidence rate of \\~1 mm/yr during the Holocene (Figure 15)."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第17页用R5的11.5 ka和约12 m估算约1 mm/yr。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q17:edge:edge.ground.17",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 16,
+          "printed_page": 16
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "anchor_id": "anchor.figure.15",
+          "pdf_page": 16,
+          "figure": "Figure 15",
+          "table": null,
+          "original_quote": "Figure 15. A map of the major faults (black lines) that divide the northern GEA and their estimated slip rates (internal frames), overlaid on the curvature of the seafloor. Faults are marked by solid lines where they were interpreted from the seismic data across the shelf. The continuation of the faults southward is suggested based on their extrapolation from the curvature analysis of the bathymetric data and in similarity to the fault outlines that were previously suggested [Reches et al., 1987; Ben Avraham and Tibor, 1993; Ehrhardt et al., 2005; Tibor et al., 2010]. Their continuation northward is suggested based on their extrapolation from presettlement (1945) aerial photographs. The graphs of average slip rates and tilt rates as a function of the averaging time-span are shown for their relevant faults. Average slip rates are marked by black lines and calculated uncertainty indicated by gray boxes."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第17页用R5的11.5 ka和约12 m估算约1 mm/yr。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q17:edge:edge.ground.18",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 13,
+          "printed_page": 13
+        },
+        {
+          "anchor_id": "anchor.text.alya_buried",
+          "pdf_page": 13,
+          "figure": null,
+          "table": null,
+          "original_quote": "Both the Ayla and East Ayla Faults are buried beneath the SB2 sequence boundary."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第13页明确两断层被SB2覆盖。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q17:edge:edge.ground.2",
+      "item_type": "edge",
+      "decision": "partially_supported",
+      "evidence": [
+        {
+          "pdf_page": 10,
+          "printed_page": 10
+        },
+        {
+          "anchor_id": "anchor.text.blocks",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "the Elat Subbasin on the west, the Ayla High in middle, and the Aqaba Subbasin to the east (Figure 8)."
+        }
+      ],
+      "rationale": "锚点只有三块名称位置，没有NNE断层划分的主语；同页上文才完整。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q17:edge:edge.ground.20",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 20,
+          "printed_page": 20
+        },
+        {
+          "anchor_id": "anchor.text.no_offset_sb2",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "However, no offset is observed along the reflectors of the SB2 sequence boundary across the Ayla and East Ayla Faults."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第20页明确两断层SB2反射层未观测到错动。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q17:edge:edge.ground.21",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 1
+        },
+        {
+          "pdf_page": 10,
+          "printed_page": 10
+        },
+        {
+          "pdf_page": 11,
+          "printed_page": 11
+        },
+        {
+          "anchor_id": "anchor.text.marginal_flank",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "The basin is flanked on the west by the Elat Fault and on the east by the Aqaba Fault."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：摘要与第10—11页位置对应正确。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q17:edge:edge.ground.22",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 15,
+          "printed_page": 15
+        },
+        {
+          "anchor_id": "anchor.text.sb2_age",
+          "pdf_page": 15,
+          "figure": null,
+          "table": null,
+          "original_quote": "The SB2 surface and the overlying sediments of units U5 and U6 are vertically offset an equal amount implying that the total measured offset developed since the early Holocene approximately 9–10 ka."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第15页通过SB2与上覆U5/U6等量位移推断约9—10 ka以来累计，文本保留implying。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q17:edge:edge.ground.23",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 15,
+          "printed_page": 15
+        },
+        {
+          "anchor_id": "anchor.text.elat_aqaba_rate",
+          "pdf_page": 15,
+          "figure": null,
+          "table": null,
+          "original_quote": "Using an age of 9–10 ka for the SB2 surface, we calculate a vertical slip rate of 1.0 ± 0.2 mm/yr and 0.4 ± 0.1 mm/yr for the Elat and Aqaba faults, respectively (Figure 15)."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第15页明确年龄及1.0±0.2/0.4±0.1的配对。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q17:edge:edge.ground.24",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 15,
+          "printed_page": 15
+        },
+        {
+          "pdf_page": 16,
+          "printed_page": 16
+        },
+        {
+          "anchor_id": "anchor.figure.15",
+          "pdf_page": 16,
+          "figure": "Figure 15",
+          "table": null,
+          "original_quote": "Figure 15. A map of the major faults (black lines) that divide the northern GEA and their estimated slip rates (internal frames), overlaid on the curvature of the seafloor. Faults are marked by solid lines where they were interpreted from the seismic data across the shelf. The continuation of the faults southward is suggested based on their extrapolation from the curvature analysis of the bathymetric data and in similarity to the fault outlines that were previously suggested [Reches et al., 1987; Ben Avraham and Tibor, 1993; Ehrhardt et al., 2005; Tibor et al., 2010]. Their continuation northward is suggested based on their extrapolation from presettlement (1945) aerial photographs. The graphs of average slip rates and tilt rates as a function of the averaging time-span are shown for their relevant faults. Average slip rates are marked by black lines and calculated uncertainty indicated by gray boxes."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第15页明确年龄及1.0±0.2/0.4±0.1的配对。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q17:edge:edge.ground.26",
+      "item_type": "edge",
+      "decision": "partially_supported",
+      "evidence": [
+        {
+          "pdf_page": 18,
+          "printed_page": 18
+        },
+        {
+          "anchor_id": "anchor.text.fig16_phases",
+          "pdf_page": 18,
+          "figure": null,
+          "table": null,
+          "original_quote": "(b) The evolutionary model is illustrated in three phases in an orthogonal view (modifed after McClay and Dooley [1995], Rahe et al."
+        }
+      ],
+      "rationale": "只有模型有三阶段及文献来源，没有各阶段关系。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q17:edge:edge.ground.27",
+      "item_type": "edge",
+      "decision": "partially_supported",
+      "evidence": [
+        {
+          "pdf_page": 18,
+          "printed_page": 18
+        },
+        {
+          "anchor_id": "anchor.text.fig16_first",
+          "pdf_page": 18,
+          "figure": null,
+          "table": null,
+          "original_quote": "In the first phase a rhomb-shaped basin develops."
+        }
+      ],
+      "rationale": "只支持第一阶段，目标还含第二和第三阶段。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q17:edge:edge.ground.28",
+      "item_type": "edge",
+      "decision": "partially_supported",
+      "evidence": [
+        {
+          "pdf_page": 18,
+          "printed_page": 18
+        },
+        {
+          "anchor_id": "anchor.text.fig16_partition",
+          "pdf_page": 18,
+          "figure": null,
+          "table": null,
+          "original_quote": "Then a cross-basin strike-slip fault evolves, and the strike-slip strain partitions between the marginal faults and the intrabasin fault."
+        }
+      ],
+      "rationale": "只支持第二阶段的分配，目标含完整三阶段。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q17:edge:edge.ground.29",
+      "item_type": "edge",
+      "decision": "partially_supported",
+      "evidence": [
+        {
+          "pdf_page": 18,
+          "printed_page": 18
+        },
+        {
+          "anchor_id": "anchor.text.fig16_last",
+          "pdf_page": 18,
+          "figure": null,
+          "table": null,
+          "original_quote": "In the last phase the marginal faults became inactive, and most of the strikeslip strain is along the cross-basin fault."
+        }
+      ],
+      "rationale": "只支持第三阶段，目标还含初始与中间阶段。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q17:edge:edge.ground.3",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 9,
+          "printed_page": 9
+        },
+        {
+          "pdf_page": 10,
+          "printed_page": 10
+        },
+        {
+          "anchor_id": "anchor.text.ew_fault",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "In addition, one E-W striking fault was mapped across the Aqaba Subbasin (Figure 7)."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第10页及图7明确Aqaba内一条E-W断层。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q17:edge:edge.ground.30",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 18,
+          "printed_page": 18
+        },
+        {
+          "anchor_id": "anchor.figure.16",
+          "pdf_page": 18,
+          "figure": "Figure 16",
+          "table": null,
+          "original_quote": null
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第18页图16b三阶段和图注支持该模型序列；是示意模型而非直接年代序列。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q17:edge:edge.ground.31",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": 12
+        },
+        {
+          "pdf_page": 15,
+          "printed_page": 15
+        },
+        {
+          "pdf_page": 16,
+          "printed_page": 16
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "anchor_id": "anchor.text.tilt_rates",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Furthermore, R4.1 and R5 are tilted eastward by \\~0.46° and \\~0.11° (Figure 11), respectively, based on our age model estimated tilting rates of \\~4°/my and \\~9°/my (Figure 15), respectively."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第15、17页和图11/15支持角度及模型年龄所得倾斜速率；单位degree/my为每百万年。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q17:edge:edge.ground.32",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 20,
+          "printed_page": 20
+        },
+        {
+          "anchor_id": "anchor.text.intermediate_loc",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "The northern shelf of the GEA appears to be a location in an intermediate stage of development where distributed deformation translates motion onto the Evrona Fault from other intrabasinal faults."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第20页明确appears intermediate及向Evrona转移，是作者解释。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q17:edge:edge.ground.33",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 1
+        },
+        {
+          "anchor_id": "anchor.text.keypoint_advanced",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "• The northern GEA basin is in an advanced stage of evolution"
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第1页Key Points确实写advanced，节点仅报告措辞，忠实。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q17:edge:edge.ground.4",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": 12
+        },
+        {
+          "anchor_id": "anchor.text.offset_reefs",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "As a result sinistral offsets of 62 ± 13 m for R4.1 and 28 ± 6 m for R5 are estimated."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第12页正文/图11明确62±13与28±6 m的左行位移。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q17:edge:edge.ground.5",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": 12
+        },
+        {
+          "anchor_id": "anchor.figure.11",
+          "pdf_page": 12,
+          "figure": "Figure 11",
+          "table": null,
+          "original_quote": "Figure 11. Sinistral offsets and depths of Reef 4.1 (R4.1) and Reef 5 (R5) along the Evrona Fault. (a) The trend of R5 is marked by a green line and is delineated based on the bathymetric data (see shaded background). The trend of R4.1 marked by a blue line is the interpreted location from the seismic reflection profiles. Both trends of the reefs were picked from the top of the structures. Depths of the top of the reefs are marked by the same colors as the lines of the reefs’ trends. (b) Enlarged sketch of the reefs and the measured lateral offset across the Evrona Fault (marked by a red line). Because of the uncertainty in the location of the trends, an estimated 20% of error is added due to flexibility in outlining the reefs’ trend. As a result sinistral offsets of 62 ± 13 m for R4.1 and 28 ± 6 m for R5 are estimated."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第12页正文/图11明确62±13与28±6 m的左行位移。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q17:edge:edge.ground.6",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": 12
+        },
+        {
+          "pdf_page": 14,
+          "printed_page": 14
+        },
+        {
+          "anchor_id": "anchor.text.offset_u6_avg",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "Given this observation, the average offset of the shoreward edge of U6 which is largely buried under units U7–U9 measures 29 ± 7 m and is a more reliable estimation of the displacement of U6."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第12页和表2脚注支持shoreward平均29±7 m及上覆覆盖。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q17:edge:edge.ground.7",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": 12
+        },
+        {
+          "pdf_page": 14,
+          "printed_page": 14
+        },
+        {
+          "anchor_id": "anchor.table.2",
+          "pdf_page": 14,
+          "figure": null,
+          "table": null,
+          "original_quote": "<table><tr><td>Isochron (ms)</td><td>Shoreward Offset (m)</td><td>Slope Side Offset (m)</td></tr><tr><td>2</td><td>19</td><td>0</td></tr><tr><td>3</td><td>19</td><td>44</td></tr><tr><td>4</td><td>38</td><td>59</td></tr><tr><td>5</td><td>38</td><td>83</td></tr><tr><td>6</td><td>35</td><td>66</td></tr><tr><td>7</td><td>31</td><td>35</td></tr><tr><td>8</td><td>29</td><td>5</td></tr><tr><td>9</td><td>21</td><td>11</td></tr><tr><td>10</td><td>25</td><td>19</td></tr><tr><td>11</td><td>30</td><td>57</td></tr></table>"
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第12页和表2脚注支持shoreward平均29±7 m及上覆覆盖。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q17:edge:edge.ground.8",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 14,
+          "printed_page": 14
+        },
+        {
+          "anchor_id": "anchor.table.2",
+          "pdf_page": 14,
+          "figure": null,
+          "table": null,
+          "original_quote": "<table><tr><td>Isochron (ms)</td><td>Shoreward Offset (m)</td><td>Slope Side Offset (m)</td></tr><tr><td>2</td><td>19</td><td>0</td></tr><tr><td>3</td><td>19</td><td>44</td></tr><tr><td>4</td><td>38</td><td>59</td></tr><tr><td>5</td><td>38</td><td>83</td></tr><tr><td>6</td><td>35</td><td>66</td></tr><tr><td>7</td><td>31</td><td>35</td></tr><tr><td>8</td><td>29</td><td>5</td></tr><tr><td>9</td><td>21</td><td>11</td></tr><tr><td>10</td><td>25</td><td>19</td></tr><tr><td>11</td><td>30</td><td>57</td></tr></table>"
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：只读渲染第14页表2逐格核对，shoreward19—38、slope0—83正确。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q17:edge:edge.ground.9",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 14,
+          "printed_page": 14
+        },
+        {
+          "anchor_id": "anchor.table.2",
+          "pdf_page": 14,
+          "figure": null,
+          "table": null,
+          "original_quote": "<table><tr><td>Isochron (ms)</td><td>Shoreward Offset (m)</td><td>Slope Side Offset (m)</td></tr><tr><td>2</td><td>19</td><td>0</td></tr><tr><td>3</td><td>19</td><td>44</td></tr><tr><td>4</td><td>38</td><td>59</td></tr><tr><td>5</td><td>38</td><td>83</td></tr><tr><td>6</td><td>35</td><td>66</td></tr><tr><td>7</td><td>31</td><td>35</td></tr><tr><td>8</td><td>29</td><td>5</td></tr><tr><td>9</td><td>21</td><td>11</td></tr><tr><td>10</td><td>25</td><td>19</td></tr><tr><td>11</td><td>30</td><td>57</td></tr></table>"
+        }
+      ],
+      "rationale": "表格单元的两列区间支持19—38和0—83；这是数据到观察的grounding，非论证性dependency。",
+      "relation_and_direction_checked": true,
+      "edge_category": "data_grounding",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q17:edge:edge.premise.10",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "pdf_page": 20,
+          "printed_page": 20
+        },
+        {
+          "anchor_id": "anchor.text.u6_rate_alt",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Using this maximum limiting age and the offset of 29 ± 7 m, a slip rate of 3.13 ± 0.76 mm/yr is calculated."
+        },
+        {
+          "anchor_id": "anchor.text.holo_rate",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "These data indicate a Holocene slip rates of 2.3 ± 0.6 mm/yr."
+        },
+        {
+          "anchor_id": "anchor.text.mis5_rate",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Using these MIS5 age determinations, we calculate an average late Pleistocene slip rate for the Evrona fault of 0.7 ± 0.3 mm/yr since the R4.1 generation."
+        },
+        {
+          "anchor_id": "anchor.text.u6_rate",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Using the 29 ± 7 m offset and an age for the top of U6 of 8.4–8 ka yields a slip rate of 3.5 ± 0.9 mm/yr since deposition of U6."
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:8640c39f9003d1c0d884670049da5cfa8e3162da8aed37fb4c0ec1c1248f444c",
+          "pdf_page": 9,
+          "figure": "Figure 6",
+          "table": null,
+          "original_quote": "Figure 6. Calibrated and marine-reservoir-corrected radiocarbon ages on foraminifera tests collected from core H02 on the northern shelf of the GEA in proximity to the Evrona Fault [after Galloway, 2011]. These data yield a sedimentation rate of 1.24 mm/yr."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。第17页及摘要比较支持晚更新世至全新世速率增加；全新世估计彼此重叠，不能据此证明全新世内部持续加速。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q17:edge:edge.premise.11",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 1
+        },
+        {
+          "pdf_page": 11,
+          "printed_page": 11
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": 12
+        },
+        {
+          "pdf_page": 14,
+          "printed_page": 14
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "pdf_page": 20,
+          "printed_page": 20
+        },
+        {
+          "anchor_id": "anchor.table.2",
+          "pdf_page": 14,
+          "figure": null,
+          "table": null,
+          "original_quote": "<table><tr><td>Isochron (ms)</td><td>Shoreward Offset (m)</td><td>Slope Side Offset (m)</td></tr><tr><td>2</td><td>19</td><td>0</td></tr><tr><td>3</td><td>19</td><td>44</td></tr><tr><td>4</td><td>38</td><td>59</td></tr><tr><td>5</td><td>38</td><td>83</td></tr><tr><td>6</td><td>35</td><td>66</td></tr><tr><td>7</td><td>31</td><td>35</td></tr><tr><td>8</td><td>29</td><td>5</td></tr><tr><td>9</td><td>21</td><td>11</td></tr><tr><td>10</td><td>25</td><td>19</td></tr><tr><td>11</td><td>30</td><td>57</td></tr></table>"
+        },
+        {
+          "anchor_id": "anchor.text.offset_reefs",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "As a result sinistral offsets of 62 ± 13 m for R4.1 and 28 ± 6 m for R5 are estimated."
+        },
+        {
+          "anchor_id": "anchor.text.offset_u6_avg",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "Given this observation, the average offset of the shoreward edge of U6 which is largely buried under units U7–U9 measures 29 ± 7 m and is a more reliable estimation of the displacement of U6."
+        },
+        {
+          "anchor_id": "anchor.figure.15",
+          "pdf_page": 16,
+          "figure": "Figure 15",
+          "table": null,
+          "original_quote": "Figure 15. A map of the major faults (black lines) that divide the northern GEA and their estimated slip rates (internal frames), overlaid on the curvature of the seafloor. Faults are marked by solid lines where they were interpreted from the seismic data across the shelf. The continuation of the faults southward is suggested based on their extrapolation from the curvature analysis of the bathymetric data and in similarity to the fault outlines that were previously suggested [Reches et al., 1987; Ben Avraham and Tibor, 1993; Ehrhardt et al., 2005; Tibor et al., 2010]. Their continuation northward is suggested based on their extrapolation from presettlement (1945) aerial photographs. The graphs of average slip rates and tilt rates as a function of the averaging time-span are shown for their relevant faults. Average slip rates are marked by black lines and calculated uncertainty indicated by gray boxes."
+        },
+        {
+          "anchor_id": "anchor.text.concl_evrona",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "The activity and slip measurements across the faults imply that a major strike-slip fault, the Evrona Fault, occupies most of the Holocene left lateral slip within the basin."
+        },
+        {
+          "anchor_id": "anchor.text.evrona_seafloor",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "All reflectors visible on the seismic profiles, as well as the seafloor, are offset by the Evrona Fault."
+        },
+        {
+          "anchor_id": "anchor.text.evrona_subsidence",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Since R5 developed until 11.5 ka, the Evrona fault has an average subsidence rate of \\~1 mm/yr during the Holocene (Figure 15)."
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:840d275326b464974c9a25208a6d07e7e6b2b51b1ee131809997c487860017be",
+          "pdf_page": 9,
+          "figure": "Figure 7",
+          "table": null,
+          "original_quote": "Figure 7. Interpreted faults along the northern shelf of the Gulf of Elat/Aqaba. The location of each fault was picked from the seismic profiles, and each fault interpretation is marked by a grey dot. The fault lines were interpolated between these data points and projected onto the bathymetric image of the seafloor."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。年轻反射层错动、位移和速率共同支持作者的Evrona主导解释；West Aqaba速率缺失使定量占比不闭合。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q17:edge:edge.premise.12",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 1
+        },
+        {
+          "pdf_page": 11,
+          "printed_page": 11
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": 12
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "pdf_page": 20,
+          "printed_page": 20
+        },
+        {
+          "anchor_id": "anchor.text.holo_rate",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "These data indicate a Holocene slip rates of 2.3 ± 0.6 mm/yr."
+        },
+        {
+          "anchor_id": "anchor.text.mis5_rate",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Using these MIS5 age determinations, we calculate an average late Pleistocene slip rate for the Evrona fault of 0.7 ± 0.3 mm/yr since the R4.1 generation."
+        },
+        {
+          "anchor_id": "anchor.text.u6_rate",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Using the 29 ± 7 m offset and an age for the top of U6 of 8.4–8 ka yields a slip rate of 3.5 ± 0.9 mm/yr since deposition of U6."
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:8640c39f9003d1c0d884670049da5cfa8e3162da8aed37fb4c0ec1c1248f444c",
+          "pdf_page": 9,
+          "figure": "Figure 6",
+          "table": null,
+          "original_quote": "Figure 6. Calibrated and marine-reservoir-corrected radiocarbon ages on foraminifera tests collected from core H02 on the northern shelf of the GEA in proximity to the Evrona Fault [after Galloway, 2011]. These data yield a sedimentation rate of 1.24 mm/yr."
+        },
+        {
+          "anchor_id": "anchor.figure.15",
+          "pdf_page": 16,
+          "figure": "Figure 15",
+          "table": null,
+          "original_quote": "Figure 15. A map of the major faults (black lines) that divide the northern GEA and their estimated slip rates (internal frames), overlaid on the curvature of the seafloor. Faults are marked by solid lines where they were interpreted from the seismic data across the shelf. The continuation of the faults southward is suggested based on their extrapolation from the curvature analysis of the bathymetric data and in similarity to the fault outlines that were previously suggested [Reches et al., 1987; Ben Avraham and Tibor, 1993; Ehrhardt et al., 2005; Tibor et al., 2010]. Their continuation northward is suggested based on their extrapolation from presettlement (1945) aerial photographs. The graphs of average slip rates and tilt rates as a function of the averaging time-span are shown for their relevant faults. Average slip rates are marked by black lines and calculated uncertainty indicated by gray boxes."
+        },
+        {
+          "anchor_id": "anchor.text.concl_evrona",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "The activity and slip measurements across the faults imply that a major strike-slip fault, the Evrona Fault, occupies most of the Holocene left lateral slip within the basin."
+        },
+        {
+          "anchor_id": "anchor.text.evrona_seafloor",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "All reflectors visible on the seismic profiles, as well as the seafloor, are offset by the Evrona Fault."
+        },
+        {
+          "anchor_id": "anchor.text.evrona_subsidence",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Since R5 developed until 11.5 ka, the Evrona fault has an average subsidence rate of \\~1 mm/yr during the Holocene (Figure 15)."
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:840d275326b464974c9a25208a6d07e7e6b2b51b1ee131809997c487860017be",
+          "pdf_page": 9,
+          "figure": "Figure 7",
+          "table": null,
+          "original_quote": "Figure 7. Interpreted faults along the northern shelf of the Gulf of Elat/Aqaba. The location of each fault was picked from the seismic profiles, and each fault interpretation is marked by a grey dot. The fault lines were interpolated between these data points and projected onto the bathymetric image of the seafloor."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。年轻反射层错动、位移和速率共同支持作者的Evrona主导解释；West Aqaba速率缺失使定量占比不闭合。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q17:edge:edge.premise.13",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 1
+        },
+        {
+          "pdf_page": 11,
+          "printed_page": 11
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": 12
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "pdf_page": 20,
+          "printed_page": 20
+        },
+        {
+          "anchor_id": "anchor.text.evrona_seafloor",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "All reflectors visible on the seismic profiles, as well as the seafloor, are offset by the Evrona Fault."
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:840d275326b464974c9a25208a6d07e7e6b2b51b1ee131809997c487860017be",
+          "pdf_page": 9,
+          "figure": "Figure 7",
+          "table": null,
+          "original_quote": "Figure 7. Interpreted faults along the northern shelf of the Gulf of Elat/Aqaba. The location of each fault was picked from the seismic profiles, and each fault interpretation is marked by a grey dot. The fault lines were interpolated between these data points and projected onto the bathymetric image of the seafloor."
+        },
+        {
+          "anchor_id": "anchor.figure.15",
+          "pdf_page": 16,
+          "figure": "Figure 15",
+          "table": null,
+          "original_quote": "Figure 15. A map of the major faults (black lines) that divide the northern GEA and their estimated slip rates (internal frames), overlaid on the curvature of the seafloor. Faults are marked by solid lines where they were interpreted from the seismic data across the shelf. The continuation of the faults southward is suggested based on their extrapolation from the curvature analysis of the bathymetric data and in similarity to the fault outlines that were previously suggested [Reches et al., 1987; Ben Avraham and Tibor, 1993; Ehrhardt et al., 2005; Tibor et al., 2010]. Their continuation northward is suggested based on their extrapolation from presettlement (1945) aerial photographs. The graphs of average slip rates and tilt rates as a function of the averaging time-span are shown for their relevant faults. Average slip rates are marked by black lines and calculated uncertainty indicated by gray boxes."
+        },
+        {
+          "anchor_id": "anchor.text.concl_evrona",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "The activity and slip measurements across the faults imply that a major strike-slip fault, the Evrona Fault, occupies most of the Holocene left lateral slip within the basin."
+        },
+        {
+          "anchor_id": "anchor.text.evrona_subsidence",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Since R5 developed until 11.5 ka, the Evrona fault has an average subsidence rate of \\~1 mm/yr during the Holocene (Figure 15)."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。年轻反射层错动、位移和速率共同支持作者的Evrona主导解释；West Aqaba速率缺失使定量占比不闭合。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q17:edge:edge.premise.14",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 1
+        },
+        {
+          "pdf_page": 11,
+          "printed_page": 11
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": 12
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "pdf_page": 20,
+          "printed_page": 20
+        },
+        {
+          "anchor_id": "anchor.text.evrona_normal",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "Both the segments of R4.1 and R5 are offset by \\~12 m down-to-the-west toward the Elat Subbasin."
+        },
+        {
+          "anchor_id": "anchor.figure.15",
+          "pdf_page": 16,
+          "figure": "Figure 15",
+          "table": null,
+          "original_quote": "Figure 15. A map of the major faults (black lines) that divide the northern GEA and their estimated slip rates (internal frames), overlaid on the curvature of the seafloor. Faults are marked by solid lines where they were interpreted from the seismic data across the shelf. The continuation of the faults southward is suggested based on their extrapolation from the curvature analysis of the bathymetric data and in similarity to the fault outlines that were previously suggested [Reches et al., 1987; Ben Avraham and Tibor, 1993; Ehrhardt et al., 2005; Tibor et al., 2010]. Their continuation northward is suggested based on their extrapolation from presettlement (1945) aerial photographs. The graphs of average slip rates and tilt rates as a function of the averaging time-span are shown for their relevant faults. Average slip rates are marked by black lines and calculated uncertainty indicated by gray boxes."
+        },
+        {
+          "anchor_id": "anchor.text.concl_evrona",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "The activity and slip measurements across the faults imply that a major strike-slip fault, the Evrona Fault, occupies most of the Holocene left lateral slip within the basin."
+        },
+        {
+          "anchor_id": "anchor.text.evrona_seafloor",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "All reflectors visible on the seismic profiles, as well as the seafloor, are offset by the Evrona Fault."
+        },
+        {
+          "anchor_id": "anchor.text.evrona_subsidence",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Since R5 developed until 11.5 ka, the Evrona fault has an average subsidence rate of \\~1 mm/yr during the Holocene (Figure 15)."
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:840d275326b464974c9a25208a6d07e7e6b2b51b1ee131809997c487860017be",
+          "pdf_page": 9,
+          "figure": "Figure 7",
+          "table": null,
+          "original_quote": "Figure 7. Interpreted faults along the northern shelf of the Gulf of Elat/Aqaba. The location of each fault was picked from the seismic profiles, and each fault interpretation is marked by a grey dot. The fault lines were interpolated between these data points and projected onto the bathymetric image of the seafloor."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。年轻反射层错动、位移和速率共同支持作者的Evrona主导解释；West Aqaba速率缺失使定量占比不闭合。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q17:edge:edge.premise.15",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 1
+        },
+        {
+          "pdf_page": 11,
+          "printed_page": 11
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": 12
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "pdf_page": 20,
+          "printed_page": 20
+        },
+        {
+          "anchor_id": "anchor.figure.15",
+          "pdf_page": 16,
+          "figure": "Figure 15",
+          "table": null,
+          "original_quote": "Figure 15. A map of the major faults (black lines) that divide the northern GEA and their estimated slip rates (internal frames), overlaid on the curvature of the seafloor. Faults are marked by solid lines where they were interpreted from the seismic data across the shelf. The continuation of the faults southward is suggested based on their extrapolation from the curvature analysis of the bathymetric data and in similarity to the fault outlines that were previously suggested [Reches et al., 1987; Ben Avraham and Tibor, 1993; Ehrhardt et al., 2005; Tibor et al., 2010]. Their continuation northward is suggested based on their extrapolation from presettlement (1945) aerial photographs. The graphs of average slip rates and tilt rates as a function of the averaging time-span are shown for their relevant faults. Average slip rates are marked by black lines and calculated uncertainty indicated by gray boxes."
+        },
+        {
+          "anchor_id": "anchor.text.evrona_subsidence",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Since R5 developed until 11.5 ka, the Evrona fault has an average subsidence rate of \\~1 mm/yr during the Holocene (Figure 15)."
+        },
+        {
+          "anchor_id": "anchor.text.concl_evrona",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "The activity and slip measurements across the faults imply that a major strike-slip fault, the Evrona Fault, occupies most of the Holocene left lateral slip within the basin."
+        },
+        {
+          "anchor_id": "anchor.text.evrona_seafloor",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "All reflectors visible on the seismic profiles, as well as the seafloor, are offset by the Evrona Fault."
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:840d275326b464974c9a25208a6d07e7e6b2b51b1ee131809997c487860017be",
+          "pdf_page": 9,
+          "figure": "Figure 7",
+          "table": null,
+          "original_quote": "Figure 7. Interpreted faults along the northern shelf of the Gulf of Elat/Aqaba. The location of each fault was picked from the seismic profiles, and each fault interpretation is marked by a grey dot. The fault lines were interpolated between these data points and projected onto the bathymetric image of the seafloor."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。年轻反射层错动、位移和速率共同支持作者的Evrona主导解释；West Aqaba速率缺失使定量占比不闭合。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q17:edge:edge.premise.16",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 13,
+          "printed_page": 13
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "pdf_page": 20,
+          "printed_page": 20
+        },
+        {
+          "anchor_id": "anchor.text.alya_buried",
+          "pdf_page": 13,
+          "figure": null,
+          "table": null,
+          "original_quote": "Both the Ayla and East Ayla Faults are buried beneath the SB2 sequence boundary."
+        },
+        {
+          "anchor_id": "anchor.text.alya_inactive",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "East of the Ayla High, the Ayla and the East Ayla faults bound an internal sag depression and are likely inactive oblique-slip faults."
+        },
+        {
+          "anchor_id": "anchor.text.no_offset_sb2",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "However, no offset is observed along the reflectors of the SB2 sequence boundary across the Ayla and East Ayla Faults."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。无SB2位移支持停止活动；迁移只为may/likely，节点therefore及since before把可能起止和转移写得过强。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q17:edge:edge.premise.18",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 13,
+          "printed_page": 13
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "pdf_page": 20,
+          "printed_page": 20
+        },
+        {
+          "anchor_id": "anchor.text.no_offset_sb2",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "However, no offset is observed along the reflectors of the SB2 sequence boundary across the Ayla and East Ayla Faults."
+        },
+        {
+          "anchor_id": "anchor.text.alya_buried",
+          "pdf_page": 13,
+          "figure": null,
+          "table": null,
+          "original_quote": "Both the Ayla and East Ayla Faults are buried beneath the SB2 sequence boundary."
+        },
+        {
+          "anchor_id": "anchor.text.alya_inactive",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "East of the Ayla High, the Ayla and the East Ayla faults bound an internal sag depression and are likely inactive oblique-slip faults."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。无SB2位移支持停止活动；迁移只为may/likely，节点therefore及since before把可能起止和转移写得过强。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q17:edge:edge.premise.19",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 1
+        },
+        {
+          "pdf_page": 10,
+          "printed_page": 10
+        },
+        {
+          "pdf_page": 11,
+          "printed_page": 11
+        },
+        {
+          "pdf_page": 15,
+          "printed_page": 15
+        },
+        {
+          "anchor_id": "anchor.text.marginal_flank",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "The basin is flanked on the west by the Elat Fault and on the east by the Aqaba Fault."
+        },
+        {
+          "anchor_id": "anchor.figure.15",
+          "pdf_page": 16,
+          "figure": "Figure 15",
+          "table": null,
+          "original_quote": "Figure 15. A map of the major faults (black lines) that divide the northern GEA and their estimated slip rates (internal frames), overlaid on the curvature of the seafloor. Faults are marked by solid lines where they were interpreted from the seismic data across the shelf. The continuation of the faults southward is suggested based on their extrapolation from the curvature analysis of the bathymetric data and in similarity to the fault outlines that were previously suggested [Reches et al., 1987; Ben Avraham and Tibor, 1993; Ehrhardt et al., 2005; Tibor et al., 2010]. Their continuation northward is suggested based on their extrapolation from presettlement (1945) aerial photographs. The graphs of average slip rates and tilt rates as a function of the averaging time-span are shown for their relevant faults. Average slip rates are marked by black lines and calculated uncertainty indicated by gray boxes."
+        },
+        {
+          "anchor_id": "anchor.text.elat_aqaba_rate",
+          "pdf_page": 15,
+          "figure": null,
+          "table": null,
+          "original_quote": "Using an age of 9–10 ka for the SB2 surface, we calculate a vertical slip rate of 1.0 ± 0.2 mm/yr and 0.4 ± 0.1 mm/yr for the Elat and Aqaba faults, respectively (Figure 15)."
+        },
+        {
+          "anchor_id": "anchor.text.sb2_age",
+          "pdf_page": 15,
+          "figure": null,
+          "table": null,
+          "original_quote": "The SB2 surface and the overlying sediments of units U5 and U6 are vertically offset an equal amount implying that the total measured offset developed since the early Holocene approximately 9–10 ka."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。第15页明确给出等量错动、时间及两垂向速率的推理。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q17:edge:edge.premise.20",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 15,
+          "printed_page": 15
+        },
+        {
+          "anchor_id": "anchor.text.sb2_age",
+          "pdf_page": 15,
+          "figure": null,
+          "table": null,
+          "original_quote": "The SB2 surface and the overlying sediments of units U5 and U6 are vertically offset an equal amount implying that the total measured offset developed since the early Holocene approximately 9–10 ka."
+        },
+        {
+          "anchor_id": "anchor.figure.15",
+          "pdf_page": 16,
+          "figure": "Figure 15",
+          "table": null,
+          "original_quote": "Figure 15. A map of the major faults (black lines) that divide the northern GEA and their estimated slip rates (internal frames), overlaid on the curvature of the seafloor. Faults are marked by solid lines where they were interpreted from the seismic data across the shelf. The continuation of the faults southward is suggested based on their extrapolation from the curvature analysis of the bathymetric data and in similarity to the fault outlines that were previously suggested [Reches et al., 1987; Ben Avraham and Tibor, 1993; Ehrhardt et al., 2005; Tibor et al., 2010]. Their continuation northward is suggested based on their extrapolation from presettlement (1945) aerial photographs. The graphs of average slip rates and tilt rates as a function of the averaging time-span are shown for their relevant faults. Average slip rates are marked by black lines and calculated uncertainty indicated by gray boxes."
+        },
+        {
+          "anchor_id": "anchor.text.elat_aqaba_rate",
+          "pdf_page": 15,
+          "figure": null,
+          "table": null,
+          "original_quote": "Using an age of 9–10 ka for the SB2 surface, we calculate a vertical slip rate of 1.0 ± 0.2 mm/yr and 0.4 ± 0.1 mm/yr for the Elat and Aqaba faults, respectively (Figure 15)."
+        },
+        {
+          "anchor_id": "anchor.text.marginal_flank",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "The basin is flanked on the west by the Elat Fault and on the east by the Aqaba Fault."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。第15页明确给出等量错动、时间及两垂向速率的推理。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q17:edge:edge.premise.22",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 1
+        },
+        {
+          "pdf_page": 18,
+          "printed_page": 18
+        },
+        {
+          "pdf_page": 20,
+          "printed_page": 20
+        },
+        {
+          "pdf_page": 21,
+          "printed_page": 21
+        },
+        {
+          "anchor_id": "anchor.figure.16",
+          "pdf_page": 18,
+          "figure": "Figure 16",
+          "table": null,
+          "original_quote": null
+        },
+        {
+          "anchor_id": "anchor.text.fig16_caption",
+          "pdf_page": 18,
+          "figure": null,
+          "table": null,
+          "original_quote": "Schematic illustrations of models of basin evolution along left lateral strike-slip fault."
+        },
+        {
+          "anchor_id": "anchor.text.fig16_first",
+          "pdf_page": 18,
+          "figure": null,
+          "table": null,
+          "original_quote": "In the first phase a rhomb-shaped basin develops."
+        },
+        {
+          "anchor_id": "anchor.text.fig16_last",
+          "pdf_page": 18,
+          "figure": null,
+          "table": null,
+          "original_quote": "In the last phase the marginal faults became inactive, and most of the strikeslip strain is along the cross-basin fault."
+        },
+        {
+          "anchor_id": "anchor.text.fig16_partition",
+          "pdf_page": 18,
+          "figure": null,
+          "table": null,
+          "original_quote": "Then a cross-basin strike-slip fault evolves, and the strike-slip strain partitions between the marginal faults and the intrabasin fault."
+        },
+        {
+          "anchor_id": "anchor.text.fig16_phases",
+          "pdf_page": 18,
+          "figure": null,
+          "table": null,
+          "original_quote": "(b) The evolutionary model is illustrated in three phases in an orthogonal view (modifed after McClay and Dooley [1995], Rahe et al."
+        },
+        {
+          "anchor_id": "anchor.text.intermediate_loc",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "The northern shelf of the GEA appears to be a location in an intermediate stage of development where distributed deformation translates motion onto the Evrona Fault from other intrabasinal faults."
+        },
+        {
+          "anchor_id": "anchor.text.keypoint_advanced",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "• The northern GEA basin is in an advanced stage of evolution"
+        },
+        {
+          "anchor_id": "anchor.text.model_support",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "The results of this study support the model of basin evolution along strike-slip fault, where the stage of evolution is predicted by fault geometry and slip."
+        },
+        {
+          "anchor_id": "anchor.text.phase_desc",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "Whereas the initial phase of transform basin evolution is characterized by a rhomb-shaped graben bounded by marginal dominant faults, the intermediate phase has intrabasin faults partitioning strain on various types of faults."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。第20—21页支持中间阶段，但advanced与intermediate是不同分辨率的措辞，论文未说互相不一致；末句是图谱作者评语。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q17:edge:edge.premise.23",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 1
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": 12
+        },
+        {
+          "pdf_page": 15,
+          "printed_page": 15
+        },
+        {
+          "pdf_page": 16,
+          "printed_page": 16
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "pdf_page": 18,
+          "printed_page": 18
+        },
+        {
+          "pdf_page": 20,
+          "printed_page": 20
+        },
+        {
+          "pdf_page": 21,
+          "printed_page": 21
+        },
+        {
+          "anchor_id": "anchor.figure.11",
+          "pdf_page": 12,
+          "figure": "Figure 11",
+          "table": null,
+          "original_quote": "Figure 11. Sinistral offsets and depths of Reef 4.1 (R4.1) and Reef 5 (R5) along the Evrona Fault. (a) The trend of R5 is marked by a green line and is delineated based on the bathymetric data (see shaded background). The trend of R4.1 marked by a blue line is the interpreted location from the seismic reflection profiles. Both trends of the reefs were picked from the top of the structures. Depths of the top of the reefs are marked by the same colors as the lines of the reefs’ trends. (b) Enlarged sketch of the reefs and the measured lateral offset across the Evrona Fault (marked by a red line). Because of the uncertainty in the location of the trends, an estimated 20% of error is added due to flexibility in outlining the reefs’ trend. As a result sinistral offsets of 62 ± 13 m for R4.1 and 28 ± 6 m for R5 are estimated."
+        },
+        {
+          "anchor_id": "anchor.figure.15",
+          "pdf_page": 16,
+          "figure": "Figure 15",
+          "table": null,
+          "original_quote": "Figure 15. A map of the major faults (black lines) that divide the northern GEA and their estimated slip rates (internal frames), overlaid on the curvature of the seafloor. Faults are marked by solid lines where they were interpreted from the seismic data across the shelf. The continuation of the faults southward is suggested based on their extrapolation from the curvature analysis of the bathymetric data and in similarity to the fault outlines that were previously suggested [Reches et al., 1987; Ben Avraham and Tibor, 1993; Ehrhardt et al., 2005; Tibor et al., 2010]. Their continuation northward is suggested based on their extrapolation from presettlement (1945) aerial photographs. The graphs of average slip rates and tilt rates as a function of the averaging time-span are shown for their relevant faults. Average slip rates are marked by black lines and calculated uncertainty indicated by gray boxes."
+        },
+        {
+          "anchor_id": "anchor.text.tilt_rates",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Furthermore, R4.1 and R5 are tilted eastward by \\~0.46° and \\~0.11° (Figure 11), respectively, based on our age model estimated tilting rates of \\~4°/my and \\~9°/my (Figure 15), respectively."
+        },
+        {
+          "anchor_id": "anchor.figure.16",
+          "pdf_page": 18,
+          "figure": "Figure 16",
+          "table": null,
+          "original_quote": null
+        },
+        {
+          "anchor_id": "anchor.text.fig16_caption",
+          "pdf_page": 18,
+          "figure": null,
+          "table": null,
+          "original_quote": "Schematic illustrations of models of basin evolution along left lateral strike-slip fault."
+        },
+        {
+          "anchor_id": "anchor.text.intermediate_loc",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "The northern shelf of the GEA appears to be a location in an intermediate stage of development where distributed deformation translates motion onto the Evrona Fault from other intrabasinal faults."
+        },
+        {
+          "anchor_id": "anchor.text.keypoint_advanced",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "• The northern GEA basin is in an advanced stage of evolution"
+        },
+        {
+          "anchor_id": "anchor.text.model_support",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "The results of this study support the model of basin evolution along strike-slip fault, where the stage of evolution is predicted by fault geometry and slip."
+        },
+        {
+          "anchor_id": "anchor.text.phase_desc",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "Whereas the initial phase of transform basin evolution is characterized by a rhomb-shaped graben bounded by marginal dominant faults, the intermediate phase has intrabasin faults partitioning strain on various types of faults."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。第20—21页支持中间阶段，但advanced与intermediate是不同分辨率的措辞，论文未说互相不一致；末句是图谱作者评语。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q17:edge:edge.premise.26",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 1
+        },
+        {
+          "pdf_page": 11,
+          "printed_page": 11
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": 12
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "pdf_page": 18,
+          "printed_page": 18
+        },
+        {
+          "pdf_page": 20,
+          "printed_page": 20
+        },
+        {
+          "pdf_page": 21,
+          "printed_page": 21
+        },
+        {
+          "anchor_id": "anchor.figure.15",
+          "pdf_page": 16,
+          "figure": "Figure 15",
+          "table": null,
+          "original_quote": "Figure 15. A map of the major faults (black lines) that divide the northern GEA and their estimated slip rates (internal frames), overlaid on the curvature of the seafloor. Faults are marked by solid lines where they were interpreted from the seismic data across the shelf. The continuation of the faults southward is suggested based on their extrapolation from the curvature analysis of the bathymetric data and in similarity to the fault outlines that were previously suggested [Reches et al., 1987; Ben Avraham and Tibor, 1993; Ehrhardt et al., 2005; Tibor et al., 2010]. Their continuation northward is suggested based on their extrapolation from presettlement (1945) aerial photographs. The graphs of average slip rates and tilt rates as a function of the averaging time-span are shown for their relevant faults. Average slip rates are marked by black lines and calculated uncertainty indicated by gray boxes."
+        },
+        {
+          "anchor_id": "anchor.text.concl_evrona",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "The activity and slip measurements across the faults imply that a major strike-slip fault, the Evrona Fault, occupies most of the Holocene left lateral slip within the basin."
+        },
+        {
+          "anchor_id": "anchor.text.evrona_seafloor",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "All reflectors visible on the seismic profiles, as well as the seafloor, are offset by the Evrona Fault."
+        },
+        {
+          "anchor_id": "anchor.text.evrona_subsidence",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Since R5 developed until 11.5 ka, the Evrona fault has an average subsidence rate of \\~1 mm/yr during the Holocene (Figure 15)."
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:840d275326b464974c9a25208a6d07e7e6b2b51b1ee131809997c487860017be",
+          "pdf_page": 9,
+          "figure": "Figure 7",
+          "table": null,
+          "original_quote": "Figure 7. Interpreted faults along the northern shelf of the Gulf of Elat/Aqaba. The location of each fault was picked from the seismic profiles, and each fault interpretation is marked by a grey dot. The fault lines were interpolated between these data points and projected onto the bathymetric image of the seafloor."
+        },
+        {
+          "anchor_id": "anchor.figure.16",
+          "pdf_page": 18,
+          "figure": "Figure 16",
+          "table": null,
+          "original_quote": null
+        },
+        {
+          "anchor_id": "anchor.text.fig16_caption",
+          "pdf_page": 18,
+          "figure": null,
+          "table": null,
+          "original_quote": "Schematic illustrations of models of basin evolution along left lateral strike-slip fault."
+        },
+        {
+          "anchor_id": "anchor.text.intermediate_loc",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "The northern shelf of the GEA appears to be a location in an intermediate stage of development where distributed deformation translates motion onto the Evrona Fault from other intrabasinal faults."
+        },
+        {
+          "anchor_id": "anchor.text.keypoint_advanced",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "• The northern GEA basin is in an advanced stage of evolution"
+        },
+        {
+          "anchor_id": "anchor.text.model_support",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "The results of this study support the model of basin evolution along strike-slip fault, where the stage of evolution is predicted by fault geometry and slip."
+        },
+        {
+          "anchor_id": "anchor.text.phase_desc",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "Whereas the initial phase of transform basin evolution is characterized by a rhomb-shaped graben bounded by marginal dominant faults, the intermediate phase has intrabasin faults partitioning strain on various types of faults."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。第20—21页支持中间阶段，但advanced与intermediate是不同分辨率的措辞，论文未说互相不一致；末句是图谱作者评语。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q17:edge:edge.premise.27",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 1
+        },
+        {
+          "pdf_page": 13,
+          "printed_page": 13
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "pdf_page": 18,
+          "printed_page": 18
+        },
+        {
+          "pdf_page": 20,
+          "printed_page": 20
+        },
+        {
+          "pdf_page": 21,
+          "printed_page": 21
+        },
+        {
+          "anchor_id": "anchor.text.alya_buried",
+          "pdf_page": 13,
+          "figure": null,
+          "table": null,
+          "original_quote": "Both the Ayla and East Ayla Faults are buried beneath the SB2 sequence boundary."
+        },
+        {
+          "anchor_id": "anchor.text.alya_inactive",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "East of the Ayla High, the Ayla and the East Ayla faults bound an internal sag depression and are likely inactive oblique-slip faults."
+        },
+        {
+          "anchor_id": "anchor.text.no_offset_sb2",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "However, no offset is observed along the reflectors of the SB2 sequence boundary across the Ayla and East Ayla Faults."
+        },
+        {
+          "anchor_id": "anchor.figure.16",
+          "pdf_page": 18,
+          "figure": "Figure 16",
+          "table": null,
+          "original_quote": null
+        },
+        {
+          "anchor_id": "anchor.text.fig16_caption",
+          "pdf_page": 18,
+          "figure": null,
+          "table": null,
+          "original_quote": "Schematic illustrations of models of basin evolution along left lateral strike-slip fault."
+        },
+        {
+          "anchor_id": "anchor.text.intermediate_loc",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "The northern shelf of the GEA appears to be a location in an intermediate stage of development where distributed deformation translates motion onto the Evrona Fault from other intrabasinal faults."
+        },
+        {
+          "anchor_id": "anchor.text.keypoint_advanced",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "• The northern GEA basin is in an advanced stage of evolution"
+        },
+        {
+          "anchor_id": "anchor.text.model_support",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "The results of this study support the model of basin evolution along strike-slip fault, where the stage of evolution is predicted by fault geometry and slip."
+        },
+        {
+          "anchor_id": "anchor.text.phase_desc",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "Whereas the initial phase of transform basin evolution is characterized by a rhomb-shaped graben bounded by marginal dominant faults, the intermediate phase has intrabasin faults partitioning strain on various types of faults."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。第20—21页支持中间阶段，但advanced与intermediate是不同分辨率的措辞，论文未说互相不一致；末句是图谱作者评语。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q17:edge:edge.premise.28",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 1
+        },
+        {
+          "pdf_page": 15,
+          "printed_page": 15
+        },
+        {
+          "pdf_page": 18,
+          "printed_page": 18
+        },
+        {
+          "pdf_page": 20,
+          "printed_page": 20
+        },
+        {
+          "pdf_page": 21,
+          "printed_page": 21
+        },
+        {
+          "anchor_id": "anchor.figure.15",
+          "pdf_page": 16,
+          "figure": "Figure 15",
+          "table": null,
+          "original_quote": "Figure 15. A map of the major faults (black lines) that divide the northern GEA and their estimated slip rates (internal frames), overlaid on the curvature of the seafloor. Faults are marked by solid lines where they were interpreted from the seismic data across the shelf. The continuation of the faults southward is suggested based on their extrapolation from the curvature analysis of the bathymetric data and in similarity to the fault outlines that were previously suggested [Reches et al., 1987; Ben Avraham and Tibor, 1993; Ehrhardt et al., 2005; Tibor et al., 2010]. Their continuation northward is suggested based on their extrapolation from presettlement (1945) aerial photographs. The graphs of average slip rates and tilt rates as a function of the averaging time-span are shown for their relevant faults. Average slip rates are marked by black lines and calculated uncertainty indicated by gray boxes."
+        },
+        {
+          "anchor_id": "anchor.text.elat_aqaba_rate",
+          "pdf_page": 15,
+          "figure": null,
+          "table": null,
+          "original_quote": "Using an age of 9–10 ka for the SB2 surface, we calculate a vertical slip rate of 1.0 ± 0.2 mm/yr and 0.4 ± 0.1 mm/yr for the Elat and Aqaba faults, respectively (Figure 15)."
+        },
+        {
+          "anchor_id": "anchor.text.marginal_flank",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "The basin is flanked on the west by the Elat Fault and on the east by the Aqaba Fault."
+        },
+        {
+          "anchor_id": "anchor.text.sb2_age",
+          "pdf_page": 15,
+          "figure": null,
+          "table": null,
+          "original_quote": "The SB2 surface and the overlying sediments of units U5 and U6 are vertically offset an equal amount implying that the total measured offset developed since the early Holocene approximately 9–10 ka."
+        },
+        {
+          "anchor_id": "anchor.figure.16",
+          "pdf_page": 18,
+          "figure": "Figure 16",
+          "table": null,
+          "original_quote": null
+        },
+        {
+          "anchor_id": "anchor.text.fig16_caption",
+          "pdf_page": 18,
+          "figure": null,
+          "table": null,
+          "original_quote": "Schematic illustrations of models of basin evolution along left lateral strike-slip fault."
+        },
+        {
+          "anchor_id": "anchor.text.intermediate_loc",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "The northern shelf of the GEA appears to be a location in an intermediate stage of development where distributed deformation translates motion onto the Evrona Fault from other intrabasinal faults."
+        },
+        {
+          "anchor_id": "anchor.text.keypoint_advanced",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "• The northern GEA basin is in an advanced stage of evolution"
+        },
+        {
+          "anchor_id": "anchor.text.model_support",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "The results of this study support the model of basin evolution along strike-slip fault, where the stage of evolution is predicted by fault geometry and slip."
+        },
+        {
+          "anchor_id": "anchor.text.phase_desc",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "Whereas the initial phase of transform basin evolution is characterized by a rhomb-shaped graben bounded by marginal dominant faults, the intermediate phase has intrabasin faults partitioning strain on various types of faults."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。第20—21页支持中间阶段，但advanced与intermediate是不同分辨率的措辞，论文未说互相不一致；末句是图谱作者评语。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q17:edge:edge.premise.4",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": 12
+        },
+        {
+          "pdf_page": 14,
+          "printed_page": 14
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "anchor_id": "anchor.figure.11",
+          "pdf_page": 12,
+          "figure": "Figure 11",
+          "table": null,
+          "original_quote": "Figure 11. Sinistral offsets and depths of Reef 4.1 (R4.1) and Reef 5 (R5) along the Evrona Fault. (a) The trend of R5 is marked by a green line and is delineated based on the bathymetric data (see shaded background). The trend of R4.1 marked by a blue line is the interpreted location from the seismic reflection profiles. Both trends of the reefs were picked from the top of the structures. Depths of the top of the reefs are marked by the same colors as the lines of the reefs’ trends. (b) Enlarged sketch of the reefs and the measured lateral offset across the Evrona Fault (marked by a red line). Because of the uncertainty in the location of the trends, an estimated 20% of error is added due to flexibility in outlining the reefs’ trend. As a result sinistral offsets of 62 ± 13 m for R4.1 and 28 ± 6 m for R5 are estimated."
+        },
+        {
+          "anchor_id": "anchor.text.offset_reefs",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "As a result sinistral offsets of 62 ± 13 m for R4.1 and 28 ± 6 m for R5 are estimated."
+        },
+        {
+          "anchor_id": "anchor.table.2",
+          "pdf_page": 14,
+          "figure": null,
+          "table": null,
+          "original_quote": "<table><tr><td>Isochron (ms)</td><td>Shoreward Offset (m)</td><td>Slope Side Offset (m)</td></tr><tr><td>2</td><td>19</td><td>0</td></tr><tr><td>3</td><td>19</td><td>44</td></tr><tr><td>4</td><td>38</td><td>59</td></tr><tr><td>5</td><td>38</td><td>83</td></tr><tr><td>6</td><td>35</td><td>66</td></tr><tr><td>7</td><td>31</td><td>35</td></tr><tr><td>8</td><td>29</td><td>5</td></tr><tr><td>9</td><td>21</td><td>11</td></tr><tr><td>10</td><td>25</td><td>19</td></tr><tr><td>11</td><td>30</td><td>57</td></tr></table>"
+        },
+        {
+          "anchor_id": "anchor.text.offset_u6_avg",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "Given this observation, the average offset of the shoreward edge of U6 which is largely buried under units U7–U9 measures 29 ± 7 m and is a more reliable estimation of the displacement of U6."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。第12页明确坡侧侵蚀造成散布而shoreward更可靠，三标志左行位移一致方向，不等于等量。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q17:edge:edge.premise.5",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": 12
+        },
+        {
+          "pdf_page": 14,
+          "printed_page": 14
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "anchor_id": "anchor.table.2",
+          "pdf_page": 14,
+          "figure": null,
+          "table": null,
+          "original_quote": "<table><tr><td>Isochron (ms)</td><td>Shoreward Offset (m)</td><td>Slope Side Offset (m)</td></tr><tr><td>2</td><td>19</td><td>0</td></tr><tr><td>3</td><td>19</td><td>44</td></tr><tr><td>4</td><td>38</td><td>59</td></tr><tr><td>5</td><td>38</td><td>83</td></tr><tr><td>6</td><td>35</td><td>66</td></tr><tr><td>7</td><td>31</td><td>35</td></tr><tr><td>8</td><td>29</td><td>5</td></tr><tr><td>9</td><td>21</td><td>11</td></tr><tr><td>10</td><td>25</td><td>19</td></tr><tr><td>11</td><td>30</td><td>57</td></tr></table>"
+        },
+        {
+          "anchor_id": "anchor.text.offset_u6_avg",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "Given this observation, the average offset of the shoreward edge of U6 which is largely buried under units U7–U9 measures 29 ± 7 m and is a more reliable estimation of the displacement of U6."
+        },
+        {
+          "anchor_id": "anchor.text.offset_reefs",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "As a result sinistral offsets of 62 ± 13 m for R4.1 and 28 ± 6 m for R5 are estimated."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。第12页明确坡侧侵蚀造成散布而shoreward更可靠，三标志左行位移一致方向，不等于等量。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q17:edge:edge.premise.6",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": 12
+        },
+        {
+          "pdf_page": 14,
+          "printed_page": 14
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "anchor_id": "anchor.table.2",
+          "pdf_page": 14,
+          "figure": null,
+          "table": null,
+          "original_quote": "<table><tr><td>Isochron (ms)</td><td>Shoreward Offset (m)</td><td>Slope Side Offset (m)</td></tr><tr><td>2</td><td>19</td><td>0</td></tr><tr><td>3</td><td>19</td><td>44</td></tr><tr><td>4</td><td>38</td><td>59</td></tr><tr><td>5</td><td>38</td><td>83</td></tr><tr><td>6</td><td>35</td><td>66</td></tr><tr><td>7</td><td>31</td><td>35</td></tr><tr><td>8</td><td>29</td><td>5</td></tr><tr><td>9</td><td>21</td><td>11</td></tr><tr><td>10</td><td>25</td><td>19</td></tr><tr><td>11</td><td>30</td><td>57</td></tr></table>"
+        },
+        {
+          "anchor_id": "anchor.text.offset_reefs",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "As a result sinistral offsets of 62 ± 13 m for R4.1 and 28 ± 6 m for R5 are estimated."
+        },
+        {
+          "anchor_id": "anchor.text.offset_u6_avg",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "Given this observation, the average offset of the shoreward edge of U6 which is largely buried under units U7–U9 measures 29 ± 7 m and is a more reliable estimation of the displacement of U6."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。第12页明确坡侧侵蚀造成散布而shoreward更可靠，三标志左行位移一致方向，不等于等量。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q17:edge:edge.premise.7",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "pdf_page": 20,
+          "printed_page": 20
+        },
+        {
+          "anchor_id": "anchor.text.mis5_rate",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Using these MIS5 age determinations, we calculate an average late Pleistocene slip rate for the Evrona fault of 0.7 ± 0.3 mm/yr since the R4.1 generation."
+        },
+        {
+          "anchor_id": "anchor.text.holo_rate",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "These data indicate a Holocene slip rates of 2.3 ± 0.6 mm/yr."
+        },
+        {
+          "anchor_id": "anchor.text.u6_rate",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Using the 29 ± 7 m offset and an age for the top of U6 of 8.4–8 ka yields a slip rate of 3.5 ± 0.9 mm/yr since deposition of U6."
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:8640c39f9003d1c0d884670049da5cfa8e3162da8aed37fb4c0ec1c1248f444c",
+          "pdf_page": 9,
+          "figure": "Figure 6",
+          "table": null,
+          "original_quote": "Figure 6. Calibrated and marine-reservoir-corrected radiocarbon ages on foraminifera tests collected from core H02 on the northern shelf of the GEA in proximity to the Evrona Fault [after Galloway, 2011]. These data yield a sedimentation rate of 1.24 mm/yr."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。第17页及摘要比较支持晚更新世至全新世速率增加；全新世估计彼此重叠，不能据此证明全新世内部持续加速。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q17:edge:edge.premise.8",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "pdf_page": 20,
+          "printed_page": 20
+        },
+        {
+          "anchor_id": "anchor.text.holo_rate",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "These data indicate a Holocene slip rates of 2.3 ± 0.6 mm/yr."
+        },
+        {
+          "anchor_id": "anchor.text.mis5_rate",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Using these MIS5 age determinations, we calculate an average late Pleistocene slip rate for the Evrona fault of 0.7 ± 0.3 mm/yr since the R4.1 generation."
+        },
+        {
+          "anchor_id": "anchor.text.u6_rate",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Using the 29 ± 7 m offset and an age for the top of U6 of 8.4–8 ka yields a slip rate of 3.5 ± 0.9 mm/yr since deposition of U6."
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:8640c39f9003d1c0d884670049da5cfa8e3162da8aed37fb4c0ec1c1248f444c",
+          "pdf_page": 9,
+          "figure": "Figure 6",
+          "table": null,
+          "original_quote": "Figure 6. Calibrated and marine-reservoir-corrected radiocarbon ages on foraminifera tests collected from core H02 on the northern shelf of the GEA in proximity to the Evrona Fault [after Galloway, 2011]. These data yield a sedimentation rate of 1.24 mm/yr."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。第17页及摘要比较支持晚更新世至全新世速率增加；全新世估计彼此重叠，不能据此证明全新世内部持续加速。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q17:edge:edge.premise.9",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 9,
+          "printed_page": 9
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "pdf_page": 20,
+          "printed_page": 20
+        },
+        {
+          "anchor_id": "anchor.text.u6_rate",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Using the 29 ± 7 m offset and an age for the top of U6 of 8.4–8 ka yields a slip rate of 3.5 ± 0.9 mm/yr since deposition of U6."
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:8640c39f9003d1c0d884670049da5cfa8e3162da8aed37fb4c0ec1c1248f444c",
+          "pdf_page": 9,
+          "figure": "Figure 6",
+          "table": null,
+          "original_quote": "Figure 6. Calibrated and marine-reservoir-corrected radiocarbon ages on foraminifera tests collected from core H02 on the northern shelf of the GEA in proximity to the Evrona Fault [after Galloway, 2011]. These data yield a sedimentation rate of 1.24 mm/yr."
+        },
+        {
+          "anchor_id": "anchor.text.holo_rate",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "These data indicate a Holocene slip rates of 2.3 ± 0.6 mm/yr."
+        },
+        {
+          "anchor_id": "anchor.text.mis5_rate",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Using these MIS5 age determinations, we calculate an average late Pleistocene slip rate for the Evrona fault of 0.7 ± 0.3 mm/yr since the R4.1 generation."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。第17页及摘要比较支持晚更新世至全新世速率增加；全新世估计彼此重叠，不能据此证明全新世内部持续加速。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q17:edge:edge.support.2",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 1
+        },
+        {
+          "pdf_page": 11,
+          "printed_page": 11
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": 12
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "pdf_page": 20,
+          "printed_page": 20
+        },
+        {
+          "anchor_id": "anchor.figure.15",
+          "pdf_page": 16,
+          "figure": "Figure 15",
+          "table": null,
+          "original_quote": "Figure 15. A map of the major faults (black lines) that divide the northern GEA and their estimated slip rates (internal frames), overlaid on the curvature of the seafloor. Faults are marked by solid lines where they were interpreted from the seismic data across the shelf. The continuation of the faults southward is suggested based on their extrapolation from the curvature analysis of the bathymetric data and in similarity to the fault outlines that were previously suggested [Reches et al., 1987; Ben Avraham and Tibor, 1993; Ehrhardt et al., 2005; Tibor et al., 2010]. Their continuation northward is suggested based on their extrapolation from presettlement (1945) aerial photographs. The graphs of average slip rates and tilt rates as a function of the averaging time-span are shown for their relevant faults. Average slip rates are marked by black lines and calculated uncertainty indicated by gray boxes."
+        },
+        {
+          "anchor_id": "anchor.text.concl_evrona",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "The activity and slip measurements across the faults imply that a major strike-slip fault, the Evrona Fault, occupies most of the Holocene left lateral slip within the basin."
+        },
+        {
+          "anchor_id": "anchor.text.evrona_seafloor",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "All reflectors visible on the seismic profiles, as well as the seafloor, are offset by the Evrona Fault."
+        },
+        {
+          "anchor_id": "anchor.text.evrona_subsidence",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Since R5 developed until 11.5 ka, the Evrona fault has an average subsidence rate of \\~1 mm/yr during the Holocene (Figure 15)."
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:840d275326b464974c9a25208a6d07e7e6b2b51b1ee131809997c487860017be",
+          "pdf_page": 9,
+          "figure": "Figure 7",
+          "table": null,
+          "original_quote": "Figure 7. Interpreted faults along the northern shelf of the Gulf of Elat/Aqaba. The location of each fault was picked from the seismic profiles, and each fault interpretation is marked by a grey dot. The fault lines were interpolated between these data points and projected onto the bathymetric image of the seafloor."
+        },
+        {
+          "anchor_id": "anchor.text.abstract_evrona",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "The most active fault is the Evrona Fault that absorbs most of the left lateral slip within the basin with an average sinistral slip rate of 0.7 ± 0.3 mm/yr through the Late Pleistocene and 2.3–3.4 mm/yr during the Holocene."
+        }
+      ],
+      "rationale": "按论文讨论，源解释指向目标主张，结论方向相符。摘要及第20页结论如此解释；限定mapped shelf faults并保留West Aqaba走滑未知，忠实于论文。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q17:edge:edge.support.3",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 1
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "pdf_page": 20,
+          "printed_page": 20
+        },
+        {
+          "pdf_page": 21,
+          "printed_page": 21
+        },
+        {
+          "anchor_id": "anchor.text.holo_rate",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "These data indicate a Holocene slip rates of 2.3 ± 0.6 mm/yr."
+        },
+        {
+          "anchor_id": "anchor.text.mis5_rate",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Using these MIS5 age determinations, we calculate an average late Pleistocene slip rate for the Evrona fault of 0.7 ± 0.3 mm/yr since the R4.1 generation."
+        },
+        {
+          "anchor_id": "anchor.text.u6_rate",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "Using the 29 ± 7 m offset and an age for the top of U6 of 8.4–8 ka yields a slip rate of 3.5 ± 0.9 mm/yr since deposition of U6."
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:8640c39f9003d1c0d884670049da5cfa8e3162da8aed37fb4c0ec1c1248f444c",
+          "pdf_page": 9,
+          "figure": "Figure 6",
+          "table": null,
+          "original_quote": "Figure 6. Calibrated and marine-reservoir-corrected radiocarbon ages on foraminifera tests collected from core H02 on the northern shelf of the GEA in proximity to the Evrona Fault [after Galloway, 2011]. These data yield a sedimentation rate of 1.24 mm/yr."
+        },
+        {
+          "anchor_id": "anchor.figure.15",
+          "pdf_page": 16,
+          "figure": "Figure 15",
+          "table": null,
+          "original_quote": "Figure 15. A map of the major faults (black lines) that divide the northern GEA and their estimated slip rates (internal frames), overlaid on the curvature of the seafloor. Faults are marked by solid lines where they were interpreted from the seismic data across the shelf. The continuation of the faults southward is suggested based on their extrapolation from the curvature analysis of the bathymetric data and in similarity to the fault outlines that were previously suggested [Reches et al., 1987; Ben Avraham and Tibor, 1993; Ehrhardt et al., 2005; Tibor et al., 2010]. Their continuation northward is suggested based on their extrapolation from presettlement (1945) aerial photographs. The graphs of average slip rates and tilt rates as a function of the averaging time-span are shown for their relevant faults. Average slip rates are marked by black lines and calculated uncertainty indicated by gray boxes."
+        },
+        {
+          "anchor_id": "anchor.text.abstract_evrona",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "The most active fault is the Evrona Fault that absorbs most of the left lateral slip within the basin with an average sinistral slip rate of 0.7 ± 0.3 mm/yr through the Late Pleistocene and 2.3–3.4 mm/yr during the Holocene."
+        },
+        {
+          "anchor_id": "anchor.text.evrona_incr",
+          "pdf_page": 17,
+          "figure": null,
+          "table": null,
+          "original_quote": "The resulting sinistral and normal slip rates along the Evrona Fault indicate an increasing slip rate from the Late Pleistocene to the early Holocene."
+        },
+        {
+          "anchor_id": "anchor.text.tilting_increase",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "Since the last marine transgression (i.e., MIS 5, \\~130–80 ka), the average sinistral, slip rate of the Evrona Fault has increased from \\~0.7 ± 0.3 mm/yr to between approximately 2.3 and 3.4 mm/yr, and the average rate of tilting of the Ayla High has increased from 4°/my to 9°/my."
+        }
+      ],
+      "rationale": "按论文讨论，源解释指向目标主张，结论方向相符。摘要及第20—21页确有0.7±0.3到2.3—3.4；正文U6的两种年龄和平均3.4需保留。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q17:edge:edge.support.6",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 15,
+          "printed_page": 15
+        },
+        {
+          "anchor_id": "anchor.figure.15",
+          "pdf_page": 16,
+          "figure": "Figure 15",
+          "table": null,
+          "original_quote": "Figure 15. A map of the major faults (black lines) that divide the northern GEA and their estimated slip rates (internal frames), overlaid on the curvature of the seafloor. Faults are marked by solid lines where they were interpreted from the seismic data across the shelf. The continuation of the faults southward is suggested based on their extrapolation from the curvature analysis of the bathymetric data and in similarity to the fault outlines that were previously suggested [Reches et al., 1987; Ben Avraham and Tibor, 1993; Ehrhardt et al., 2005; Tibor et al., 2010]. Their continuation northward is suggested based on their extrapolation from presettlement (1945) aerial photographs. The graphs of average slip rates and tilt rates as a function of the averaging time-span are shown for their relevant faults. Average slip rates are marked by black lines and calculated uncertainty indicated by gray boxes."
+        },
+        {
+          "anchor_id": "anchor.text.elat_aqaba_rate",
+          "pdf_page": 15,
+          "figure": null,
+          "table": null,
+          "original_quote": "Using an age of 9–10 ka for the SB2 surface, we calculate a vertical slip rate of 1.0 ± 0.2 mm/yr and 0.4 ± 0.1 mm/yr for the Elat and Aqaba faults, respectively (Figure 15)."
+        },
+        {
+          "anchor_id": "anchor.text.marginal_flank",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "The basin is flanked on the west by the Elat Fault and on the east by the Aqaba Fault."
+        },
+        {
+          "anchor_id": "anchor.text.sb2_age",
+          "pdf_page": 15,
+          "figure": null,
+          "table": null,
+          "original_quote": "The SB2 surface and the overlying sediments of units U5 and U6 are vertically offset an equal amount implying that the total measured offset developed since the early Holocene approximately 9–10 ka."
+        }
+      ],
+      "rationale": "按论文讨论，源解释指向目标主张，结论方向相符。第15页明确以SB2约9—10 ka计算两边界断层垂向速率，数字与次序正确。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q17:edge:edge.support.7",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 1
+        },
+        {
+          "pdf_page": 18,
+          "printed_page": 18
+        },
+        {
+          "pdf_page": 20,
+          "printed_page": 20
+        },
+        {
+          "pdf_page": 21,
+          "printed_page": 21
+        },
+        {
+          "anchor_id": "anchor.figure.16",
+          "pdf_page": 18,
+          "figure": "Figure 16",
+          "table": null,
+          "original_quote": null
+        },
+        {
+          "anchor_id": "anchor.text.fig16_caption",
+          "pdf_page": 18,
+          "figure": null,
+          "table": null,
+          "original_quote": "Schematic illustrations of models of basin evolution along left lateral strike-slip fault."
+        },
+        {
+          "anchor_id": "anchor.text.intermediate_loc",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "The northern shelf of the GEA appears to be a location in an intermediate stage of development where distributed deformation translates motion onto the Evrona Fault from other intrabasinal faults."
+        },
+        {
+          "anchor_id": "anchor.text.keypoint_advanced",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "• The northern GEA basin is in an advanced stage of evolution"
+        },
+        {
+          "anchor_id": "anchor.text.model_support",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "The results of this study support the model of basin evolution along strike-slip fault, where the stage of evolution is predicted by fault geometry and slip."
+        },
+        {
+          "anchor_id": "anchor.text.phase_desc",
+          "pdf_page": 20,
+          "figure": null,
+          "table": null,
+          "original_quote": "Whereas the initial phase of transform basin evolution is characterized by a rhomb-shaped graben bounded by marginal dominant faults, the intermediate phase has intrabasin faults partitioning strain on various types of faults."
+        },
+        {
+          "anchor_id": "anchor.text.intermediate",
+          "pdf_page": 21,
+          "figure": null,
+          "table": null,
+          "original_quote": "The basin of the northern GEA is still in an intermediate phase of evolution, where slip is partitioned onto marginal normal faults and strike-slip and oblique-slip intrabasinal faults."
+        }
+      ],
+      "rationale": "按论文讨论，源解释指向目标主张，结论方向相符。第20—21页支持中间阶段与全新世Evrona集中趋势；节点qualifier如实披露Key Points措辞。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q17:edge:edge:compiler:20f7c1ca79e7c987f74a3a3c8c10af377fe1b7e8a7234ed15934b9a829f8ac97",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": 12
+        },
+        {
+          "pdf_page": 15,
+          "printed_page": 15
+        },
+        {
+          "pdf_page": 16,
+          "printed_page": 16
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": 17
+        },
+        {
+          "anchor_id": "anchor.figure.15",
+          "pdf_page": 16,
+          "figure": "Figure 15",
+          "table": null,
+          "original_quote": "Figure 15. A map of the major faults (black lines) that divide the northern GEA and their estimated slip rates (internal frames), overlaid on the curvature of the seafloor. Faults are marked by solid lines where they were interpreted from the seismic data across the shelf. The continuation of the faults southward is suggested based on their extrapolation from the curvature analysis of the bathymetric data and in similarity to the fault outlines that were previously suggested [Reches et al., 1987; Ben Avraham and Tibor, 1993; Ehrhardt et al., 2005; Tibor et al., 2010]. Their continuation northward is suggested based on their extrapolation from presettlement (1945) aerial photographs. The graphs of average slip rates and tilt rates as a function of the averaging time-span are shown for their relevant faults. Average slip rates are marked by black lines and calculated uncertainty indicated by gray boxes."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第15、17页和图11/15支持角度及模型年龄所得倾斜速率；单位degree/my为每百万年。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q17:edge:edge:compiler:90f95a3edee5bce2d9406fde62021fa94e43622935e3ff0e06ca0d16e5931e82",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 9,
+          "printed_page": 9
+        },
+        {
+          "pdf_page": 10,
+          "printed_page": 10
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:840d275326b464974c9a25208a6d07e7e6b2b51b1ee131809997c487860017be",
+          "pdf_page": 9,
+          "figure": "Figure 7",
+          "table": null,
+          "original_quote": "Figure 7. Interpreted faults along the northern shelf of the Gulf of Elat/Aqaba. The location of each fault was picked from the seismic profiles, and each fault interpretation is marked by a grey dot. The fault lines were interpolated between these data points and projected onto the bathymetric image of the seafloor."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第10页及图7明确Aqaba内一条E-W断层。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q17:edge:edge:compiler:c797012facf2aa928a41824987c8a3ac821dc1b821a77f523c645a87efa9aa46",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 10,
+          "printed_page": 10
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:8161cc3b094439f3865a4924b4cf5afb64400d9d332ab0e83661fb124caa9c1c",
+          "pdf_page": 10,
+          "figure": "Figure 8",
+          "table": null,
+          "original_quote": "Figure 8. Cross section along the northern GEA shelf comprised of four seismic profiles (DE10, W05a, E05a, and DA21; marked by a dashed line). This cross section shows the major faults that divide the northern GEA into the Elat subbasin, Ayla horst, and Aqaba subbasin. The marginal Elat and Aqaba Faults have a normal component, and they displace the reflectors of the Upper Stratigraphic Package. The Evrona Fault is a strike-slip fault with a component of normal slip. Both the Ayla and East-Ayla faults have a normal component and neither displaces the reflectors of the upper depositional sequence. The vertical scale is shown in two-way travel time (TWT) in milliseconds (ms)."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第10页和图8三结构块位置和划分准确。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    }
+  ],
+  "omitted_conditions": [
+    {
+      "id": "q17-condition-age",
+      "pages": [
+        7,
+        9,
+        17
+      ],
+      "condition": "R4.1仅MIS5 130—80 ka大范围且可能Termination II；U6由U9/U8沉积速率外推存在large uncertainties，8.4—8 ka与9.25 ka为不同年龄约束。",
+      "affected_nodes": [
+        "assumption.age",
+        "reason.evrona_rate"
+      ]
+    },
+    {
+      "id": "q17-condition-offset",
+      "pages": [
+        12,
+        14,
+        17
+      ],
+      "condition": "礁描线有20%误差；U6坡侧受侵蚀，shoreward29±7 m被原文称最大范围，不能无约束当作精确位移。",
+      "affected_nodes": [
+        "reason.evrona_offsets",
+        "obs.u6_rate"
+      ]
+    },
+    {
+      "id": "q17-condition-coverage",
+      "pages": [
+        10,
+        14,
+        17,
+        19
+      ],
+      "condition": "大于100 m陡坡穿透有限；Ayla/East Ayla无穿刺线；West Aqaba走滑量未测；边界断层无记录走滑不等于排除走滑。",
+      "affected_nodes": [
+        "reason.evrona_dominant",
+        "reason.structure"
+      ]
+    },
+    {
+      "id": "q17-condition-interpretation",
+      "pages": [
+        18,
+        20,
+        21
+      ],
+      "condition": "转移/应变收窄是可能解释，另有边缘到内部转移备选；未排除板块速度变化。advanced可指总体较成熟，不自动与三阶段模型intermediate矛盾。",
+      "affected_nodes": [
+        "reason.basin_evolution",
+        "reason.alya_transfer",
+        "assumption.slipredist"
+      ]
+    }
+  ],
+  "counting_rule": "Scientific nodes are claims, observations, assumptions, reasoning. A scientific dependency connects two such nodes. Counts describe the filtered audit set. Data nodes and source/data links are counted separately."
+}

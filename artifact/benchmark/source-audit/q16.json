@@ -1,0 +1,2869 @@
+{
+  "schema_version": "ai-source-audit-v1",
+  "source": "q16",
+  "paper_id": "paper:bae383627bfcd3cfc013b1f00414f8f9625f7d43f4ecefa82adfb6e8c643af7a",
+  "snapshot_id": "snapshot:sha256:27d2e8a1979a28aeb2f88a4c57bcd80191b40192a43a3417e052013a5f757e8c",
+  "pdf_sha256": "bae383627bfcd3cfc013b1f00414f8f9625f7d43f4ecefa82adfb6e8c643af7a",
+  "reviewer": {
+    "reviewed_at": "2026-11-04T09:40:49.250171+00:00",
+    "requested_model": "gpt-6-astra"
+  },
+  "counts": {
+    "scientific_node": {
+      "fully_supported": 25
+    },
+    "scientific_dependency": {
+      "fully_supported": 26,
+      "partially_supported": 4
+    },
+    "source_or_data_link": {
+      "fully_supported": 17,
+      "partially_supported": 5,
+      "unsupported": 1
+    }
+  },
+  "items": [
+    {
+      "item_id": "q16:node:claim:sha256:0e4cd2f89fbb8ab8f5a501fd57208462b3f11eed7dce4b42a2f0b3c3ac18a946",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": 2149
+        },
+        {
+          "anchor_id": "anchor.text.conclusion_melt",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "The Red Sea rift axis is underlain by a crust with a highly reduced average $V _ { p }$ of 5.1 km/s as the result of an approximate 10% volume of partial melt."
+        },
+        {
+          "anchor_id": "anchor.text.melt_comparison1",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "The melt fraction beneath the study area is significantly lower than that observed beneath mid-ocean ridges."
+        },
+        {
+          "anchor_id": "anchor.text.melt_comparison2",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "Beneath typical continental rift zones such as the Rio Grande and Baikal rifts, on the other hand, the average crustal velocities are significantly higher than those observed in Afar [West et al., 2004;"
+        },
+        {
+          "anchor_id": "anchor.text.transition_conclusion",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "Stacking of receiver functions recorded by the first broadband seismic array of such high resolution in the Afar Depression provides additional evidence supporting the notion that the lithosphere beneath the Red Sea rift in central Afar is currently in a state of transition between purely thinned continental crust and newly formed oceanic crust."
+        }
+      ],
+      "rationale": "第12页结论明确使用 additional evidence supporting 及 transition；保留了研究区域和推断性质。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q16:node:claim:sha256:569068d9e09af8dbba8d1f4eed2030de37d5f2521e54983a28219218dc25b4a3",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 8,
+          "printed_page": 2145
+        },
+        {
+          "pdf_page": 10,
+          "printed_page": 2147
+        },
+        {
+          "anchor_id": "anchor.text.kappa_abs",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "The resulting anomalously high $V _ { p } / V _ { s }$ ratios decrease from 2.40 in the southwest to 1.85 within the overlap zone."
+        },
+        {
+          "anchor_id": "anchor.text.kappa_corr1",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "thickness, suggesting that areas with thinner crust have larger ?"
+        },
+        {
+          "anchor_id": "anchor.text.kappa_corr2",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "and lower $V _ { p }$ values."
+        },
+        {
+          "anchor_id": "anchor.text.kappa_region_a",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "of $2 ."
+        },
+        {
+          "anchor_id": "anchor.text.kappa_region_e",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "0 2 4$ within Region E, where the crust is the thickest, and by the regionally maximum ?"
+        }
+      ],
+      "rationale": "第10页3.2.2给出区域A/E的2.160±0.126和1.870±0.024及厚度相关，区域平均值未与单站2.40/1.85混淆。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q16:node:claim:sha256:5b7236790b14ffae9c91e01ab7f2df47fb0431444635258ac2e5990d56f93650",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 2138
+        },
+        {
+          "pdf_page": 9,
+          "printed_page": 2146
+        },
+        {
+          "anchor_id": "anchor.text.h_abs",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "Stacking of about 2300 receiver functions from the 18 and several nearby stations along the ∼200 km long array reveals an average crustal thickness of $2 2 \\pm 4$ km, ranging from ∼17 km near the RSR axis to 30 km within the overlap zone between the Red Sea and Gulf of Aden rifts."
+        },
+        {
+          "anchor_id": "anchor.text.h_asym",
+          "pdf_page": 9,
+          "figure": null,
+          "table": null,
+          "original_quote": "The crustal thickness observations have an asymmetric pattern (Figure 7c) defined by gradual thickening toward the southwest from the immediate southwestern rift flank and by relatively sharp thickening toward the northeast within Region E."
+        }
+      ],
+      "rationale": "摘要及第9页给出22±4 km、AD09约17.6 km、AD19约30.4 km及不对称增厚。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q16:node:claim:sha256:a25ef52b0b33af9a4041019aeca2adb9b8e852d1841771ad39673b392950f29b",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 2138
+        },
+        {
+          "pdf_page": 4,
+          "printed_page": 2141
+        },
+        {
+          "pdf_page": 10,
+          "printed_page": 2147
+        },
+        {
+          "pdf_page": 11,
+          "printed_page": 2148
+        },
+        {
+          "anchor_id": "anchor.fig2",
+          "pdf_page": 4,
+          "figure": "Figure 2",
+          "table": null,
+          "original_quote": null
+        },
+        {
+          "anchor_id": "anchor.fig7",
+          "pdf_page": 9,
+          "figure": "Figure 7",
+          "table": null,
+          "original_quote": null
+        },
+        {
+          "anchor_id": "anchor.text.melt_abs",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "The melt percentage is about 10% beneath the RSR while the overlap zone contains minor quantities of partial melt."
+        },
+        {
+          "anchor_id": "anchor.text.melt_fig7e",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "As expected, the lateral distribution of melt fraction across the RSR, which ranges from about 14% to 3%, closely mirrors that of the ?"
+        },
+        {
+          "anchor_id": "anchor.text.melt_regions",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "The average melt fraction for the five regions demonstrates an overall decreasing trend toward the northeast, with 11.4% melt for Region A, 8.5% for Region B, 10.2% for Region C, 8.4% for Region D, and 4.2% for Region E."
+        },
+        {
+          "anchor_id": "anchor.text.vp_avg",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "We utilize theoretical $V _ { p }$ and melt fraction relationships to obtain an overall highly reduced average crustal $V _ { p }$ of ∼5.1 km/s."
+        },
+        {
+          "anchor_id": "anchor.text.vp_theory",
+          "pdf_page": 4,
+          "figure": null,
+          "table": null,
+          "original_quote": "greater than 1.82 must theoretically, without accounting for source composition, temperature, or melt geometry (see Clemens and Vielzeuf [1987], Hammond and Humphreys [2000], and Takei [2002] for further references), relate to increasing degrees of partial melt located within the crust and a correlative decrease in $V _ { p } .$ For instance, an 11% melt volume results in a ?"
+        }
+      ],
+      "rationale": "第4页理论、第10—11页熔体分布和摘要支持这些量值；qualifier保留Watanabe模型。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q16:node:claim:sha256:c37b448182fbfc8f9859839a933f264dcb294d298730695f57825f2f4549a389",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": 2149
+        },
+        {
+          "anchor_id": "anchor.text.decoupling",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "The difference in deformation style and spatial distribution of extensional strain between the upper and lower crust suggests that the two crustal layers were decoupled during extension."
+        },
+        {
+          "anchor_id": "anchor.text.heat",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "Anomalously high surface heat flux as the result of a regionally elevated geotherm has been reported within central Afar [Lysak, 1992] and has been attributed either to enhanced magmatic activity associated with localized asthenospheric upwellings and decompressional melting [Hammond et al., 2013] or to the proposed Afar plume [Oppenheimer and Francis, 1997;"
+        }
+      ],
+      "rationale": "第12页直接由变形方式差异推断解耦，qualifier正确说明并非直接流变成像。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q16:node:claim:sha256:dfc8125f38f79ffa525b4031e0bcc3de22165df946fe6424e6cd73dffb8b844f",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 11,
+          "printed_page": 2148
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": 2149
+        },
+        {
+          "anchor_id": "anchor.text.conclusion_melt_max",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "The measurements suggest that a regionally maximum degree of melt underlies the region to the southwest of the rift axis, possibly resulting from continuous eastward migration of the Red Sea rift axis since the late Miocene as well as focused melting due to asthenospheric upwelling to the west of the RSR."
+        },
+        {
+          "anchor_id": "anchor.text.migration_gradual",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "The high melt fraction observed pervasively in Regions A and B, however, is more consistent with a model of gradual rather than “jumpy” migration of the RSR migration."
+        },
+        {
+          "anchor_id": "anchor.text.migration_residual",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "observed in Region A may be present as residual magmatic material remaining from a continuous eastward migration of the RSR axis."
+        },
+        {
+          "anchor_id": "anchor.text.offaxis_mantle",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "This is consistent with the observation that both regions are underlain by anomalously low uppermost mantle velocities [Stork et al., 2013]."
+        }
+      ],
+      "rationale": "第11—12页明确以广泛离轴熔体偏好渐进东移，节点保留more consistent而未宣称排他证明。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q16:node:obs.h_abs",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 2138
+        },
+        {
+          "pdf_page": 7,
+          "printed_page": 2144
+        },
+        {
+          "pdf_page": 9,
+          "printed_page": 2146
+        },
+        {
+          "anchor_id": "anchor.text.h_abs",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "Stacking of about 2300 receiver functions from the 18 and several nearby stations along the ∼200 km long array reveals an average crustal thickness of $2 2 \\pm 4$ km, ranging from ∼17 km near the RSR axis to 30 km within the overlap zone between the Red Sea and Gulf of Aden rifts."
+        }
+      ],
+      "rationale": "摘要与第7页的2277条RF支持约2300及22±4 km，极值来自第9页。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q16:node:obs.h_asym",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 9,
+          "printed_page": 2146
+        },
+        {
+          "anchor_id": "anchor.text.h_asym",
+          "pdf_page": 9,
+          "figure": null,
+          "table": null,
+          "original_quote": "The crustal thickness observations have an asymmetric pattern (Figure 7c) defined by gradual thickening toward the southwest from the immediate southwestern rift flank and by relatively sharp thickening toward the northeast within Region E."
+        }
+      ],
+      "rationale": "第9页3.2.1明确描述西南渐厚、东北E区陡厚。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q16:node:obs.heat",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": 2149
+        },
+        {
+          "anchor_id": "anchor.text.heat",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "Anomalously high surface heat flux as the result of a regionally elevated geotherm has been reported within central Afar [Lysak, 1992] and has been attributed either to enhanced magmatic activity associated with localized asthenospheric upwellings and decompressional melting [Hammond et al., 2013] or to the proposed Afar plume [Oppenheimer and Francis, 1997;"
+        }
+      ],
+      "rationale": "第12页引用Lysak的热流证据；文本保留has been reported，未冒充本研究测量。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q16:node:obs.kappa_corr",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 10,
+          "printed_page": 2147
+        },
+        {
+          "anchor_id": "anchor.text.kappa_corr1",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "thickness, suggesting that areas with thinner crust have larger ?"
+        },
+        {
+          "anchor_id": "anchor.text.kappa_corr2",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "and lower $V _ { p }$ values."
+        }
+      ],
+      "rationale": "第10页完整句明确给出薄壳、高κ、低Vp的空间相关。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q16:node:obs.kappa_regions",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 8,
+          "printed_page": 2145
+        },
+        {
+          "pdf_page": 10,
+          "printed_page": 2147
+        },
+        {
+          "anchor_id": "anchor.text.kappa_region_a",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "of $2 ."
+        },
+        {
+          "anchor_id": "anchor.text.kappa_region_a2",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "1 2 6$ within Region $\\mathsf { A } ,$ which boasts the thinnest crust on average."
+        },
+        {
+          "anchor_id": "anchor.text.kappa_region_e",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "0 2 4$ within Region E, where the crust is the thickest, and by the regionally maximum ?"
+        }
+      ],
+      "rationale": "第10页完整句和表1支持两区域均值及误差；原锚点OCR碎片不能独立恢复数值。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q16:node:obs.melt_abs",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 2138
+        },
+        {
+          "anchor_id": "anchor.text.melt_abs",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "The melt percentage is about 10% beneath the RSR while the overlap zone contains minor quantities of partial melt."
+        }
+      ],
+      "rationale": "摘要给出轴下约10%、重叠区少量，属模型估计。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q16:node:obs.melt_comparison",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 11,
+          "printed_page": 2148
+        },
+        {
+          "anchor_id": "anchor.text.melt_comparison1",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "The melt fraction beneath the study area is significantly lower than that observed beneath mid-ocean ridges."
+        },
+        {
+          "anchor_id": "anchor.text.melt_comparison2",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "Beneath typical continental rift zones such as the Rio Grande and Baikal rifts, on the other hand, the average crustal velocities are significantly higher than those observed in Afar [West et al., 2004;"
+        }
+      ],
+      "rationale": "第11页逐项比较洋中脊熔融与典型大陆裂谷速度；忠实复述作者比较。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q16:node:obs.melt_fig7e",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 9,
+          "printed_page": 2146
+        },
+        {
+          "pdf_page": 10,
+          "printed_page": 2147
+        },
+        {
+          "anchor_id": "anchor.fig7",
+          "pdf_page": 9,
+          "figure": "Figure 7",
+          "table": null,
+          "original_quote": null
+        },
+        {
+          "anchor_id": "anchor.text.melt_fig7e",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "As expected, the lateral distribution of melt fraction across the RSR, which ranges from about 14% to 3%, closely mirrors that of the ?"
+        }
+      ],
+      "rationale": "第10页4.1与第9页图7e显示约14%—3%，分布随κ变化。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q16:node:obs.melt_offaxis",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": 2149
+        },
+        {
+          "anchor_id": "anchor.text.conclusion_melt_max",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "The measurements suggest that a regionally maximum degree of melt underlies the region to the southwest of the rift axis, possibly resulting from continuous eastward migration of the Red Sea rift axis since the late Miocene as well as focused melting due to asthenospheric upwelling to the west of the RSR."
+        }
+      ],
+      "rationale": "第12页结论明确区域最大熔融在轴西南侧，文本保留suggest。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q16:node:obs.offaxis_mantle",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 11,
+          "printed_page": 2148
+        },
+        {
+          "anchor_id": "anchor.text.offaxis_mantle",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "This is consistent with the observation that both regions are underlain by anomalously low uppermost mantle velocities [Stork et al., 2013]."
+        }
+      ],
+      "rationale": "第11页引用Stork对A/B低上地幔速度的观察，不是本研究RF独立测量。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q16:node:obs.strain_lower",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": 2149
+        },
+        {
+          "anchor_id": "anchor.text.strain_lower",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "Our measurements of crustal thickness and inferred partial melt fractions, which are clearly not restricted to a rift-axial magmatic segment, suggest that deformation is more widespread in the lower crust concomitant with spatially voluminous melt reservoir emplacement."
+        }
+      ],
+      "rationale": "第12页4.3明确把离轴厚度与熔融分布作为广域下地壳变形的线索，节点保留suggesting。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q16:node:obs.strain_wide",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": 2149
+        },
+        {
+          "anchor_id": "anchor.text.strain_wide",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "When combined with surface geological and geodetic observations, particularly with regard to the absence of localized uppermost crustal extension southwest of the RSR, our findings support the notion that in the lower crust, strain along our profile across the RSR is widely distributed, encompassed by a strain field stretching well into the southwestern Afar and the Dobi-Hanle rift system to the northeast while terminating with the rigid overlap zone."
+        }
+      ],
+      "rationale": "第12页将RF与地表地质/大地测量合并后提出广域应变，条件保留。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q16:node:obs.vp_theory",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 4,
+          "printed_page": 2141
+        },
+        {
+          "anchor_id": "anchor.fig2",
+          "pdf_page": 4,
+          "figure": "Figure 2",
+          "table": null,
+          "original_quote": null
+        },
+        {
+          "anchor_id": "anchor.text.vp_theory",
+          "pdf_page": 4,
+          "figure": null,
+          "table": null,
+          "original_quote": "greater than 1.82 must theoretically, without accounting for source composition, temperature, or melt geometry (see Clemens and Vielzeuf [1987], Hammond and Humphreys [2000], and Takei [2002] for further references), relate to increasing degrees of partial melt located within the crust and a correlative decrease in $V _ { p } .$ For instance, an 11% melt volume results in a ?"
+        }
+      ],
+      "rationale": "第4页正文与图2支持阈值和示例；仅在指定组成、温度及熔体几何模型条件下成立。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q16:node:obs.vp_transition",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": 2149
+        },
+        {
+          "anchor_id": "anchor.text.conclusion_melt",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "The Red Sea rift axis is underlain by a crust with a highly reduced average $V _ { p }$ of 5.1 km/s as the result of an approximate 10% volume of partial melt."
+        }
+      ],
+      "rationale": "第12页结论直接报告5.1与约10%，是原文因果解释，绝对量受理论模型约束。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q16:node:reason.crustal_thickness_pattern",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 2138
+        },
+        {
+          "pdf_page": 9,
+          "printed_page": 2146
+        },
+        {
+          "anchor_id": "anchor.text.h_abs",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "Stacking of about 2300 receiver functions from the 18 and several nearby stations along the ∼200 km long array reveals an average crustal thickness of $2 2 \\pm 4$ km, ranging from ∼17 km near the RSR axis to 30 km within the overlap zone between the Red Sea and Gulf of Aden rifts."
+        },
+        {
+          "anchor_id": "anchor.text.h_asym",
+          "pdf_page": 9,
+          "figure": null,
+          "table": null,
+          "original_quote": "The crustal thickness observations have an asymmetric pattern (Figure 7c) defined by gradual thickening toward the southwest from the immediate southwestern rift flank and by relatively sharp thickening toward the northeast within Region E."
+        }
+      ],
+      "rationale": "第9页最薄AD09、最厚AD19和摘要均值支持该归纳；地域平均最薄A与单站轴下最薄应区分。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q16:node:reason.kappa_vp_thickness",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 10,
+          "printed_page": 2147
+        },
+        {
+          "anchor_id": "anchor.text.kappa_abs",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "The resulting anomalously high $V _ { p } / V _ { s }$ ratios decrease from 2.40 in the southwest to 1.85 within the overlap zone."
+        },
+        {
+          "anchor_id": "anchor.text.kappa_corr1",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "thickness, suggesting that areas with thinner crust have larger ?"
+        },
+        {
+          "anchor_id": "anchor.text.kappa_corr2",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "and lower $V _ { p }$ values."
+        },
+        {
+          "anchor_id": "anchor.text.kappa_region_a",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "of $2 ."
+        },
+        {
+          "anchor_id": "anchor.text.kappa_region_e",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "0 2 4$ within Region E, where the crust is the thickest, and by the regionally maximum ?"
+        }
+      ],
+      "rationale": "第10页3.2.2明确陈述该相关趋势，适用剖面而非普适定律。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q16:node:reason.strain_styles",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": 2149
+        },
+        {
+          "anchor_id": "anchor.text.strain_lower",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "Our measurements of crustal thickness and inferred partial melt fractions, which are clearly not restricted to a rift-axial magmatic segment, suggest that deformation is more widespread in the lower crust concomitant with spatially voluminous melt reservoir emplacement."
+        },
+        {
+          "anchor_id": "anchor.text.strain_wide",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "When combined with surface geological and geodetic observations, particularly with regard to the absence of localized uppermost crustal extension southwest of the RSR, our findings support the notion that in the lower crust, strain along our profile across the RSR is widely distributed, encompassed by a strain field stretching well into the southwestern Afar and the Dobi-Hanle rift system to the northeast while terminating with the rigid overlap zone."
+        },
+        {
+          "anchor_id": "anchor.text.upper_localized",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "Our results also suggest that the current extensional strain in the lower crust beneath the region is diffuse, while the strain field in the upper crust is localized along narrow volcanic segments."
+        }
+      ],
+      "rationale": "第12页4.3清楚结合离轴分布及地表约束推断上下地壳应变差异。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q16:node:reason.transitional_crust",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 11,
+          "printed_page": 2148
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": 2149
+        },
+        {
+          "anchor_id": "anchor.text.conclusion_melt",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "The Red Sea rift axis is underlain by a crust with a highly reduced average $V _ { p }$ of 5.1 km/s as the result of an approximate 10% volume of partial melt."
+        },
+        {
+          "anchor_id": "anchor.text.melt_comparison1",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "The melt fraction beneath the study area is significantly lower than that observed beneath mid-ocean ridges."
+        },
+        {
+          "anchor_id": "anchor.text.melt_comparison2",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "Beneath typical continental rift zones such as the Rio Grande and Baikal rifts, on the other hand, the average crustal velocities are significantly higher than those observed in Afar [West et al., 2004;"
+        },
+        {
+          "anchor_id": "anchor.text.transition_conclusion",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "Stacking of receiver functions recorded by the first broadband seismic array of such high resolution in the Afar Depression provides additional evidence supporting the notion that the lithosphere beneath the Red Sea rift in central Afar is currently in a state of transition between purely thinned continental crust and newly formed oceanic crust."
+        }
+      ],
+      "rationale": "第11页大陆裂谷/洋中脊对比及第12页结论支持过渡状态解释。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q16:node:assumption.weak_lower_crust",
+      "item_type": "node",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": 2149
+        },
+        {
+          "anchor_id": "anchor.text.heat",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "Anomalously high surface heat flux as the result of a regionally elevated geotherm has been reported within central Afar [Lysak, 1992] and has been attributed either to enhanced magmatic activity associated with localized asthenospheric upwellings and decompressional melting [Hammond et al., 2013] or to the proposed Afar plume [Oppenheimer and Francis, 1997;"
+        }
+      ],
+      "rationale": "第12页引述流变模型说明弱/延性下地壳可解耦；作为解释的背景假设有文献依据。",
+      "relation_and_direction_checked": null,
+      "audit_category": "scientific_node"
+    },
+    {
+      "item_id": "q16:edge:edge.assumption.vp_melt",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 4,
+          "printed_page": 2141
+        },
+        {
+          "pdf_page": 8,
+          "printed_page": 2145
+        },
+        {
+          "anchor_id": "anchor.text.vp_theory",
+          "pdf_page": 4,
+          "figure": null,
+          "table": null,
+          "original_quote": "greater than 1.82 must theoretically, without accounting for source composition, temperature, or melt geometry (see Clemens and Vielzeuf [1987], Hammond and Humphreys [2000], and Takei [2002] for further references), relate to increasing degrees of partial melt located within the crust and a correlative decrease in $V _ { p } .$ For instance, an 11% melt volume results in a ?"
+        },
+        {
+          "anchor_id": "anchor.fig2",
+          "pdf_page": 4,
+          "figure": "Figure 2",
+          "table": null,
+          "original_quote": null
+        },
+        {
+          "anchor_id": "anchor.text.vp_avg",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "We utilize theoretical $V _ { p }$ and melt fraction relationships to obtain an overall highly reduced average crustal $V _ { p }$ of ∼5.1 km/s."
+        }
+      ],
+      "rationale": "第4页及第8页方法实际依赖Watanabe关系，该依赖存在；不等于模型对Afar绝对量的有效性已被证明。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q16:edge:edge.assumption.weak_lower_crust",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": 2149
+        },
+        {
+          "anchor_id": "anchor.text.heat",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "Anomalously high surface heat flux as the result of a regionally elevated geotherm has been reported within central Afar [Lysak, 1992] and has been attributed either to enhanced magmatic activity associated with localized asthenospheric upwellings and decompressional melting [Hammond et al., 2013] or to the proposed Afar plume [Oppenheimer and Francis, 1997;"
+        },
+        {
+          "anchor_id": "anchor.text.decoupling",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "The difference in deformation style and spatial distribution of extensional strain between the upper and lower crust suggests that the two crustal layers were decoupled during extension."
+        }
+      ],
+      "rationale": "该前提与目标方法的依赖方向成立。第12页对弱流变、高地温和变形差异的讨论构成该解释，非直接证明下地壳强度。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q16:edge:edge.ground.conclusion_melt",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": 2149
+        },
+        {
+          "anchor_id": "anchor.text.conclusion_melt",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "The Red Sea rift axis is underlain by a crust with a highly reduced average $V _ { p }$ of 5.1 km/s as the result of an approximate 10% volume of partial melt."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第12页结论直接报告5.1与约10%，是原文因果解释，绝对量受理论模型约束。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q16:edge:edge.ground.conclusion_melt_max",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": 2149
+        },
+        {
+          "anchor_id": "anchor.text.conclusion_melt_max",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "The measurements suggest that a regionally maximum degree of melt underlies the region to the southwest of the rift axis, possibly resulting from continuous eastward migration of the Red Sea rift axis since the late Miocene as well as focused melting due to asthenospheric upwelling to the west of the RSR."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第12页结论明确区域最大熔融在轴西南侧，文本保留suggest。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q16:edge:edge.ground.decoupling",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": 2149
+        },
+        {
+          "anchor_id": "anchor.text.decoupling",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "The difference in deformation style and spatial distribution of extensional strain between the upper and lower crust suggests that the two crustal layers were decoupled during extension."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第12页4.3明确作此推断；虽然放在observation集合，文本本身保留suggests。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q16:edge:edge.ground.fig2",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 4,
+          "printed_page": 2141
+        },
+        {
+          "anchor_id": "anchor.fig2",
+          "pdf_page": 4,
+          "figure": "Figure 2",
+          "table": null,
+          "original_quote": null
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第4页正文与图2支持阈值和示例；仅在指定组成、温度及熔体几何模型条件下成立。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q16:edge:edge.ground.fig7",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 9,
+          "printed_page": 2146
+        },
+        {
+          "pdf_page": 10,
+          "printed_page": 2147
+        },
+        {
+          "anchor_id": "anchor.fig7",
+          "pdf_page": 9,
+          "figure": "Figure 7",
+          "table": null,
+          "original_quote": null
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第10页4.1与第9页图7e显示约14%—3%，分布随κ变化。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q16:edge:edge.ground.h_abs",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 2138
+        },
+        {
+          "pdf_page": 7,
+          "printed_page": 2144
+        },
+        {
+          "pdf_page": 9,
+          "printed_page": 2146
+        },
+        {
+          "anchor_id": "anchor.text.h_abs",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "Stacking of about 2300 receiver functions from the 18 and several nearby stations along the ∼200 km long array reveals an average crustal thickness of $2 2 \\pm 4$ km, ranging from ∼17 km near the RSR axis to 30 km within the overlap zone between the Red Sea and Gulf of Aden rifts."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：摘要与第7页的2277条RF支持约2300及22±4 km，极值来自第9页。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q16:edge:edge.ground.h_asym",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 9,
+          "printed_page": 2146
+        },
+        {
+          "anchor_id": "anchor.text.h_asym",
+          "pdf_page": 9,
+          "figure": null,
+          "table": null,
+          "original_quote": "The crustal thickness observations have an asymmetric pattern (Figure 7c) defined by gradual thickening toward the southwest from the immediate southwestern rift flank and by relatively sharp thickening toward the northeast within Region E."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第9页3.2.1明确描述西南渐厚、东北E区陡厚。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q16:edge:edge.ground.heat",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": 2149
+        },
+        {
+          "anchor_id": "anchor.text.heat",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "Anomalously high surface heat flux as the result of a regionally elevated geotherm has been reported within central Afar [Lysak, 1992] and has been attributed either to enhanced magmatic activity associated with localized asthenospheric upwellings and decompressional melting [Hammond et al., 2013] or to the proposed Afar plume [Oppenheimer and Francis, 1997;"
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第12页引用Lysak的热流证据；文本保留has been reported，未冒充本研究测量。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q16:edge:edge.ground.kappa_abs",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 2138
+        },
+        {
+          "pdf_page": 8,
+          "printed_page": 2145
+        },
+        {
+          "anchor_id": "anchor.text.kappa_abs",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "The resulting anomalously high $V _ { p } / V _ { s }$ ratios decrease from 2.40 in the southwest to 1.85 within the overlap zone."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：摘要明确报告2.40到1.85；第8页表1显示为单站极值，与区域均值有别。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q16:edge:edge.ground.kappa_corr2",
+      "item_type": "edge",
+      "decision": "partially_supported",
+      "evidence": [
+        {
+          "pdf_page": 10,
+          "printed_page": 2147
+        },
+        {
+          "anchor_id": "anchor.text.kappa_corr2",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "and lower $V _ { p }$ values."
+        }
+      ],
+      "rationale": "只有and lower Vp values，未标明厚度和κ相关，不能独立支持整句。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q16:edge:edge.ground.kappa_region_a",
+      "item_type": "edge",
+      "decision": "unsupported",
+      "evidence": [
+        {
+          "pdf_page": 8,
+          "printed_page": 2145
+        },
+        {
+          "pdf_page": 10,
+          "printed_page": 2147
+        },
+        {
+          "anchor_id": "anchor.text.kappa_region_a",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "of $2 ."
+        }
+      ],
+      "rationale": "锚点仅of 2.，无完整数值、区域或关系，不能ground该节点。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q16:edge:edge.ground.kappa_region_e",
+      "item_type": "edge",
+      "decision": "partially_supported",
+      "evidence": [
+        {
+          "pdf_page": 8,
+          "printed_page": 2145
+        },
+        {
+          "pdf_page": 10,
+          "printed_page": 2147
+        },
+        {
+          "anchor_id": "anchor.text.kappa_region_e",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "0 2 4$ within Region E, where the crust is the thickest, and by the regionally maximum ?"
+        }
+      ],
+      "rationale": "仅残缺0.024与E最厚，缺1.870/2.160，不能完整支撑两个区域数值。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q16:edge:edge.ground.melt_abs",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 2138
+        },
+        {
+          "anchor_id": "anchor.text.melt_abs",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "The melt percentage is about 10% beneath the RSR while the overlap zone contains minor quantities of partial melt."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：摘要给出轴下约10%、重叠区少量，属模型估计。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q16:edge:edge.ground.melt_comparison1",
+      "item_type": "edge",
+      "decision": "partially_supported",
+      "evidence": [
+        {
+          "pdf_page": 11,
+          "printed_page": 2148
+        },
+        {
+          "anchor_id": "anchor.text.melt_comparison1",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "The melt fraction beneath the study area is significantly lower than that observed beneath mid-ocean ridges."
+        }
+      ],
+      "rationale": "仅支持洋中脊熔体比较，目标还含大陆裂谷速度比较。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q16:edge:edge.ground.melt_comparison2",
+      "item_type": "edge",
+      "decision": "partially_supported",
+      "evidence": [
+        {
+          "pdf_page": 11,
+          "printed_page": 2148
+        },
+        {
+          "anchor_id": "anchor.text.melt_comparison2",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "Beneath typical continental rift zones such as the Rio Grande and Baikal rifts, on the other hand, the average crustal velocities are significantly higher than those observed in Afar [West et al., 2004;"
+        }
+      ],
+      "rationale": "仅支持大陆裂谷速度比较，目标还含洋中脊熔体比较。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q16:edge:edge.ground.melt_fig7e",
+      "item_type": "edge",
+      "decision": "partially_supported",
+      "evidence": [
+        {
+          "pdf_page": 9,
+          "printed_page": 2146
+        },
+        {
+          "pdf_page": 10,
+          "printed_page": 2147
+        },
+        {
+          "anchor_id": "anchor.text.melt_fig7e",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "As expected, the lateral distribution of melt fraction across the RSR, which ranges from about 14% to 3%, closely mirrors that of the ?"
+        }
+      ],
+      "rationale": "范围14%—3%准确，但κ被抽取成?；需第10页完整句和图7。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q16:edge:edge.ground.migration_gradual",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 11,
+          "printed_page": 2148
+        },
+        {
+          "anchor_id": "anchor.text.migration_gradual",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "The high melt fraction observed pervasively in Regions A and B, however, is more consistent with a model of gradual rather than “jumpy” migration of the RSR migration."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第11页4.2明确以A/B广泛熔融偏好gradual而非jumpy迁移。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q16:edge:edge.ground.offaxis_mantle",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 11,
+          "printed_page": 2148
+        },
+        {
+          "anchor_id": "anchor.text.offaxis_mantle",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "This is consistent with the observation that both regions are underlain by anomalously low uppermost mantle velocities [Stork et al., 2013]."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第11页引用Stork对A/B低上地幔速度的观察，不是本研究RF独立测量。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q16:edge:edge.ground.strain_lower",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": 2149
+        },
+        {
+          "anchor_id": "anchor.text.strain_lower",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "Our measurements of crustal thickness and inferred partial melt fractions, which are clearly not restricted to a rift-axial magmatic segment, suggest that deformation is more widespread in the lower crust concomitant with spatially voluminous melt reservoir emplacement."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第12页4.3明确把离轴厚度与熔融分布作为广域下地壳变形的线索，节点保留suggesting。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q16:edge:edge.ground.strain_wide",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": 2149
+        },
+        {
+          "anchor_id": "anchor.text.strain_wide",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "When combined with surface geological and geodetic observations, particularly with regard to the absence of localized uppermost crustal extension southwest of the RSR, our findings support the notion that in the lower crust, strain along our profile across the RSR is widely distributed, encompassed by a strain field stretching well into the southwestern Afar and the Dobi-Hanle rift system to the northeast while terminating with the rigid overlap zone."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第12页将RF与地表地质/大地测量合并后提出广域应变，条件保留。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q16:edge:edge.ground.transition_conclusion",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": 2149
+        },
+        {
+          "anchor_id": "anchor.text.transition_conclusion",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "Stacking of receiver functions recorded by the first broadband seismic array of such high resolution in the Afar Depression provides additional evidence supporting the notion that the lithosphere beneath the Red Sea rift in central Afar is currently in a state of transition between purely thinned continental crust and newly formed oceanic crust."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：第12页结论原句支持transitional lithosphere，属于解释性结论而非直接观测。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q16:edge:edge.ground.upper_localized",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 2138
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": 2149
+        },
+        {
+          "anchor_id": "anchor.text.upper_localized",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "Our results also suggest that the current extensional strain in the lower crust beneath the region is diffuse, while the strain field in the upper crust is localized along narrow volcanic segments."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：与摘要内容相符但删去Our results suggest；局部推断被写成确定的现今应变事实。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q16:edge:edge.ground.vp_avg",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 2138
+        },
+        {
+          "pdf_page": 8,
+          "printed_page": 2145
+        },
+        {
+          "anchor_id": "anchor.text.vp_avg",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "We utilize theoretical $V _ { p }$ and melt fraction relationships to obtain an overall highly reduced average crustal $V _ { p }$ of ∼5.1 km/s."
+        }
+      ],
+      "rationale": "已核对原页所选锚点与目标：摘要及第8页全局叠加曲线交点约5.1支持；这是模型约束的global stack，表1站点global average为5.28。",
+      "relation_and_direction_checked": true,
+      "edge_category": "anchor_link",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "source_or_data_link"
+    },
+    {
+      "item_id": "q16:edge:edge.premise.h_abs",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 2138
+        },
+        {
+          "pdf_page": 7,
+          "printed_page": 2144
+        },
+        {
+          "pdf_page": 9,
+          "printed_page": 2146
+        },
+        {
+          "anchor_id": "anchor.text.h_abs",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "Stacking of about 2300 receiver functions from the 18 and several nearby stations along the ∼200 km long array reveals an average crustal thickness of $2 2 \\pm 4$ km, ranging from ∼17 km near the RSR axis to 30 km within the overlap zone between the Red Sea and Gulf of Aden rifts."
+        },
+        {
+          "anchor_id": "anchor.text.h_asym",
+          "pdf_page": 9,
+          "figure": null,
+          "table": null,
+          "original_quote": "The crustal thickness observations have an asymmetric pattern (Figure 7c) defined by gradual thickening toward the southwest from the immediate southwestern rift flank and by relatively sharp thickening toward the northeast within Region E."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。第9页最薄AD09、最厚AD19和摘要均值支持该归纳；地域平均最薄A与单站轴下最薄应区分。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q16:edge:edge.premise.h_asym",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 2138
+        },
+        {
+          "pdf_page": 9,
+          "printed_page": 2146
+        },
+        {
+          "anchor_id": "anchor.text.h_asym",
+          "pdf_page": 9,
+          "figure": null,
+          "table": null,
+          "original_quote": "The crustal thickness observations have an asymmetric pattern (Figure 7c) defined by gradual thickening toward the southwest from the immediate southwestern rift flank and by relatively sharp thickening toward the northeast within Region E."
+        },
+        {
+          "anchor_id": "anchor.text.h_abs",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "Stacking of about 2300 receiver functions from the 18 and several nearby stations along the ∼200 km long array reveals an average crustal thickness of $2 2 \\pm 4$ km, ranging from ∼17 km near the RSR axis to 30 km within the overlap zone between the Red Sea and Gulf of Aden rifts."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。第9页最薄AD09、最厚AD19和摘要均值支持该归纳；地域平均最薄A与单站轴下最薄应区分。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q16:edge:edge.premise.heat",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": 2149
+        },
+        {
+          "anchor_id": "anchor.text.heat",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "Anomalously high surface heat flux as the result of a regionally elevated geotherm has been reported within central Afar [Lysak, 1992] and has been attributed either to enhanced magmatic activity associated with localized asthenospheric upwellings and decompressional melting [Hammond et al., 2013] or to the proposed Afar plume [Oppenheimer and Francis, 1997;"
+        },
+        {
+          "anchor_id": "anchor.text.decoupling",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "The difference in deformation style and spatial distribution of extensional strain between the upper and lower crust suggests that the two crustal layers were decoupled during extension."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。第12页对弱流变、高地温和变形差异的讨论构成该解释，非直接证明下地壳强度。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q16:edge:edge.premise.kappa_abs",
+      "item_type": "edge",
+      "decision": "partially_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 2138
+        },
+        {
+          "pdf_page": 8,
+          "printed_page": 2145
+        },
+        {
+          "pdf_page": 10,
+          "printed_page": 2147
+        },
+        {
+          "anchor_id": "anchor.text.kappa_abs",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "The resulting anomalously high $V _ { p } / V _ { s }$ ratios decrease from 2.40 in the southwest to 1.85 within the overlap zone."
+        },
+        {
+          "anchor_id": "anchor.text.kappa_corr1",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "thickness, suggesting that areas with thinner crust have larger ?"
+        },
+        {
+          "anchor_id": "anchor.text.kappa_corr2",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "and lower $V _ { p }$ values."
+        },
+        {
+          "anchor_id": "anchor.text.kappa_region_a",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "of $2 ."
+        },
+        {
+          "anchor_id": "anchor.text.kappa_region_e",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "0 2 4$ within Region E, where the crust is the thickest, and by the regionally maximum ?"
+        }
+      ],
+      "rationale": "单独κ西南—东北变化仅给相关关系的一部分，还需厚度和Vp结果。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q16:edge:edge.premise.kappa_corr",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 10,
+          "printed_page": 2147
+        },
+        {
+          "anchor_id": "anchor.text.kappa_corr1",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "thickness, suggesting that areas with thinner crust have larger ?"
+        },
+        {
+          "anchor_id": "anchor.text.kappa_corr2",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "and lower $V _ { p }$ values."
+        },
+        {
+          "anchor_id": "anchor.text.kappa_abs",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "The resulting anomalously high $V _ { p } / V _ { s }$ ratios decrease from 2.40 in the southwest to 1.85 within the overlap zone."
+        },
+        {
+          "anchor_id": "anchor.text.kappa_region_a",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "of $2 ."
+        },
+        {
+          "anchor_id": "anchor.text.kappa_region_e",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "0 2 4$ within Region E, where the crust is the thickest, and by the regionally maximum ?"
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。第10页3.2.2明确陈述该相关趋势，适用剖面而非普适定律。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q16:edge:edge.premise.kappa_regions",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 8,
+          "printed_page": 2145
+        },
+        {
+          "pdf_page": 10,
+          "printed_page": 2147
+        },
+        {
+          "anchor_id": "anchor.text.kappa_region_a",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "of $2 ."
+        },
+        {
+          "anchor_id": "anchor.text.kappa_region_a2",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "1 2 6$ within Region $\\mathsf { A } ,$ which boasts the thinnest crust on average."
+        },
+        {
+          "anchor_id": "anchor.text.kappa_region_e",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "0 2 4$ within Region E, where the crust is the thickest, and by the regionally maximum ?"
+        },
+        {
+          "anchor_id": "anchor.text.kappa_abs",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "The resulting anomalously high $V _ { p } / V _ { s }$ ratios decrease from 2.40 in the southwest to 1.85 within the overlap zone."
+        },
+        {
+          "anchor_id": "anchor.text.kappa_corr1",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "thickness, suggesting that areas with thinner crust have larger ?"
+        },
+        {
+          "anchor_id": "anchor.text.kappa_corr2",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "and lower $V _ { p }$ values."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。第10页3.2.2明确陈述该相关趋势，适用剖面而非普适定律。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q16:edge:edge.premise.melt_abs",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 2138
+        },
+        {
+          "pdf_page": 10,
+          "printed_page": 2147
+        },
+        {
+          "pdf_page": 11,
+          "printed_page": 2148
+        },
+        {
+          "anchor_id": "anchor.text.melt_abs",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "The melt percentage is about 10% beneath the RSR while the overlap zone contains minor quantities of partial melt."
+        },
+        {
+          "anchor_id": "anchor.fig7",
+          "pdf_page": 9,
+          "figure": "Figure 7",
+          "table": null,
+          "original_quote": null
+        },
+        {
+          "anchor_id": "anchor.text.melt_fig7e",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "As expected, the lateral distribution of melt fraction across the RSR, which ranges from about 14% to 3%, closely mirrors that of the ?"
+        },
+        {
+          "anchor_id": "anchor.text.melt_regions",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "The average melt fraction for the five regions demonstrates an overall decreasing trend toward the northeast, with 11.4% melt for Region A, 8.5% for Region B, 10.2% for Region C, 8.4% for Region D, and 4.2% for Region E."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。第10—11页用κ-熔体曲线估计约11%到4%的总体分布，并指出西南半区广泛熔融。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q16:edge:edge.premise.melt_comparison",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 11,
+          "printed_page": 2148
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": 2149
+        },
+        {
+          "anchor_id": "anchor.text.melt_comparison1",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "The melt fraction beneath the study area is significantly lower than that observed beneath mid-ocean ridges."
+        },
+        {
+          "anchor_id": "anchor.text.melt_comparison2",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "Beneath typical continental rift zones such as the Rio Grande and Baikal rifts, on the other hand, the average crustal velocities are significantly higher than those observed in Afar [West et al., 2004;"
+        },
+        {
+          "anchor_id": "anchor.text.conclusion_melt",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "The Red Sea rift axis is underlain by a crust with a highly reduced average $V _ { p }$ of 5.1 km/s as the result of an approximate 10% volume of partial melt."
+        },
+        {
+          "anchor_id": "anchor.text.transition_conclusion",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "Stacking of receiver functions recorded by the first broadband seismic array of such high resolution in the Afar Depression provides additional evidence supporting the notion that the lithosphere beneath the Red Sea rift in central Afar is currently in a state of transition between purely thinned continental crust and newly formed oceanic crust."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。第11页大陆裂谷/洋中脊对比及第12页结论支持过渡状态解释。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q16:edge:edge.premise.melt_fig7e",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 9,
+          "printed_page": 2146
+        },
+        {
+          "pdf_page": 10,
+          "printed_page": 2147
+        },
+        {
+          "pdf_page": 11,
+          "printed_page": 2148
+        },
+        {
+          "anchor_id": "anchor.fig7",
+          "pdf_page": 9,
+          "figure": "Figure 7",
+          "table": null,
+          "original_quote": null
+        },
+        {
+          "anchor_id": "anchor.text.melt_fig7e",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "As expected, the lateral distribution of melt fraction across the RSR, which ranges from about 14% to 3%, closely mirrors that of the ?"
+        },
+        {
+          "anchor_id": "anchor.text.melt_abs",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "The melt percentage is about 10% beneath the RSR while the overlap zone contains minor quantities of partial melt."
+        },
+        {
+          "anchor_id": "anchor.text.melt_regions",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "The average melt fraction for the five regions demonstrates an overall decreasing trend toward the northeast, with 11.4% melt for Region A, 8.5% for Region B, 10.2% for Region C, 8.4% for Region D, and 4.2% for Region E."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。第10—11页用κ-熔体曲线估计约11%到4%的总体分布，并指出西南半区广泛熔融。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q16:edge:edge.premise.melt_offaxis",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 11,
+          "printed_page": 2148
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": 2149
+        },
+        {
+          "anchor_id": "anchor.text.conclusion_melt_max",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "The measurements suggest that a regionally maximum degree of melt underlies the region to the southwest of the rift axis, possibly resulting from continuous eastward migration of the Red Sea rift axis since the late Miocene as well as focused melting due to asthenospheric upwelling to the west of the RSR."
+        },
+        {
+          "anchor_id": "anchor.text.migration_gradual",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "The high melt fraction observed pervasively in Regions A and B, however, is more consistent with a model of gradual rather than “jumpy” migration of the RSR migration."
+        },
+        {
+          "anchor_id": "anchor.text.migration_residual",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "observed in Region A may be present as residual magmatic material remaining from a continuous eastward migration of the RSR axis."
+        },
+        {
+          "anchor_id": "anchor.text.offaxis_mantle",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "This is consistent with the observation that both regions are underlain by anomalously low uppermost mantle velocities [Stork et al., 2013]."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。第11页4.2明确结合离轴熔融和低上地幔速度偏好渐进迁移，残余熔体是可能解释。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q16:edge:edge.premise.melt_theory_to_dist",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 4,
+          "printed_page": 2141
+        },
+        {
+          "pdf_page": 8,
+          "printed_page": 2145
+        },
+        {
+          "pdf_page": 10,
+          "printed_page": 2147
+        },
+        {
+          "pdf_page": 11,
+          "printed_page": 2148
+        },
+        {
+          "anchor_id": "anchor.fig2",
+          "pdf_page": 4,
+          "figure": "Figure 2",
+          "table": null,
+          "original_quote": null
+        },
+        {
+          "anchor_id": "anchor.text.vp_avg",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "We utilize theoretical $V _ { p }$ and melt fraction relationships to obtain an overall highly reduced average crustal $V _ { p }$ of ∼5.1 km/s."
+        },
+        {
+          "anchor_id": "anchor.text.vp_theory",
+          "pdf_page": 4,
+          "figure": null,
+          "table": null,
+          "original_quote": "greater than 1.82 must theoretically, without accounting for source composition, temperature, or melt geometry (see Clemens and Vielzeuf [1987], Hammond and Humphreys [2000], and Takei [2002] for further references), relate to increasing degrees of partial melt located within the crust and a correlative decrease in $V _ { p } .$ For instance, an 11% melt volume results in a ?"
+        },
+        {
+          "anchor_id": "anchor.fig7",
+          "pdf_page": 9,
+          "figure": "Figure 7",
+          "table": null,
+          "original_quote": null
+        },
+        {
+          "anchor_id": "anchor.text.melt_abs",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "The melt percentage is about 10% beneath the RSR while the overlap zone contains minor quantities of partial melt."
+        },
+        {
+          "anchor_id": "anchor.text.melt_fig7e",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "As expected, the lateral distribution of melt fraction across the RSR, which ranges from about 14% to 3%, closely mirrors that of the ?"
+        },
+        {
+          "anchor_id": "anchor.text.melt_regions",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "The average melt fraction for the five regions demonstrates an overall decreasing trend toward the northeast, with 11.4% melt for Region A, 8.5% for Region B, 10.2% for Region C, 8.4% for Region D, and 4.2% for Region E."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。第10—11页用κ-熔体曲线估计约11%到4%的总体分布，并指出西南半区广泛熔融。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q16:edge:edge.premise.migration_gradual",
+      "item_type": "edge",
+      "decision": "partially_supported",
+      "evidence": [
+        {
+          "pdf_page": 11,
+          "printed_page": 2148
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": 2149
+        },
+        {
+          "anchor_id": "anchor.text.migration_gradual",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "The high melt fraction observed pervasively in Regions A and B, however, is more consistent with a model of gradual rather than “jumpy” migration of the RSR migration."
+        },
+        {
+          "anchor_id": "anchor.text.conclusion_melt_max",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "The measurements suggest that a regionally maximum degree of melt underlies the region to the southwest of the rift axis, possibly resulting from continuous eastward migration of the Red Sea rift axis since the late Miocene as well as focused melting due to asthenospheric upwelling to the west of the RSR."
+        },
+        {
+          "anchor_id": "anchor.text.migration_residual",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "observed in Region A may be present as residual magmatic material remaining from a continuous eastward migration of the RSR axis."
+        },
+        {
+          "anchor_id": "anchor.text.offaxis_mantle",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "This is consistent with the observation that both regions are underlain by anomalously low uppermost mantle velocities [Stork et al., 2013]."
+        }
+      ],
+      "rationale": "源节点已是gradual优于jumpy的解释性结论，只能转述该结论；实际证据是离轴熔体与地幔速度。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q16:edge:edge.premise.migration_residual",
+      "item_type": "edge",
+      "decision": "partially_supported",
+      "evidence": [
+        {
+          "pdf_page": 11,
+          "printed_page": 2148
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": 2149
+        },
+        {
+          "anchor_id": "anchor.text.migration_residual",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "observed in Region A may be present as residual magmatic material remaining from a continuous eastward migration of the RSR axis."
+        },
+        {
+          "anchor_id": "anchor.text.conclusion_melt_max",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "The measurements suggest that a regionally maximum degree of melt underlies the region to the southwest of the rift axis, possibly resulting from continuous eastward migration of the Red Sea rift axis since the late Miocene as well as focused melting due to asthenospheric upwelling to the west of the RSR."
+        },
+        {
+          "anchor_id": "anchor.text.migration_gradual",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "The high melt fraction observed pervasively in Regions A and B, however, is more consistent with a model of gradual rather than “jumpy” migration of the RSR migration."
+        },
+        {
+          "anchor_id": "anchor.text.offaxis_mantle",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "This is consistent with the observation that both regions are underlain by anomalously low uppermost mantle velocities [Stork et al., 2013]."
+        }
+      ],
+      "rationale": "may be residual是迁移模型的解释结果，用作模型前提具有循环性而非独立证据。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q16:edge:edge.premise.offaxis_mantle",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 11,
+          "printed_page": 2148
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": 2149
+        },
+        {
+          "anchor_id": "anchor.text.offaxis_mantle",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "This is consistent with the observation that both regions are underlain by anomalously low uppermost mantle velocities [Stork et al., 2013]."
+        },
+        {
+          "anchor_id": "anchor.text.conclusion_melt_max",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "The measurements suggest that a regionally maximum degree of melt underlies the region to the southwest of the rift axis, possibly resulting from continuous eastward migration of the Red Sea rift axis since the late Miocene as well as focused melting due to asthenospheric upwelling to the west of the RSR."
+        },
+        {
+          "anchor_id": "anchor.text.migration_gradual",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "The high melt fraction observed pervasively in Regions A and B, however, is more consistent with a model of gradual rather than “jumpy” migration of the RSR migration."
+        },
+        {
+          "anchor_id": "anchor.text.migration_residual",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "observed in Region A may be present as residual magmatic material remaining from a continuous eastward migration of the RSR axis."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。第11页4.2明确结合离轴熔融和低上地幔速度偏好渐进迁移，残余熔体是可能解释。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q16:edge:edge.premise.strain_lower",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": 2149
+        },
+        {
+          "anchor_id": "anchor.text.strain_lower",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "Our measurements of crustal thickness and inferred partial melt fractions, which are clearly not restricted to a rift-axial magmatic segment, suggest that deformation is more widespread in the lower crust concomitant with spatially voluminous melt reservoir emplacement."
+        },
+        {
+          "anchor_id": "anchor.text.strain_wide",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "When combined with surface geological and geodetic observations, particularly with regard to the absence of localized uppermost crustal extension southwest of the RSR, our findings support the notion that in the lower crust, strain along our profile across the RSR is widely distributed, encompassed by a strain field stretching well into the southwestern Afar and the Dobi-Hanle rift system to the northeast while terminating with the rigid overlap zone."
+        },
+        {
+          "anchor_id": "anchor.text.upper_localized",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "Our results also suggest that the current extensional strain in the lower crust beneath the region is diffuse, while the strain field in the upper crust is localized along narrow volcanic segments."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。第12页4.3清楚结合离轴分布及地表约束推断上下地壳应变差异。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q16:edge:edge.premise.strain_wide",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": 2149
+        },
+        {
+          "anchor_id": "anchor.text.strain_wide",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "When combined with surface geological and geodetic observations, particularly with regard to the absence of localized uppermost crustal extension southwest of the RSR, our findings support the notion that in the lower crust, strain along our profile across the RSR is widely distributed, encompassed by a strain field stretching well into the southwestern Afar and the Dobi-Hanle rift system to the northeast while terminating with the rigid overlap zone."
+        },
+        {
+          "anchor_id": "anchor.text.strain_lower",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "Our measurements of crustal thickness and inferred partial melt fractions, which are clearly not restricted to a rift-axial magmatic segment, suggest that deformation is more widespread in the lower crust concomitant with spatially voluminous melt reservoir emplacement."
+        },
+        {
+          "anchor_id": "anchor.text.upper_localized",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "Our results also suggest that the current extensional strain in the lower crust beneath the region is diffuse, while the strain field in the upper crust is localized along narrow volcanic segments."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。第12页4.3清楚结合离轴分布及地表约束推断上下地壳应变差异。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q16:edge:edge.premise.upper_localized",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 2138
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": 2149
+        },
+        {
+          "anchor_id": "anchor.text.upper_localized",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "Our results also suggest that the current extensional strain in the lower crust beneath the region is diffuse, while the strain field in the upper crust is localized along narrow volcanic segments."
+        },
+        {
+          "anchor_id": "anchor.text.strain_lower",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "Our measurements of crustal thickness and inferred partial melt fractions, which are clearly not restricted to a rift-axial magmatic segment, suggest that deformation is more widespread in the lower crust concomitant with spatially voluminous melt reservoir emplacement."
+        },
+        {
+          "anchor_id": "anchor.text.strain_wide",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "When combined with surface geological and geodetic observations, particularly with regard to the absence of localized uppermost crustal extension southwest of the RSR, our findings support the notion that in the lower crust, strain along our profile across the RSR is widely distributed, encompassed by a strain field stretching well into the southwestern Afar and the Dobi-Hanle rift system to the northeast while terminating with the rigid overlap zone."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。第12页4.3清楚结合离轴分布及地表约束推断上下地壳应变差异。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q16:edge:edge.premise.vp_avg",
+      "item_type": "edge",
+      "decision": "partially_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 2138
+        },
+        {
+          "pdf_page": 4,
+          "printed_page": 2141
+        },
+        {
+          "pdf_page": 8,
+          "printed_page": 2145
+        },
+        {
+          "anchor_id": "anchor.text.vp_avg",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "We utilize theoretical $V _ { p }$ and melt fraction relationships to obtain an overall highly reduced average crustal $V _ { p }$ of ∼5.1 km/s."
+        },
+        {
+          "anchor_id": "anchor.fig2",
+          "pdf_page": 4,
+          "figure": "Figure 2",
+          "table": null,
+          "original_quote": null
+        },
+        {
+          "anchor_id": "anchor.text.vp_theory",
+          "pdf_page": 4,
+          "figure": null,
+          "table": null,
+          "original_quote": "greater than 1.82 must theoretically, without accounting for source composition, temperature, or melt geometry (see Clemens and Vielzeuf [1987], Hammond and Humphreys [2000], and Takei [2002] for further references), relate to increasing degrees of partial melt located within the crust and a correlative decrease in $V _ { p } .$ For instance, an 11% melt volume results in a ?"
+        }
+      ],
+      "rationale": "Vp由同一理论κ曲线约束，可以参与模型估计，但不构成独立的熔体存在验证。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q16:edge:edge.premise.vp_theory",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 4,
+          "printed_page": 2141
+        },
+        {
+          "pdf_page": 8,
+          "printed_page": 2145
+        },
+        {
+          "anchor_id": "anchor.fig2",
+          "pdf_page": 4,
+          "figure": "Figure 2",
+          "table": null,
+          "original_quote": null
+        },
+        {
+          "anchor_id": "anchor.text.vp_theory",
+          "pdf_page": 4,
+          "figure": null,
+          "table": null,
+          "original_quote": "greater than 1.82 must theoretically, without accounting for source composition, temperature, or melt geometry (see Clemens and Vielzeuf [1987], Hammond and Humphreys [2000], and Takei [2002] for further references), relate to increasing degrees of partial melt located within the crust and a correlative decrease in $V _ { p } .$ For instance, an 11% melt volume results in a ?"
+        },
+        {
+          "anchor_id": "anchor.text.vp_avg",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "We utilize theoretical $V _ { p }$ and melt fraction relationships to obtain an overall highly reduced average crustal $V _ { p }$ of ∼5.1 km/s."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。第4页理论和第8页两阶段叠加说明高κ/低Vp与熔融估计的模型链；二者并非完全独立验证。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q16:edge:edge.premise.vp_transition",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 11,
+          "printed_page": 2148
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": 2149
+        },
+        {
+          "anchor_id": "anchor.text.conclusion_melt",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "The Red Sea rift axis is underlain by a crust with a highly reduced average $V _ { p }$ of 5.1 km/s as the result of an approximate 10% volume of partial melt."
+        },
+        {
+          "anchor_id": "anchor.text.melt_comparison1",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "The melt fraction beneath the study area is significantly lower than that observed beneath mid-ocean ridges."
+        },
+        {
+          "anchor_id": "anchor.text.melt_comparison2",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "Beneath typical continental rift zones such as the Rio Grande and Baikal rifts, on the other hand, the average crustal velocities are significantly higher than those observed in Afar [West et al., 2004;"
+        },
+        {
+          "anchor_id": "anchor.text.transition_conclusion",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "Stacking of receiver functions recorded by the first broadband seismic array of such high resolution in the Afar Depression provides additional evidence supporting the notion that the lithosphere beneath the Red Sea rift in central Afar is currently in a state of transition between purely thinned continental crust and newly formed oceanic crust."
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。第11页大陆裂谷/洋中脊对比及第12页结论支持过渡状态解释。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q16:edge:edge.support.claim.strain_to_decoupling",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 2138
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": 2149
+        },
+        {
+          "pdf_page": 13,
+          "printed_page": 2150
+        },
+        {
+          "anchor_id": "anchor.text.strain_lower",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "Our measurements of crustal thickness and inferred partial melt fractions, which are clearly not restricted to a rift-axial magmatic segment, suggest that deformation is more widespread in the lower crust concomitant with spatially voluminous melt reservoir emplacement."
+        },
+        {
+          "anchor_id": "anchor.text.strain_wide",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "When combined with surface geological and geodetic observations, particularly with regard to the absence of localized uppermost crustal extension southwest of the RSR, our findings support the notion that in the lower crust, strain along our profile across the RSR is widely distributed, encompassed by a strain field stretching well into the southwestern Afar and the Dobi-Hanle rift system to the northeast while terminating with the rigid overlap zone."
+        },
+        {
+          "anchor_id": "anchor.text.upper_localized",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "Our results also suggest that the current extensional strain in the lower crust beneath the region is diffuse, while the strain field in the upper crust is localized along narrow volcanic segments."
+        },
+        {
+          "anchor_id": "anchor.text.decoupling",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "The difference in deformation style and spatial distribution of extensional strain between the upper and lower crust suggests that the two crustal layers were decoupled during extension."
+        },
+        {
+          "anchor_id": "anchor.text.heat",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "Anomalously high surface heat flux as the result of a regionally elevated geotherm has been reported within central Afar [Lysak, 1992] and has been attributed either to enhanced magmatic activity associated with localized asthenospheric upwellings and decompressional melting [Hammond et al., 2013] or to the proposed Afar plume [Oppenheimer and Francis, 1997;"
+        }
+      ],
+      "rationale": "按所列原文，源内容参与目标的推理；是联合论据之一，不作单一充分证明。第12页直接由变形方式差异推断解耦，qualifier正确说明并非直接流变成像。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q16:edge:edge.support.crust",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 2138
+        },
+        {
+          "pdf_page": 9,
+          "printed_page": 2146
+        },
+        {
+          "anchor_id": "anchor.text.h_abs",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "Stacking of about 2300 receiver functions from the 18 and several nearby stations along the ∼200 km long array reveals an average crustal thickness of $2 2 \\pm 4$ km, ranging from ∼17 km near the RSR axis to 30 km within the overlap zone between the Red Sea and Gulf of Aden rifts."
+        },
+        {
+          "anchor_id": "anchor.text.h_asym",
+          "pdf_page": 9,
+          "figure": null,
+          "table": null,
+          "original_quote": "The crustal thickness observations have an asymmetric pattern (Figure 7c) defined by gradual thickening toward the southwest from the immediate southwestern rift flank and by relatively sharp thickening toward the northeast within Region E."
+        }
+      ],
+      "rationale": "按论文讨论，源解释指向目标主张，结论方向相符。摘要及第9页给出22±4 km、AD09约17.6 km、AD19约30.4 km及不对称增厚。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q16:edge:edge.support.decoupling",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": 2149
+        },
+        {
+          "anchor_id": "anchor.text.decoupling",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "The difference in deformation style and spatial distribution of extensional strain between the upper and lower crust suggests that the two crustal layers were decoupled during extension."
+        },
+        {
+          "anchor_id": "anchor.text.heat",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "Anomalously high surface heat flux as the result of a regionally elevated geotherm has been reported within central Afar [Lysak, 1992] and has been attributed either to enhanced magmatic activity associated with localized asthenospheric upwellings and decompressional melting [Hammond et al., 2013] or to the proposed Afar plume [Oppenheimer and Francis, 1997;"
+        }
+      ],
+      "rationale": "按论文讨论，源解释指向目标主张，结论方向相符。第12页直接由变形方式差异推断解耦，qualifier正确说明并非直接流变成像。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q16:edge:edge.support.kappa",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 8,
+          "printed_page": 2145
+        },
+        {
+          "pdf_page": 10,
+          "printed_page": 2147
+        },
+        {
+          "anchor_id": "anchor.text.kappa_abs",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "The resulting anomalously high $V _ { p } / V _ { s }$ ratios decrease from 2.40 in the southwest to 1.85 within the overlap zone."
+        },
+        {
+          "anchor_id": "anchor.text.kappa_corr1",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "thickness, suggesting that areas with thinner crust have larger ?"
+        },
+        {
+          "anchor_id": "anchor.text.kappa_corr2",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "and lower $V _ { p }$ values."
+        },
+        {
+          "anchor_id": "anchor.text.kappa_region_a",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "of $2 ."
+        },
+        {
+          "anchor_id": "anchor.text.kappa_region_e",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "0 2 4$ within Region E, where the crust is the thickest, and by the regionally maximum ?"
+        }
+      ],
+      "rationale": "按论文讨论，源解释指向目标主张，结论方向相符。第10页3.2.2给出区域A/E的2.160±0.126和1.870±0.024及厚度相关，区域平均值未与单站2.40/1.85混淆。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q16:edge:edge.support.melt",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 2138
+        },
+        {
+          "pdf_page": 4,
+          "printed_page": 2141
+        },
+        {
+          "pdf_page": 10,
+          "printed_page": 2147
+        },
+        {
+          "pdf_page": 11,
+          "printed_page": 2148
+        },
+        {
+          "anchor_id": "anchor.fig7",
+          "pdf_page": 9,
+          "figure": "Figure 7",
+          "table": null,
+          "original_quote": null
+        },
+        {
+          "anchor_id": "anchor.text.melt_abs",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "The melt percentage is about 10% beneath the RSR while the overlap zone contains minor quantities of partial melt."
+        },
+        {
+          "anchor_id": "anchor.text.melt_fig7e",
+          "pdf_page": 10,
+          "figure": null,
+          "table": null,
+          "original_quote": "As expected, the lateral distribution of melt fraction across the RSR, which ranges from about 14% to 3%, closely mirrors that of the ?"
+        },
+        {
+          "anchor_id": "anchor.text.melt_regions",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "The average melt fraction for the five regions demonstrates an overall decreasing trend toward the northeast, with 11.4% melt for Region A, 8.5% for Region B, 10.2% for Region C, 8.4% for Region D, and 4.2% for Region E."
+        },
+        {
+          "anchor_id": "anchor.fig2",
+          "pdf_page": 4,
+          "figure": "Figure 2",
+          "table": null,
+          "original_quote": null
+        },
+        {
+          "anchor_id": "anchor.text.vp_avg",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "We utilize theoretical $V _ { p }$ and melt fraction relationships to obtain an overall highly reduced average crustal $V _ { p }$ of ∼5.1 km/s."
+        },
+        {
+          "anchor_id": "anchor.text.vp_theory",
+          "pdf_page": 4,
+          "figure": null,
+          "table": null,
+          "original_quote": "greater than 1.82 must theoretically, without accounting for source composition, temperature, or melt geometry (see Clemens and Vielzeuf [1987], Hammond and Humphreys [2000], and Takei [2002] for further references), relate to increasing degrees of partial melt located within the crust and a correlative decrease in $V _ { p } .$ For instance, an 11% melt volume results in a ?"
+        }
+      ],
+      "rationale": "按论文讨论，源解释指向目标主张，结论方向相符。第4页理论、第10—11页熔体分布和摘要支持这些量值；qualifier保留Watanabe模型。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q16:edge:edge.support.migration",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 11,
+          "printed_page": 2148
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": 2149
+        },
+        {
+          "anchor_id": "anchor.text.conclusion_melt_max",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "The measurements suggest that a regionally maximum degree of melt underlies the region to the southwest of the rift axis, possibly resulting from continuous eastward migration of the Red Sea rift axis since the late Miocene as well as focused melting due to asthenospheric upwelling to the west of the RSR."
+        },
+        {
+          "anchor_id": "anchor.text.migration_gradual",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "The high melt fraction observed pervasively in Regions A and B, however, is more consistent with a model of gradual rather than “jumpy” migration of the RSR migration."
+        },
+        {
+          "anchor_id": "anchor.text.migration_residual",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "observed in Region A may be present as residual magmatic material remaining from a continuous eastward migration of the RSR axis."
+        },
+        {
+          "anchor_id": "anchor.text.offaxis_mantle",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "This is consistent with the observation that both regions are underlain by anomalously low uppermost mantle velocities [Stork et al., 2013]."
+        }
+      ],
+      "rationale": "按论文讨论，源解释指向目标主张，结论方向相符。第11—12页明确以广泛离轴熔体偏好渐进东移，节点保留more consistent而未宣称排他证明。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q16:edge:edge.support.strain",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": 2138
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": 2149
+        },
+        {
+          "pdf_page": 13,
+          "printed_page": 2150
+        },
+        {
+          "anchor_id": "anchor.text.strain_lower",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "Our measurements of crustal thickness and inferred partial melt fractions, which are clearly not restricted to a rift-axial magmatic segment, suggest that deformation is more widespread in the lower crust concomitant with spatially voluminous melt reservoir emplacement."
+        },
+        {
+          "anchor_id": "anchor.text.strain_wide",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "When combined with surface geological and geodetic observations, particularly with regard to the absence of localized uppermost crustal extension southwest of the RSR, our findings support the notion that in the lower crust, strain along our profile across the RSR is widely distributed, encompassed by a strain field stretching well into the southwestern Afar and the Dobi-Hanle rift system to the northeast while terminating with the rigid overlap zone."
+        },
+        {
+          "anchor_id": "anchor.text.upper_localized",
+          "pdf_page": 1,
+          "figure": null,
+          "table": null,
+          "original_quote": "Our results also suggest that the current extensional strain in the lower crust beneath the region is diffuse, while the strain field in the upper crust is localized along narrow volcanic segments."
+        }
+      ],
+      "rationale": "按论文讨论，源解释指向目标主张，结论方向相符。空间对比确在摘要及4.3节，但原文为 suggest/推测，第12页承认GPS分辨率不足；无模态的current is diffuse略强。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    },
+    {
+      "item_id": "q16:edge:edge.support.transition",
+      "item_type": "edge",
+      "decision": "fully_supported",
+      "evidence": [
+        {
+          "pdf_page": 11,
+          "printed_page": 2148
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": 2149
+        },
+        {
+          "anchor_id": "anchor.text.conclusion_melt",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "The Red Sea rift axis is underlain by a crust with a highly reduced average $V _ { p }$ of 5.1 km/s as the result of an approximate 10% volume of partial melt."
+        },
+        {
+          "anchor_id": "anchor.text.melt_comparison1",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "The melt fraction beneath the study area is significantly lower than that observed beneath mid-ocean ridges."
+        },
+        {
+          "anchor_id": "anchor.text.melt_comparison2",
+          "pdf_page": 11,
+          "figure": null,
+          "table": null,
+          "original_quote": "Beneath typical continental rift zones such as the Rio Grande and Baikal rifts, on the other hand, the average crustal velocities are significantly higher than those observed in Afar [West et al., 2004;"
+        },
+        {
+          "anchor_id": "anchor.text.transition_conclusion",
+          "pdf_page": 12,
+          "figure": null,
+          "table": null,
+          "original_quote": "Stacking of receiver functions recorded by the first broadband seismic array of such high resolution in the Afar Depression provides additional evidence supporting the notion that the lithosphere beneath the Red Sea rift in central Afar is currently in a state of transition between purely thinned continental crust and newly formed oceanic crust."
+        }
+      ],
+      "rationale": "按论文讨论，源解释指向目标主张，结论方向相符。第12页结论明确使用 additional evidence supporting 及 transition；保留了研究区域和推断性质。",
+      "relation_and_direction_checked": true,
+      "edge_category": "scientific_dependency",
+      "endpoint_wording_audited_separately": true,
+      "audit_category": "scientific_dependency"
+    }
+  ],
+  "omitted_conditions": [
+    {
+      "id": "q16-condition-model",
+      "pages": [
+        4,
+        8
+      ],
+      "condition": "Watanabe为花岗质基底/流纹质熔体模型；成分、温度、熔体几何可影响绝对量。Vp与κ由同一理论关系约束，相关不能作独立熔融验证。",
+      "affected_nodes": [
+        "assumption.vp_melt_theory",
+        "reason.melt_from_velocity",
+        "reason.melt_distribution"
+      ]
+    },
+    {
+      "id": "q16-condition-estimator",
+      "pages": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "condition": "global stack约5.1而global average5.28；区域A最薄均值与AD09轴下最薄单站不同；区域熔体仅总体下降，B到C回升。",
+      "affected_nodes": [
+        "obs.vp_avg",
+        "obs.h_abs",
+        "obs.melt_regions"
+      ]
+    },
+    {
+      "id": "q16-condition-strain",
+      "pages": [
+        4,
+        12,
+        13
+      ],
+      "condition": "剖面穿越三裂谷复杂相互作用区；GPS过稀不足以排除轴部高应变。下地壳广域应变/解耦为待进一步约束的假说。",
+      "affected_nodes": [
+        "reason.strain_styles",
+        "reason.decoupling"
+      ]
+    },
+    {
+      "id": "q16-condition-migration",
+      "pages": [
+        11,
+        12
+      ],
+      "condition": "离轴熔融还可能来自西侧软流圈上涌/聚焦熔融；残余熔体、渐进迁移保留may/possibly。",
+      "affected_nodes": [
+        "reason.gradual_migration"
+      ]
+    }
+  ],
+  "counting_rule": "Scientific nodes are claims, observations, assumptions, reasoning. A scientific dependency connects two such nodes. Counts describe the filtered audit set. Data nodes and source/data links are counted separately."
+}
