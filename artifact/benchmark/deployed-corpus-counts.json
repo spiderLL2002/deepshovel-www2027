@@ -1,0 +1,7 @@
+{
+  "verified_on": "2026-11-14",
+  "measurement": "Total papers listed in the unfiltered public DeepShovel library",
+  "paper_count": 10714,
+  "source": "https://deepshovel.iiot-shxt.xyz/api/library?limit=1&status=all",
+  "response_field": "pageInfo.total"
+}

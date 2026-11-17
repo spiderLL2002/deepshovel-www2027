@@ -1,0 +1,16 @@
+{
+  "capture_date": "2026-10-29",
+  "method": "AI-operated browser UI; the exported accessibility records omit the hostname",
+  "files": {
+    "01-results.jpg": "955ee9d20f645ae4d41c0b070798a0ed96471773e5c62e5fbbbadd28d79e90f9",
+    "01-results.txt": "6608936209529ea80d5b0f24a1f8fa65b5fb18e75e9cf9bba74f1298514c621a",
+    "02-expanded-evidence.jpg": "02af4346c139d19394417da8eee0ae7a99b1a7594925ff5b4f2bfef5e8582078",
+    "02-expanded-evidence.txt": "5c4f9dcf1540ce6061916278935960c8e50cd7cf3d4d7be8b66d82e302f88c37",
+    "03-claim-detail.jpg": "b287ce466005efa4c810dc364fe81320d33b72d924b358d250f204b4c76b9e1b",
+    "04-assumptions.jpg": "9042a07746af5e6cd58fb1473653d0cb373b7658cd86ab0d3136c9afda280b13",
+    "04-assumptions.txt": "4f1ad60f4294c88b3e73a97efea8be55f03de99c9998a4ccd3da876bfb8d8a84",
+    "05-repeat-results.txt": "0f069a3f6169dd02a8b62a5de3df4b0e385bf5ee1ab7192bac3c0ed994e50306",
+    "06-source-page.jpg": "c19753579122cdcba202d697111b3b36390bf4875aaaaf8d545cd1e4c691a36f",
+    "06-source-page.txt": "81e5e61a72ad617e398d62022979a33f68b26faabfccf194c49b4c312b2e334a"
+  }
+}

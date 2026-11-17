@@ -1,0 +1,229 @@
+% WWW 2027 Demonstrations. Compile with: tectonic main.tex
+\documentclass[sigconf,screen,review]{acmart}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{balance}
+\setlength{\dbltextfloatsep}{6pt plus 1pt minus 1pt}
+\setlength{\textfloatsep}{6pt plus 1pt minus 1pt}
+\setlength{\abovecaptionskip}{5pt plus 1pt minus 1pt}
+\setlength{\belowcaptionskip}{3pt plus 1pt minus 1pt}
+\setcounter{dbltopnumber}{1}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,calc}
+\setcopyright{none}
+\settopmatter{printacmref=false}
+\acmDOI{}
+\acmISBN{}
+\acmConference[WWW '27]{The ACM Web Conference 2027}{May 10--14, 2027}{Dublin, Ireland}
+\acmYear{2027}
+\copyrightyear{2027}
+\newcommand{\sys}{DeepShovel~2.0}
+\definecolor{navy}{HTML}{17324D}
+\definecolor{teal}{HTML}{087F8C}
+\definecolor{amber}{HTML}{AA6425}
+\definecolor{pale}{HTML}{EDF6F6}
+\emergencystretch=1em
+
+\begin{document}
+\brokenpenalty=100
+\title[DeepShovel 2.0: Scientific Reasoning Networks]{\sys: A Scientific Reasoning Network for Evidence-Grounded Verification and Discovery}
+\author{Haoxiang Zhang}
+\email{1227538797@sjtu.edu.cn}
+\orcid{0009-0006-4255-0811}
+\affiliation{\institution{Shanghai Jiao Tong University}\city{Shanghai}\country{China}}
+\author{Jiaxin Ding}
+\authornote{Corresponding author.}
+\email{jiaxinding@sjtu.edu.cn}
+\orcid{0000-0002-0009-9237}
+\affiliation{\institution{Shanghai Jiao Tong University}\city{Shanghai}\country{China}}
+\author{Zhuo Wang}
+\email{wang_zhuo@sjtu.edu.cn}
+\affiliation{\institution{Shanghai Jiao Tong University}\city{Shanghai}\country{China}}
+\author{Huawei Ji}
+\email{sjtu3365981@sjtu.edu.cn}
+\affiliation{\institution{Shanghai Jiao Tong University}\city{Shanghai}\country{China}}
+\author{Luoyi Fu}
+\email{yiluofu@sjtu.edu.cn}
+\affiliation{\institution{Shanghai Jiao Tong University}\city{Shanghai}\country{China}}
+\author{Xinbing Wang}
+\email{xwang8@sjtu.edu.cn}
+\affiliation{\institution{Shanghai Jiao Tong University}\city{Shanghai}\country{China}}
+\renewcommand{\shortauthors}{Zhang et al.}
+
+% Compact display; individual author metadata remains above.
+\makeatletter
+\def\@mkauthors@iii{%
+  \gdef\@currentauthors{}%
+  \gdef\@currentaffiliation{}%
+  \global\setbox\mktitle@bx=\vbox{%
+    \unvbox\mktitle@bx\par\medskip
+    \centering
+    {\@authorfont Haoxiang Zhang\quad Jiaxin Ding\textsuperscript{*}\quad Zhuo Wang\quad Huawei Ji\quad Luoyi Fu\quad Xinbing Wang\par}
+    \vskip 3pt
+    {\@affiliationfont Shanghai Jiao Tong University, Shanghai, China\par
+    \texttt{\{1227538797,jiaxinding,wang\_zhuo,sjtu3365981,yiluofu,xwang8\}@sjtu.edu.cn}\par}
+    \bigskip}}
+\makeatother
+
+\begin{abstract}
+Assessing or reusing a scientific conclusion requires knowing its supporting evidence, assumptions, and reasoning. However, existing search tools return isolated papers or passages, leaving users to piece together what a conclusion rests on and where it applies. We present \sys{}, a deployed web system that reconstructs the principal arguments of scientific papers and links them across domain literature. For each conclusion, the system records its premises, assumptions, and conditions of use, linked to original passages, data, tables, and figures. For a queried claim, \sys{} retrieves supporting and challenging arguments with their premises, and a language model judges how each relates to the claim under the user's conditions. The public geoscience library holds 10,714 papers, 47,285 claims, and 81,043 reasoning steps. On 264 expert-reviewed test cases from 65 papers, supplying the expanded argument instead of the claim with its conditions raises accepted relations from 82.2\% to 91.3\%. Research agents access the same arguments via an HTTP API to propose and test claims, as shown in an agent-guided study testing a published seawater-pH predictor on two segments of the GP15 Pacific transect. The demo shows how users inspect a paper's argument, assess claims under changed assumptions, and examine the completed investigation.
+\end{abstract}
+\ccsdesc[500]{Information systems~Digital libraries and archives}
+\ccsdesc[500]{Computing methodologies~Knowledge representation and reasoning}
+\ccsdesc[300]{Information systems~Retrieval models and ranking}
+\keywords{scientific reasoning networks, argument reconstruction, evidence provenance, claim verification, retrieval-augmented generation, research agents}
+\maketitle
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/figure1_architecture}
+\caption{DeepShovel 2.0 architecture. Build: papers are parsed, reconstructed into reasoning steps $r$, and checked for source links. Query: a claim with its conditions is retrieved, expanded along premise links, and compared against the network. Agent: a research agent inspects answers, runs analyses, and returns proposed claims as queries.}
+\Description{Three rows. Build: 10,714 selected papers are parsed, reconstructed into reasoning steps, and checked for source links, giving a domain reasoning network of 47,285 claims and 81,043 steps. Query: a claim with conditions is retrieved by hybrid search, expanded along premise links, compared, and answered with source links. Agent: a research agent inspects answers, runs analyses, and returns proposed claims as new queries.}
+\label{fig:system-overview}
+\end{figure*}
+
+\section{Introduction}
+Scientific conclusions depend on observations, assumptions, and inferential steps. To reuse a conclusion, researchers need to understand its evidence and limits. However, search engines and citation indexes only return papers and passages, leaving the reader to work out which observations and assumptions a conclusion rests on and whether they hold in a new setting.
+
+\sys{} represents a reusable scientific argument as a conclusion together with its premises, assumptions, reasoning steps, and source links. It reconstructs each selected paper's research question, main claims, and inferential dependencies, then connects these arguments across the selected literature. The network supports two complementary operations: tracing a conclusion backward to its justification, and using source-supported premises to derive new, testable claims.
+
+The scholarly record is a Web resource of DOI-identified papers, datasets, and code. \sys{} turns part of it into a navigable network, offered as a public web application for people and an HTTP API for agents, with every reasoning step linked to its source passages, figures, tables, and data. The system runs at \url{https://deepshovel.iiot-shxt.xyz}, with code, walkthrough, evaluation data, and research package at \url{https://github.com/spiderLL2002/deepshovel-www2027}.
+
+\paragraph{Contribution and positioning.}
+While DeepShovel~1.0 (Geo\-Deep\-Shovel)~\cite{geodeepshovel} extracted structured data to build scientific databases, \sys{} uses LLMs to extend literature reuse to the arguments connecting data, assumptions, and conclusions. Meanwhile, related work addresses claim verification with evidence rationales~\cite{scifact}, inter-document argument relations~\cite{argumentweb}, and graph-based synthesis~\cite{graphrag}, while Research\-Agent~\cite{researchagent} and DeepEvidence~\cite{deepevidence} extend literature use toward iterative idea generation and evidence exploration. \sys{} connects these tasks in three ways. First, each inference node links the premises and assumptions used together in one reasoning step to its conclusion. Second, a language model judges whether these premises support the target claim under the user's conditions. Third, agent-proposed claims return to the same search and comparison process as queries. Figure~\ref{fig:architecture} illustrates condition checking through the friction, cohesion, and stress assumptions behind a pressure estimate.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/figure2_condition_check}
+\caption{F2 condition checking. (a) Source passage on page~11~\cite{asmari}. (b) Live claim view with that passage and three assumptions. (c) Recorded inference inputs, where the condition check returns \emph{equivalent} at $\mu=0.6$ and \emph{qualifies} at $\mu=0.4$. The full argument has 18 premise links.}
+\Description{A page of the source paper with one passage marked. A live screenshot shows the 55--57 MPa claim, the same passage, and three assumptions. A graph joins the reported results and assumptions into fault stability, which with current stress and the pressure transition leads to the pressure claim. The condition check returns equivalence at a friction coefficient of 0.6 and qualification at 0.4.}
+\label{fig:architecture}
+\end{figure*}
+
+\section{Building a Domain Reasoning Network}
+\label{sec:network}
+Figure~\ref{fig:system-overview} shows the pipeline. Offline, the system parses papers and reconstructs their arguments. At query time, it retrieves candidate claims, expands their recorded dependencies, and compares the resulting arguments with the target claim.
+\paragraph{Running system.}
+With guidance from domain experts, we curated 10,714 core papers in two target subfields---ocean anoxia and deep-sea rare earth elements---from a corpus of 1,401,532 parsed geoscience publications. As of November 2026, the public library contains 47,285 claims and 81,043 reasoning steps. MinerU~\cite{mineru} parses document layouts, while reconstruction and comparison use GPT-6 Luna and DeepSeek V4 Flash, comparing up to 50 candidates per query.
+\paragraph{Reconstruct the paper's reasoning.}
+The parser extracts passages, equations, tables, figure panels, and supplementary data, recording their locations in the original document. Reconstruction follows the paper's main reasoning routes: question $\rightarrow$ methods and assumptions $\rightarrow$ observations $\rightarrow$ intermediate interpretations $\rightarrow$ conclusions. We represent each reasoning step as
+\begin{equation}
+r=(P_r,A_r,w_r,c_r,\sigma_r,\pi_r).
+\end{equation}
+Here, $P_r$ lists observations and intermediate findings used together in the step. $A_r$ lists its assumptions, and $w_r$ describes in natural language how these inputs support conclusion $c_r$. The fields $\sigma_r$ and $\pi_r$ record applicability conditions and source locations. Whereas an assumption states what a derivation takes as given, an applicability condition records where its conclusion can be used. For example, a friction assumption also restricts the pressure claim to that modeled setting.
+
+Each inference node holds one reasoning step, so jointly required premises stay together and alternative derivations occupy separate nodes. Users trace a conclusion back to its observations and assumptions, or forward from an observation to the claims that depend on it.
+
+For fault F2 in the Asmari reservoir~\cite{asmari}, the argument combines two reported analysis results---fault stability and agreement among three methods---with three assumptions (Figure~\ref{fig:architecture}). Current-stress analysis sets the initial state, and critical-pressure analysis then estimates when rising pore pressure would bring the fault to the modeled failure boundary.
+
+Conditions cover material, setting, method, comparator, and temporal or spatial range, and source links identify a document version and passage, equation, table, figure panel, or dataset record. Reconstruction separates observations, interpretations, and predictions and keeps quantifiers, negation, units, and uncertainty.
+
+\paragraph{Connect arguments across papers.}
+The same representation connects claims across papers at query time through retrieval and comparison, while retaining their separate arguments and sources. For ecosystem-collapse timing at Fiskegrav, the system retrieves van Soelen et al.'s~\cite{fiskegravduration} 1.6--8 kyr estimate with Mettam et al.'s~\cite{fiskegravevent} evidence of continued animal disturbance of sediments after the last macrofossil, which distinguishes macrofossil disappearance from final ecosystem collapse. Users open both source pages to check which event the duration describes.
+
+\section{Reasoning-Level Retrieval and Verification}
+\label{sec:verification}
+\paragraph{Retrieve the justification of an answer.}
+For each query, the system identifies the target claim, its applicability conditions, and the evidence needed to assess it. Lexical and semantic search retrieve candidate claims and observations, after which dependency traversal collects each candidate's premises, assumptions, and source evidence into an \emph{expanded argument}. A single model call uses these arguments to rank candidates and assign their relations to the target claim. Programmatic checks validate source identifiers, and traversal follows only stored links. The search list displays a retrieval preview while the comparison runs, and retrieval-augmented generation (RAG) then produces an answer with explicit applicability conditions and links its assertions to reasoning steps and evidence.
+
+\paragraph{Locate the disagreement inside the argument.}
+Verification distinguishes equivalent claims, supporting evidence, contradictions, qualifications, and related evidence. Equivalence requires the same proposition under compatible conditions, whereas a qualification limits where the result applies. Likewise, a counterexample must address the claimed scope, while evidence from another setting may challenge a generalization. Counterevidence searches cover incompatible observations, alternative mechanisms, failed transfers, and challenged assumptions, and the system reports whether a disagreement lies in an observation, assumption, or inference.
+
+\paragraph{Retrieval evaluation.}
+We compare the system's hybrid preview with BM25 on 430 geoscience questions with 12,541 reference judgments, using an earlier snapshot of 9,506 papers. A complete answer appears in the top three for 399 hybrid queries (92.8\%) and 393 BM25 queries (91.4\%), rising to 421 (97.9\%) and 415 (96.5\%) when counting complete or partial answers. On the 119 questions with fully judged candidate pools, nDCG@10 is 0.842 for hybrid and 0.859 for BM25 (difference $-0.018$, 95\% bootstrap interval $-0.042$ to $0.006$). Both rankings place an answer near the top for most questions, while relating each candidate to the target claim is handled by the comparison step, which reorders this preview.
+
+\begin{table}[t]
+\caption{Predictions with an accepted relation on the 264 test cases and on the 28 queries that omit a needed premise.}
+\label{tab:comparison}
+\centering
+\begin{tabular}{@{}lrr@{}}
+\toprule
+Comparison input & All cases & Omitted premise\\
+\midrule
+Claim and conditions & 217/264 (82.2\%) & 13/28\\
+Expanded argument & 241/264 (91.3\%) & 23/28\\
+Source passages & 221/264 (83.7\%) & 16/28\\
+Flat argument & 229/264 (86.7\%) & 21/28\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Argument comparison.}
+The test comprises 264 cases from 65 papers (plus 79 development cases from 17 other papers). Each case pairs a recorded claim with a query that matches it, contradicts it, changes a condition, overgeneralizes, confuses observation with inference, or omits a premise. After initial drafting with AI assistance, two domain experts independently reviewed the source passages and acceptable relations, agreeing on 237 cases (89.8\%), and a third adjudicated the rest. We compare four inputs describing the same candidate: (1) its claim and conditions alone, (2) the expanded argument with premises, assumptions, and their dependencies, (3) the source passages without reconstruction, and (4) a flat argument that retains the nodes and text but removes dependency edges and anchor references. The query, candidate, prompt, and model settings are fixed across the four.
+
+Table~\ref{tab:comparison} reports relation-label accuracy on fixed candidates. The expanded argument is correct more often than the claim with its conditions (34 versus 10 discordant cases, exact McNemar $p<0.001$), the source passages (29 versus 9, $p=0.002$), and the flat argument (18 versus 6, $p=0.02$). It scores highest, or ties, on each of the six query types. The gain is largest when the query omits a needed premise, because the recorded dependencies state what a conclusion rests on. The flat argument, with the same nodes but no dependencies, recovers only part of the gain, indicating that dependency links and source anchors together carry information. Across all 1,056 runs, 569 were answered by GPT-6 Luna and 487 by DeepSeek V4 Flash; on same-model pairs, the expanded argument raises accepted relations by 20/138 on GPT-6 Luna and 3/119 on DeepSeek V4 Flash.
+
+In an end-to-end run on the live service, 175 queries were retrieved and compared afresh. None failed, the target claim was in every result list, and 152 (86.9\%) matched relation and direction, in a median of 40\,s. A model-assisted audit of four papers found full support in the source for 129/129 scientific nodes and 120/124 dependencies, and full (91/128) or partial (28/128) support for source or data links.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/figure3_gp15_argument}
+\caption{GP15 argument. Four premises jointly support the layer-mean RMSE comparison: the REE model has the lower RMSE on Leg~1 (Seattle--Hilo) and the depth reference on Leg~2 (Hilo--Papeete). The dashed arrow marks the deduction that the Leg~2 ordering holds under any nonnegative layer weights.}
+\Description{Four premise boxes (published predictor, matched data, shared sample pool, fixed comparator) point to a joint evaluation over six 100 m layers from 200 to 800 m. Leg 1 RMSE is 0.070 for the REE model and 0.170 for the depth reference; Leg 2 RMSE is 0.218 and 0.110. A dashed arrow leads from the Leg 2 result to a conditional deduction: all six layer differences are positive, so any nonnegative weighted sum is positive.}
+\label{fig:argument}
+\end{figure*}
+
+\section{Agent-Guided Discovery and Workflow Refinement}
+\label{sec:agents}
+An agent starts with a retrieved argument and uses its explicit premises, assumptions, and conditions to form a testable extension. DeepShovel supplies the source-linked arguments and comparisons through an HTTP API, which we instantiate with OpenAI Codex to coordinate source inspection, numerical analysis, and claim tracking. Through this API, the agent retrieves structured argument graphs rather than raw text alone, checks proposed hypotheses for prior-work overlap, and submits derived claims back as queries for counterevidence.
+
+\paragraph{An executed geoscience investigation.}
+Across eight rounds, the agent screened 48 research questions for source support, novelty, and executable analyses. Of these, 35 were rejected at screening, six after analysis, and six for missing data or novelty, leaving one to advance. In one round, retrieving Hongo et al. via the API showed that a proposed analysis overlapped prior work, and the question was rejected. The selected study tested, on two station groups of the GP15 transect, a published seawater-pH calibration~\cite{lin2024} predicting pH from the shale-normalized slope of four rare-earth elements (REE): Sm, Gd, Dy, and Er.
+
+DeepShovel supplied the calibration argument and its source, based on which the agent defined a fixed-model test (Figure~\ref{fig:argument}) with public observations from the GEOTRACES GP15 Pacific transect~\cite{gp15}. Matched REE and pH measurements along with a depth reference---the global pH mean of each 100-m layer saved in the original calibration notebook---were evaluated without refitting using the same eligible samples in six layers from 200 to 800\,m: 24 bottles from six stations on Leg~1 and 55 bottles from eight stations on Leg~2. RMSE compares layer-mean predictions with layer-mean observations. The matching rule, exclusions, layers, reference, and metric were frozen in a recorded protocol with Leg~2 held out until protocol freeze. The comparison favored REE on Leg~1 (RMSE 0.070 versus 0.170 pH units) and the depth reference on Leg~2 (0.110 versus 0.218), yielding opposite error orderings across the two legs under the tested samples and depth comparator.
+
+The agent then derived a new conditional claim from the layerwise errors. In each of the six Leg~2 layers, the squared error of the REE predictor exceeds that of the depth reference: \mbox{$d_i=e_{\mathrm{REE},i}^2-e_{\mathrm{ref},i}^2>0$}, with a minimum of 0.00545\,pH$^2$. Therefore, $\sum_i w_i d_i>0$ for any shared nonnegative weights summing to one, meaning that no reweighting of these six fixed layer means can reverse the depth reference's lower RMSE.
+
+The agent records the comparison and the deduction as distinct claims with data and analysis links, and queries each claim and its conditions back against the network for supporting evidence or competing explanations.
+
+\section{Interactive Demonstration}
+\label{sec:demo}
+The demo follows three questions: What supports this conclusion? Does it apply here? What can we infer next?
+
+\paragraph{1. Understand a published conclusion.}
+Attendees enter the F2 pressure claim and open its source paper. They expand its observations, reasoning steps, and three assumptions, then open the original passage on page~11 (Figure~\ref{fig:architecture}).
+
+\paragraph{2. Examine support and disagreement.}
+Next, attendees change a condition in their target claim, such as the assumed friction coefficient for F2, or request counterevidence. The comparison assesses whether the recorded premises support this revised claim and presents the relation with its evidence. In the recorded check on the live service, the F2 claim returned equivalence at the source's $\mu=0.6$ (page~11~\cite{asmari}) and qualification at $\mu=0.4$.
+
+\paragraph{3. Extend the investigation with an agent.}
+Finally, attendees follow the completed GP15 study from its research question to the comparison and conditional deduction in Figure~\ref{fig:argument}. Using the configured agent session, attendees can then propose another station group or request literature that could challenge the inference. A new request runs the initial literature search and planning steps live, while the saved GP15 study provides immediate access to the later analyses and recorded claims.
+
+\paragraph{Conference setup and public materials.}
+A laptop with an external display runs the configured application and an agent session, and a guided visit takes three to five minutes. Fresh model requests require network access, with the retrieval preview in about 10\,s and the comparison in about 40\,s (during which attendees can inspect the source page and assumptions). If the network or model service fails, the visit continues from the recorded F2 queries, saved GP15 study, and saved source pages. The repository includes the English walkthrough, source pages, and the reproducible ten-stage GP15 analysis pipeline.
+
+\section{Ethical Use of Data}
+The work involves no human participants and collects no personal data. Publications and data are used under their licenses, with attribution, source versions, and provenance retained (the reanalyzed GP15 measurements~\cite{gp15}, the calibration article~\cite{lin2024}, and the Asmari article~\cite{asmari} are all under CC BY 4.0). Model-generated arguments and relations are always shown next to their original passages.
+
+\begin{thebibliography}{12}
+\bibitem{geodeepshovel}
+Shao Zhang et al. 2023. GeoDeepShovel: A platform for building scientific database from geoscience literature with AI assistance. \emph{Geoscience Data Journal} 10, 4, 519--537.
+\bibitem{scifact}
+David Wadden et al. 2020. Fact or Fiction: Verifying Scientific Claims. In \emph{EMNLP 2020}, 7534--7550.
+
+
+\bibitem{argumentweb}
+Florian Ruosch et al. 2025. Mining Inter-Document Argument Structures in Scientific Papers for an Argument Web. \emph{Transactions on Graph Data and Knowledge} 3, 3, Article 4.
+\bibitem{graphrag}
+Darren Edge et al. 2024. From Local to Global: A Graph RAG Approach to Query-Focused Summarization. arXiv:2404.16130.
+\bibitem{researchagent}
+Jinheon Baek et al. 2025. ResearchAgent: Iterative Research Idea Generation over Scientific Literature with Large Language Models. In \emph{NAACL}, 6709--6738.
+
+
+
+\bibitem{deepevidence}
+Zifeng Wang et al. 2026. Empowering biomedical evidence exploration and synthesis with deep knowledge graph research. \emph{Nat. Mach. Intell.} 8, 1142--1156.
+\bibitem{lin2024}
+Ping-Chun Lin and David C. Catling. 2024. The Rare Earth Element Distribution in Marine Carbonates as a Potential Proxy for Seawater pH on Early Earth. \emph{American Journal of Science} 324, Article 10.
+\bibitem{gp15}
+Alan M. Shiller and Melissa Gilbert. 2024 (rare earth elements); Gregory A. Cutter and Nicole R. Buckley. 2021 (pH). US GEOTRACES GP15 datasets, Legs 1 and 2. BCO-DMO, datasets 932161, 932559, 838157, and 838173.
+\bibitem{asmari}
+Majid Taghipour et al. 2019. Estimation of the current stress field and fault reactivation analysis in the Asmari reservoir, SW Iran. \emph{Petroleum Science} 16, 513--526.
+\bibitem{fiskegravduration}
+Elsbeth E. van Soelen et al. 2018. Salinity changes and anoxia resulting from enhanced run-off during the late Permian global warming and mass extinction event. \emph{Climate of the Past} 14, 441--453.
+\bibitem{fiskegravevent}
+C. Mettam et al. 2017. High-frequency fluctuations in redox conditions during the latest Permian mass extinction. \emph{Palaeogeography, Palaeoclimatology, Palaeoecology} 485, 210--223.
+\bibitem{mineru}
+Bin Wang et al. 2024. MinerU: An Open-Source Solution for Precise Document Content Extraction. arXiv:2409.18839.
+\end{thebibliography}
+\end{document}
